@@ -44,19 +44,10 @@ public class Assignment1 {
         	String classUnderTest = "target.class.comp5111.assignment.cut.Subject";
             soot.Main.main(new String[]{classUnderTest});  // added phases will be executed in this method
             
-            
             // TODO run tests on instrumented classes to generate coverage report
-            //taken over from soot-example project
-            Class<?> testClass = null;
-            try {
-                // here we programmitically run junit tests
-                testClass = Class.forName("target.test-classes.randoop0.comp5111.assignment.cut.RegressionTest");
-                JUnitCore junit = new JUnitCore();
-                System.out.println("Running junit test: " + testClass.getName());
-                junit.run(testClass);
-            } catch (ClassNotFoundException e) {
-                e.printStackTrace();
-            }
+            runJunitTests();
+            
+            System.out.println("Statements covered: " + StatementCounter.getStatementInvocations());
         } else if (args[0].compareTo("1") == 0) {
             // TODO invoke your branch coverage instrument function
         	
@@ -67,6 +58,20 @@ public class Assignment1 {
 
             // TODO run tests on instrumented classes to generate coverage report
 
+        }
+    }
+    
+    private static void runJunitTests() {
+    	//taken over from soot-example project
+        Class<?> testClass = null;
+        try {
+            // here we programmitically run junit tests
+            testClass = Class.forName("target.test-classes.randoop0.comp5111.assignment.cut.RegressionTest");
+            JUnitCore junit = new JUnitCore();
+            System.out.println("Running junit test: " + testClass.getName());
+            junit.run(testClass);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
         }
     }
 }

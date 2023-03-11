@@ -18,7 +18,7 @@ public class StatementInstrumenter extends BodyTransformer{
 	
 	static {
 		counterClass = Scene.v().loadClassAndSupport("comp5111.assignment.StatementCounter");
-        addStatementCount = counterClass.getMethod("void addStaticInvocation(int)");
+        addStatementCount = counterClass.getMethod("void addStatementInvocation(int)");
 	}
 	
 	// some commands were taken over from the soot-example project
