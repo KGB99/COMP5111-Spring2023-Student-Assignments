@@ -7,7 +7,7 @@ import org.junit.runners.MethodSorters;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class Regression__Test0 {
 
-    public static boolean debug = false;
+    public static boolean debug = false; 
 
     @Test
     public void test01() throws Throwable {

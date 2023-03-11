@@ -5,9 +5,14 @@ public class StatementCounter {
 	
 	public static void addStatementInvocation (int n) {
 		StatementInvocations +=n;
-	}
+	} 
 	
 	public static int getStatementInvocations() {
 		return StatementInvocations;
 	}
+	
+	public static void reset() {
+		StatementInvocations = 0;
+	}
 }
+ 

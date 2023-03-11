@@ -11,7 +11,7 @@ import soot.jimple.Stmt;
 import soot.jimple.internal.JIdentityStmt;
 import soot.util.Chain;
 
-public class StatementInstrumenter extends BodyTransformer{
+public class StatementInstrumenter extends BodyTransformer{ 
 	
 	static SootClass counterClass;
 	static SootMethod addStatementCount;
@@ -31,7 +31,7 @@ public class StatementInstrumenter extends BodyTransformer{
 		
 		//get the units body as a chain
 		Chain<Unit> units = body.getUnits();
-		
+		//System.out.println(units.size());
 		//get a snapshot iterator to iterate the chain
 		Iterator<?> stmtIt = units.snapshotIterator();
 		
@@ -48,6 +48,7 @@ public class StatementInstrumenter extends BodyTransformer{
 			Stmt incStmt = Jimple.v().newInvokeStmt(incExpr);
 			units.insertBefore(incStmt, stmt);
 		}
+		
 		
 		return;
 	}

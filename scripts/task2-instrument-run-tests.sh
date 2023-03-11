@@ -22,5 +22,5 @@ find "$ROOT_DIR"/src -name "*.java" -print0 | xargs -0 \
 
 # 3. we run the main method of castle.comp5111.example.EntryPoint
 echo "coverage number 0..."
-java -classpath .:"$ROOT_DIR"/lib/*:"$ROOT_DIR"/target/classes comp5111.assignment.Assignment1 0 Subject Subject$ArrayTasks Subject$BooleanTasks Subject$CharTasks Subject$FilenameTasks Subject$GregorianTasks Subject$NumberTasks Subject$StringTasks
-
+java -classpath .:"$ROOT_DIR"/lib/*:"$ROOT_DIR"/target/classes comp5111.assignment.Assignment1 0 placeholder 
+#Subject\$ArrayTasks Subject\$BooleanTasks Subject\$CharTasks Subject\$FilenameTasks Subject\$GregorianTasks Subject\$NumberTasks Subject\$StringTasks

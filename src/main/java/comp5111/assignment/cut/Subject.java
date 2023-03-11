@@ -190,7 +190,7 @@ public class Subject {
                         octetInt = Integer.parseInt(octet, BASE_16);
                     } catch (final NumberFormatException e) {
                         return false;
-                    }
+                    } 
                     if (octetInt < 0 || octetInt > MAX_UNSIGNED_SHORT) {
                         return false;
                     }
