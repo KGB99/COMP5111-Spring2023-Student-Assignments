@@ -41,7 +41,7 @@ public class StatementInstrumenter extends BodyTransformer{
 			
 			//make sure stmt is not a JIdentityStmt
 			if (stmt instanceof JIdentityStmt) {
-				return;
+				continue;
 			}
 			
 			InvokeExpr incExpr = Jimple.v().newStaticInvokeExpr(addStatementCount.makeRef(), IntConstant.v(1));

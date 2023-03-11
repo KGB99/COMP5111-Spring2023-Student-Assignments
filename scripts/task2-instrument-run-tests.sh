@@ -17,8 +17,10 @@ echo "compiling instrumentation classes ..."
 if [ ! -d "$ROOT_DIR"/target/classes ]; then
     mkdir -p "$ROOT_DIR"/target/classes
 fi
-find "$ROOT_DIR"/src/main/java -name "*.java" -print0 | xargs -0 \
+find "$ROOT_DIR"/src -name "*.java" -print0 | xargs -0 \
   javac -classpath .:"$ROOT_DIR"/lib/* -d "$ROOT_DIR"/target/classes
 
 # 3. we run the main method of castle.comp5111.example.EntryPoint
-java -classpath .:"$ROOT_DIR"/lib/*:"$ROOT_DIR"/target/classes castle.comp5111.example.EntryPoint
+echo "coverage number 0..."
+java -classpath .:"$ROOT_DIR"/lib/*:"$ROOT_DIR"/target/classes comp5111.assignment.Assignment1 0 Subject Subject$ArrayTasks Subject$BooleanTasks Subject$CharTasks Subject$FilenameTasks Subject$GregorianTasks Subject$NumberTasks Subject$StringTasks
+

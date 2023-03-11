@@ -1,6 +1,7 @@
 package comp5111.assignment;
 
 import java.io.IOException;
+
 import soot.*;
 import soot.options.*;
 import java.util.Arrays;
@@ -19,6 +20,7 @@ public class Assignment1 {
             System.err.println("Usage: [coverage level] = 2 for line coverage");
             System.exit(0);
         }
+        
 
         // these args will be passed into soot.
         String[] classNames = Arrays.copyOfRange(args, 1, args.length);
@@ -26,7 +28,8 @@ public class Assignment1 {
         // we set up path directions and options such as keeping the line numbers and which packmanager to use
         // this is taken over from the soot-example project
         String targetPath = "./target/classes";
-        Options.v().set_soot_classpath(Scene.v().defaultClassPath() + ":" + targetPath);
+        String classUnderTestPath = "./target/raw-classes";
+        Options.v().set_soot_classpath(Scene.v().defaultClassPath() + ":" + targetPath + ":" + classUnderTestPath);
         Options.v().set_output_dir(targetPath);
         Options.v().set_keep_line_number(true);
         Options.v().setPhaseOption("jb", "use-original-names:true");
@@ -41,7 +44,7 @@ public class Assignment1 {
         	jtp.add(new Transform("jtp.instrumenter", statementinst));
         	
         	//write the cut and insert into soot
-        	String classUnderTest = "target.class.comp5111.assignment.cut.Subject";
+        	String classUnderTest = "comp5111.assignment.cut.Subject";
             soot.Main.main(new String[]{classUnderTest});  // added phases will be executed in this method
             
             // TODO run tests on instrumented classes to generate coverage report
@@ -66,7 +69,7 @@ public class Assignment1 {
         Class<?> testClass = null;
         try {
             // here we programmitically run junit tests
-            testClass = Class.forName("target.test-classes.randoop0.comp5111.assignment.cut.RegressionTest");
+            testClass = Class.forName("comp5111.assignment.cut.Regression__Test");
             JUnitCore junit = new JUnitCore();
             System.out.println("Running junit test: " + testClass.getName());
             junit.run(testClass);
