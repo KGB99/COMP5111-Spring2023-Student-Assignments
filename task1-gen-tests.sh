@@ -1,9 +1,8 @@
-# This is a display of my terminal commands, however more accurately i used
-# the $(pwd) command to get the path of the root directory and then put the 
-# values of the rest of the paths related to that value, however upon a test
-# of a copy of the assignment this seemed to accurately reproduce tests using randoop
+# This is a display of my terminal commands, however in practice i wrote these line by line into terminal
+# For the sake of documentation I have rewritten them her and upon a test
+# with a copy of the assignment this seemed to accurately reproduce tests using randoop
 
-ROOT_DIR=../
+ROOT_DIR="$(dirname "$0")"
 RANDOOP_JAR=${ROOT_DIR}/lib
 TARGET=${ROOT_DIR}/target/classes
 java -ea -classpath JAVA_HOME:${RANDOOP_JAR}:${TARGET}/ \
