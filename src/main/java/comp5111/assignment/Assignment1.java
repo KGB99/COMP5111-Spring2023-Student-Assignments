@@ -11,6 +11,8 @@ import java.util.Arrays;
 import org.junit.runner.JUnitCore;
 
 public class Assignment1 {
+	static String[] subjectclasses;
+	
     public static void main(String[] args) throws ClassNotFoundException, IOException {
 
         /* check the arguments */
@@ -35,6 +37,7 @@ public class Assignment1 {
         		"comp5111.assignment.cut.Subject$NumberTasks",
         		"comp5111.assignment.cut.Subject$StringTasks"
         };
+        subjectclasses = classNames;
         		
         // we set up path directions and options such as keeping the line numbers and which packmanager to use
         // this is taken over from the soot-example project
@@ -45,7 +48,6 @@ public class Assignment1 {
         Options.v().set_keep_line_number(true);
         Options.v().setPhaseOption("jb", "use-original-names:true");
         Pack jtp = PackManager.v().getPack("jtp");
-        System.out.println("Current statement counts: " + StatementCounter.getStatementInvocations());
         
         
         
@@ -69,9 +71,22 @@ public class Assignment1 {
             	runJunitTests(tests[i]);
             }
             
-            System.out.println("Statements covered: " + StatementCounter.getStatementInvocations());
-            StatementCounter.reset();
-            System.out.println("Counter has been reset, counter value: " + StatementCounter.getStatementInvocations());
+            //write the statement report
+            double total = 0.0;
+            double covered = 0.0;
+            file.write("The following is the statement coverage report\n");
+            file.write("====================================================\n");
+            for (int i = 0; i < subjectclasses.length; i++) {
+            	StatementCounter current = ClassMapCounter.map.get(subjectclasses[i]);
+            	file.write(subjectclasses[i] + "\n");
+            	total = (double) current.statements;
+            	covered = (double) current.visited;
+            	double coverage = total/covered * 100.0;
+            	file.write("Percentage: " + coverage + "/n/n");
+            	
+            	//for (PositionClass pos : current.stmtmap.keySet()) {
+            	//}
+            }
             file.close();
         } else if (args[0].compareTo("1") == 0) {
             // TODO invoke your branch coverage instrument function
