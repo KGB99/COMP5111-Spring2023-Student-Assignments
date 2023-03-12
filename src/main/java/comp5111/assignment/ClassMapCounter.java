@@ -31,7 +31,7 @@ public class ClassMapCounter {
 	
 	public static void visitStmt(String classname, int linenr, int columnnr) {
 		StatementCounter temp = map.get(classname);
-		System.out.println("using " + temp.classname + " statementcounter");
+		//System.out.println("using " + temp.classname + " statementcounter");
 		temp.visitStatement(linenr, columnnr);
 	}
 }

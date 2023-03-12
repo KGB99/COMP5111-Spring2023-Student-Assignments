@@ -19,7 +19,7 @@ public class StatementCounter {
 		
 		if (stmtmap.containsKey(pos)) { 
 			System.out.println("Map already contains this key");
-			//System.exit(0);
+			System.exit(0);
 			return;
 		}
 		//System.out.println("about to add statement to statement counter");

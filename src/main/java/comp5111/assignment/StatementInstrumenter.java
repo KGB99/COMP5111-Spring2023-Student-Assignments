@@ -44,15 +44,15 @@ public class StatementInstrumenter extends BodyTransformer {
 			// make sure stmt is not a JIdentityStmt
 			if (!(stmt instanceof JIdentityStmt)) {
 
-				try {
-					// ClassMapCounter.addStmt(stmt.getClass().getName(),
-					// stmt.getJavaSourceStartLineNumber(), stmt.getJavaSourceStartColumnNumber());
-					ClassMapCounter.addStmt(classname, stmt.toString(), stmt.getJavaSourceStartLineNumber(),
-							stmt.getJavaSourceStartColumnNumber());
-				} catch (Exception e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+				// try {
+				// ClassMapCounter.addStmt(stmt.getClass().getName(),
+				// stmt.getJavaSourceStartLineNumber(), stmt.getJavaSourceStartColumnNumber());
+				ClassMapCounter.addStmt(classname, stmt.toString(), stmt.getJavaSourceStartLineNumber(),
+						stmt.getJavaSourceStartColumnNumber());
+				// } catch (Exception e) {
+				// TODO Auto-generated catch block
+				// e.printStackTrace();
+				// }
 
 				InvokeExpr visitExpr = Jimple.v().newStaticInvokeExpr(visitStmt.makeRef(), StringConstant.v(classname),
 						IntConstant.v(stmt.getJavaSourceStartLineNumber()),
