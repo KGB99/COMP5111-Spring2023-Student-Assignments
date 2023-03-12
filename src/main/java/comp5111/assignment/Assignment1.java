@@ -11,7 +11,7 @@ import java.util.Arrays;
 import org.junit.runner.JUnitCore;
 
 public class Assignment1 {
-	static String[] subjectclasses;
+	static String[] subjectClasses;
 	
     public static void main(String[] args) throws ClassNotFoundException, IOException {
 
@@ -21,10 +21,10 @@ public class Assignment1 {
                 "classname");
             System.err.println("Usage: [coverage level] = 0 for statement coverage");
             System.err.println("Usage: [coverage level] = 1 for branch coverage");
-            System.err.println("Usage: [coverage level] = 2 for line coverage");
+            System.err.println("Usage: [coverage level] = 2 for line coverage"); 
             System.exit(0);
         }
-        
+         
 
         // these args will be passed into soot.
         //String[] classNames = Arrays.copyOfRange(args, 1, args.length);
@@ -37,7 +37,7 @@ public class Assignment1 {
         		"comp5111.assignment.cut.Subject$NumberTasks",
         		"comp5111.assignment.cut.Subject$StringTasks"
         };
-        subjectclasses = classNames;
+        subjectClasses = classNames;
         		
         // we set up path directions and options such as keeping the line numbers and which packmanager to use
         // this is taken over from the soot-example project
@@ -53,6 +53,11 @@ public class Assignment1 {
         
         if (args[0].compareTo("0") == 0) {
         	
+        	//intialize ClassMapCounter
+        	for (int i = 0; i < subjectClasses.length; i++) {
+        		ClassMapCounter.addClass(subjectClasses[i]);
+        	}
+        	
         	File newfile = new File("statement_coverage.txt");
         	FileWriter file = new FileWriter(newfile);
         	
@@ -66,25 +71,31 @@ public class Assignment1 {
         	//soot.Main.main(new String[]{classUnderTest});  // added phases will be executed in this method
             soot.Main.main(classNames);
             // TODO run tests on instrumented classes to generate coverage report
-            String[] tests = {"comp5111.assignment.cut.Regression__Test", "comp5111.assignment.cut.Regression__Test0"};
+            //String[] tests = {"comp5111.assignment.cut.Regression__Test", "comp5111.assignment.cut.Regression__Test0"};
+            String[] tests = {"comp5111.assignment.cut.Regression__Test"};
             for (int i = 0; i < tests.length; i++) {
             	runJunitTests(tests[i]);
             }
             
-            //write the statement report
+            //write the statement report 
+            double overalltotal = 0.0;
+            double overallcovered = 0.0;
             double total = 0.0;
             double covered = 0.0;
             file.write("The following is the statement coverage report\n");
             file.write("====================================================\n");
-            for (int i = 0; i < subjectclasses.length; i++) {
-            	StatementCounter current = ClassMapCounter.map.get(subjectclasses[i]);
-            	file.write(subjectclasses[i] + "\n");
+            for (int i = 0; i < subjectClasses.length; i++) {
+            	StatementCounter current = ClassMapCounter.map.get(subjectClasses[i]);
+            	file.write(subjectClasses[i] + "\n");
             	total = (double) current.statements;
+            	file.write("total statements: " + total + "\n");
             	covered = (double) current.visited;
-            	double coverage = total/covered * 100.0;
-            	file.write("Percentage: " + coverage + "/n/n");
+            	file.write("covered statements: " + covered + "\n");
+            	double coverage = covered/total * 100.0;
+            	file.write("Percentage: " + coverage + "\n\n");
             	
             	//for (PositionClass pos : current.stmtmap.keySet()) {
+            		//current.stmtmap.
             	//}
             }
             file.close();

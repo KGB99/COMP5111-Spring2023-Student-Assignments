@@ -8,6 +8,7 @@ public class ClassMapCounter {
 	
 	public static void addClass(String name) {
 		StatementCounter temp = new StatementCounter();
+		temp.classname = name; 
 		map.put(name, temp);
 	}
 	
@@ -15,19 +16,22 @@ public class ClassMapCounter {
 		return map.get(name);
 	}
 	
-	public static void addStmt(String classname, int linenr, int columnnr) {
+	public static void addStmt(String classname, String instrname, int linenr, int columnnr) {
 		StatementCounter temp = map.get(classname);
-		try {
-			temp.addStatement(linenr, columnnr, classname);
-		} catch (Exception e) {
+		
+		
+		//try {
+			temp.addStatement(linenr, columnnr, instrname);
+		//} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+			//e.printStackTrace();
+		//}
 		return;
 	}
 	
 	public static void visitStmt(String classname, int linenr, int columnnr) {
 		StatementCounter temp = map.get(classname);
+		System.out.println("using " + temp.classname + " statementcounter");
 		temp.visitStatement(linenr, columnnr);
 	}
 }
