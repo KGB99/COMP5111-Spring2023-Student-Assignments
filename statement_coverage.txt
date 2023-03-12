@@ -1,0 +1,42 @@
+The following is the statement coverage report
+====================================================
+comp5111.assignment.cut.Subject
+total statements: 2.0
+covered statements: 2.0
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$ArrayTasks
+total statements: 49.0
+covered statements: 36.0
+Percentage: 73.46938775510205
+
+comp5111.assignment.cut.Subject$BooleanTasks
+total statements: 9.0
+covered statements: 2.0
+Percentage: 22.22222222222222
+
+comp5111.assignment.cut.Subject$CharTasks
+total statements: 46.0
+covered statements: 25.0
+Percentage: 54.347826086956516
+
+comp5111.assignment.cut.Subject$FilenameTasks
+total statements: 204.0
+covered statements: 64.0
+Percentage: 31.372549019607842
+
+comp5111.assignment.cut.Subject$GregorianTasks
+total statements: 146.0
+covered statements: 71.0
+Percentage: 48.63013698630137
+
+comp5111.assignment.cut.Subject$NumberTasks
+total statements: 351.0
+covered statements: 47.0
+Percentage: 13.390313390313391
+
+comp5111.assignment.cut.Subject$StringTasks
+total statements: 295.0
+covered statements: 280.0
+Percentage: 94.91525423728814
+
