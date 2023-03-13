@@ -42,27 +42,25 @@ public class StatementInstrumenter extends BodyTransformer {
 			Stmt stmt = (Stmt) stmtIt.next();
 
 			// make sure stmt is not a JIdentityStmt
-			if (!(stmt instanceof JIdentityStmt)) {
-
-				// try {
-				// ClassMapCounter.addStmt(stmt.getClass().getName(),
-				// stmt.getJavaSourceStartLineNumber(), stmt.getJavaSourceStartColumnNumber());
-				ClassMapCounter.addStmt(classname, stmt.toString(), stmt.getJavaSourceStartLineNumber(),
-						stmt.getJavaSourceStartColumnNumber());
-				// } catch (Exception e) {
-				// TODO Auto-generated catch block
-				// e.printStackTrace();
-				// }
-
-				InvokeExpr visitExpr = Jimple.v().newStaticInvokeExpr(visitStmt.makeRef(), StringConstant.v(classname),
-						IntConstant.v(stmt.getJavaSourceStartLineNumber()),
-						IntConstant.v(stmt.getJavaSourceStartColumnNumber()));
-				// InvokeExpr incExpr =
-				// Jimple.v().newStaticInvokeExpr(addStatementCount.makeRef(),
-				// IntConstant.v(1));
-				Stmt visitStmt = Jimple.v().newInvokeStmt(visitExpr);
-				units.insertBefore(visitStmt, stmt);
+			if (stmt instanceof JIdentityStmt) {
+				continue;
 			}
+
+			int linenr = stmt.getJavaSourceStartLineNumber();
+			int columnnr = stmt.getJavaSourceStartColumnNumber();
+
+			// System.out.println("Adding Statement " + stmt.toString() + "to " +
+			// classname);
+
+			ClassMapCounter.addStmt(classname, stmt.toString(), linenr, columnnr);
+			// System.out.println("current Classname: " + classname);
+
+			InvokeExpr visitExpr = Jimple.v().newStaticInvokeExpr(visitStmt.makeRef(), StringConstant.v(classname),
+					IntConstant.v(stmt.getJavaSourceStartLineNumber()),
+					IntConstant.v(stmt.getJavaSourceStartColumnNumber()));
+			Stmt visitStmt = Jimple.v().newInvokeStmt(visitExpr);
+			units.insertBefore(visitStmt, stmt);
+
 		}
 
 		return;

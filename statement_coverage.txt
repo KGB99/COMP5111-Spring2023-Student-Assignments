@@ -1,42 +1,1176 @@
-The following is the statement coverage report
-====================================================
+STATEMENT COVERAGE REPORT
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.Regression__Test
+
+==========================================================================
 comp5111.assignment.cut.Subject
-total statements: 2.0
-covered statements: 2.0
+total statements: 1.0
+covered statements: 1.0
 Percentage: 100.0
 
 comp5111.assignment.cut.Subject$ArrayTasks
-total statements: 49.0
-covered statements: 36.0
-Percentage: 73.46938775510205
+total statements: 19.0
+covered statements: 5.0
+Percentage: 26.31578947368421
 
 comp5111.assignment.cut.Subject$BooleanTasks
-total statements: 9.0
-covered statements: 2.0
-Percentage: 22.22222222222222
+total statements: 4.0
+covered statements: 1.0
+Percentage: 25.0
 
 comp5111.assignment.cut.Subject$CharTasks
-total statements: 46.0
-covered statements: 25.0
-Percentage: 54.347826086956516
+total statements: 9.0
+covered statements: 6.0
+Percentage: 66.66666666666666
 
 comp5111.assignment.cut.Subject$FilenameTasks
-total statements: 204.0
-covered statements: 64.0
-Percentage: 31.372549019607842
+total statements: 98.0
+covered statements: 20.0
+Percentage: 20.408163265306122
 
 comp5111.assignment.cut.Subject$GregorianTasks
-total statements: 146.0
-covered statements: 71.0
-Percentage: 48.63013698630137
+total statements: 62.0
+covered statements: 15.0
+Percentage: 24.193548387096776
 
 comp5111.assignment.cut.Subject$NumberTasks
-total statements: 351.0
-covered statements: 47.0
-Percentage: 13.390313390313391
+total statements: 156.0
+covered statements: 21.0
+Percentage: 13.461538461538462
 
 comp5111.assignment.cut.Subject$StringTasks
-total statements: 295.0
-covered statements: 280.0
-Percentage: 94.91525423728814
+total statements: 153.0
+covered statements: 63.0
+Percentage: 41.17647058823529
+
+----------------------------------------------------
+Overall Coverage percentage: 26.294820717131472
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the instructions along with a YES or NO after each statement which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+line 12, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), YES
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+line 1574, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), NO
+line 1579, instr: $stack0 = newarray (java.lang.String)[0], YES
+line 1609, instr: if l0 == null goto $stack1 = 0, YES
+line 1619, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$ArrayTasks: int getLength(java.lang.Object)>(l0), YES
+line 1630, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$ArrayTasks: boolean isArrayEmpty(java.lang.Object)>(l0), YES
+line 1641, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$ArrayTasks: boolean isArrayEmpty(java.lang.Object)>(l0), YES
+line 1661, instr: if l0 == null goto return -1, NO
+line 1662, instr: return -1, NO
+line 1664, instr: $stack4 = lengthof l0, NO
+line 1665, instr: $stack14 = lengthof l0, NO
+line 1667, instr: if l1 != null goto $stack5 = virtualinvoke l0.<java.lang.Object: java.lang.Class getClass()>(), NO
+line 1668, instr: l3 = l2, NO
+line 1669, instr: $stack12 = l0[l3], NO
+line 1670, instr: return l3, NO
+line 1673, instr: $stack5 = virtualinvoke l0.<java.lang.Object: java.lang.Class getClass()>(), NO
+line 1674, instr: l3 = l2, NO
+line 1675, instr: $stack9 = l0[l3], NO
+line 1676, instr: return l3, NO
+line 1680, instr: return -1, NO
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+line 1381, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), YES
+line 1393, instr: if l0 != l1 goto (branch), NO
+line 1394, instr: return 0, NO
+line 1396, instr: if l0 == 0 goto $stack2 = -1, NO
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+line 1400, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), NO
+line 1441, instr: if l0 == null goto $stack2 = l1, NO
+line 1460, instr: if l0 >= 128 goto $stack1 = 0, YES
+line 1479, instr: if l0 < 32 goto $stack1 = 0, YES
+line 1498, instr: if l0 < 32 goto $stack1 = 1, NO
+line 1517, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$CharTasks: boolean isAsciiAlphaUpper(char)>(l0), YES
+line 1536, instr: if l0 < 65 goto $stack1 = 0, YES
+line 1555, instr: if l0 < 97 goto $stack1 = 0, YES
+line 1569, instr: $stack2 = l0 - l1, YES
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+line 14, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), YES
+line 16, instr: $stack0 = newarray (java.lang.String)[0], YES
+line 30, instr: $stack1 = staticinvoke <java.util.regex.Pattern: java.util.regex.Pattern compile(java.lang.String)>("^(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})$"), YES
+line 42, instr: $stack2 = staticinvoke <java.util.regex.Pattern: java.util.regex.Pattern compile(java.lang.String)>("^[a-zA-Z0-9][a-zA-Z0-9-]*$"), YES
+line 51, instr: if l0 != 47 goto (branch), NO
+line 52, instr: return 92, NO
+line 54, instr: if l0 != 92 goto $stack1 = new java.lang.IllegalArgumentException, NO
+line 55, instr: return 47, NO
+line 57, instr: $stack1 = new java.lang.IllegalArgumentException, NO
+line 81, instr: if l0 != null goto $stack1 = staticinvoke <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String requireNonNullChars(java.lang.String)>(l0), YES
+line 82, instr: return null, NO
+line 84, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String requireNonNullChars(java.lang.String)>(l0), YES
+line 100, instr: if l0 != null goto l1 = virtualinvoke l0.<java.lang.String: int lastIndexOf(int)>(47), YES
+line 101, instr: return -1, NO
+line 103, instr: l1 = virtualinvoke l0.<java.lang.String: int lastIndexOf(int)>(47), YES
+line 104, instr: l2 = virtualinvoke l0.<java.lang.String: int lastIndexOf(int)>(92), YES
+line 105, instr: $stack5 = staticinvoke <java.lang.Math: int max(int,int)>(l1, l2), YES
+line 115, instr: $stack5 = <comp5111.assignment.cut.Subject$FilenameTasks: java.util.regex.Pattern IPV4_PATTERN>, YES
+line 116, instr: $stack7 = virtualinvoke l1.<java.util.regex.Matcher: boolean matches()>(), YES
+line 117, instr: return 0, YES
+line 121, instr: l2 = 1, NO
+line 122, instr: l3 = virtualinvoke l1.<java.util.regex.Matcher: java.lang.String group(int)>(l2), NO
+line 123, instr: l4 = staticinvoke <java.lang.Integer: int parseInt(java.lang.String)>(l3), NO
+line 124, instr: if l4 <= 255 goto $stack11 = virtualinvoke l3.<java.lang.String: int length()>(), NO
+line 125, instr: return 0, NO
+line 128, instr: $stack11 = virtualinvoke l3.<java.lang.String: int length()>(), NO
+line 129, instr: return 0, NO
+line 134, instr: return 1, NO
+line 144, instr: l1 = virtualinvoke l0.<java.lang.String: boolean contains(java.lang.CharSequence)>("::"), NO
+line 145, instr: if l1 == 0 goto $stack10 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String)>(":"), NO
+line 146, instr: return 0, NO
+line 148, instr: $stack10 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String)>(":"), NO
+line 149, instr: $stack11 = virtualinvoke l0.<java.lang.String: boolean endsWith(java.lang.String)>(":"), NO
+line 150, instr: return 0, NO
+line 152, instr: l2 = virtualinvoke l0.<java.lang.String: java.lang.String[] split(java.lang.String)>(":"), NO
+line 153, instr: if l1 == 0 goto $stack13 = lengthof l2, NO
+line 154, instr: $stack28 = new java.util.ArrayList, NO
+line 155, instr: $stack30 = virtualinvoke l0.<java.lang.String: boolean endsWith(java.lang.String)>("::"), NO
+line 157, instr: interfaceinvoke $stack28.<java.util.List: boolean add(java.lang.Object)>(""), NO
+line 158, instr: $stack31 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String)>("::"), NO
+line 159, instr: interfaceinvoke $stack28.<java.util.List: java.lang.Object remove(int)>(0), NO
+line 161, instr: $stack32 = <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String[] EMPTY_STRING_ARRAY>, NO
+line 163, instr: $stack13 = lengthof l2, NO
+line 164, instr: return 0, NO
+line 166, instr: l3#27 = 0, NO
+line 167, instr: l4 = 0, NO
+line 168, instr: l5 = 0, NO
+line 169, instr: l6 = l2[l5], NO
+line 170, instr: $stack16 = virtualinvoke l6.<java.lang.String: boolean isEmpty()>(), NO
+line 171, instr: l4 = l4 + 1, NO
+line 172, instr: if l4 <= 1 goto l3#27 = l3#27 + 1, NO
+line 173, instr: return 0, NO
+line 176, instr: l4 = 0, NO
+line 178, instr: $stack17 = lengthof l2, NO
+line 179, instr: $stack27 = staticinvoke <comp5111.assignment.cut.Subject$FilenameTasks: boolean isIPv4Address(java.lang.String)>(l6), NO
+line 180, instr: return 0, NO
+line 182, instr: l3#27 = l3#27 + 2, NO
+line 183, instr: goto [?= l5 = l5 + 1], NO
+line 185, instr: $stack19 = virtualinvoke l6.<java.lang.String: int length()>(), NO
+line 186, instr: return 0, NO
+line 190, instr: l7 = staticinvoke <java.lang.Integer: int parseInt(java.lang.String,int)>(l6, 16), NO
+line 192, instr: return 0, NO
+line 193, instr: goto [?= (branch)], NO
+line 194, instr: if l7 < 0 goto return 0, NO
+line 195, instr: return 0, NO
+line 198, instr: l3#27 = l3#27 + 1, NO
+line 200, instr: if l3#27 > 8 goto $stack15 = 0, NO
+line 212, instr: l1 = virtualinvoke l0.<java.lang.String: java.lang.String[] split(java.lang.String,int)>("\\.", -1), YES
+line 213, instr: l2 = 0, YES
+line 214, instr: $stack5 = l1[l2], YES
+line 216, instr: $stack13 = lengthof l1, NO
+line 218, instr: $stack8 = <comp5111.assignment.cut.Subject$FilenameTasks: java.util.regex.Pattern REG_NAME_PART_PATTERN>, YES
+line 219, instr: return 0, NO
+line 222, instr: return 1, YES
+line 232, instr: if l0 == 47 goto $stack1 = 1, NO
+line 245, instr: $stack1 = virtualinvoke l0.<java.lang.String: int indexOf(int)>(0), YES
+line 246, instr: $stack2 = new java.lang.IllegalArgumentException, NO
+line 249, instr: return l0, YES
+line 265, instr: $stack9 = virtualinvoke l0.<java.lang.String: int indexOf(int)>(63), NO
+line 266, instr: $stack39 = newarray (java.lang.String)[1], NO
+line 269, instr: l1 = virtualinvoke l0.<java.lang.String: char[] toCharArray()>(), NO
+line 270, instr: $stack11 = new java.util.ArrayList, NO
+line 271, instr: $stack12 = new java.lang.StringBuilder, NO
+line 272, instr: l4 = 0, NO
+line 273, instr: l6 = lengthof l1, NO
+line 274, instr: if l8 == 63 goto $stack20 = virtualinvoke $stack12.<java.lang.StringBuilder: int length()>(), NO
+line 275, instr: $stack20 = virtualinvoke $stack12.<java.lang.StringBuilder: int length()>(), NO
+line 276, instr: $stack26 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.String toString()>(), NO
+line 277, instr: virtualinvoke $stack12.<java.lang.StringBuilder: void setLength(int)>(0), NO
+line 279, instr: if l8 != 63 goto (branch), NO
+line 280, instr: virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>("?"), NO
+line 281, instr: if l4 == 42 goto l4 = l8, NO
+line 282, instr: virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>("*"), NO
+line 285, instr: virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(l8), NO
+line 287, instr: l4 = l8, NO
+line 289, instr: $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: int length()>(), NO
+line 290, instr: $stack17 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.String toString()>(), NO
+line 293, instr: $stack14 = <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String[] EMPTY_STRING_ARRAY>, NO
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+line 1684, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), YES
+line 1728, instr: if l0 <= 1900 goto $stack1 = l0 & 3, YES
+line 1729, instr: $stack7 = l0 & 3, NO
+line 1732, instr: $stack1 = l0 & 3, YES
+line 1759, instr: if l1 == 1 goto return 31, YES
+line 1760, instr: if l1 == 4 goto return 30, YES
+line 1761, instr: if l1 != 2 goto $stack4 = new java.lang.IllegalArgumentException, YES
+line 1762, instr: $stack4 = new java.lang.IllegalArgumentException, YES
+line 1812, instr: if l0 < -999999999 goto $stack3 = new java.lang.IllegalArgumentException, YES
+line 1813, instr: $stack3 = new java.lang.IllegalArgumentException, NO
+line 1815, instr: if l1 < 1 goto $stack5 = new java.lang.IllegalArgumentException, YES
+line 1816, instr: $stack5 = new java.lang.IllegalArgumentException, NO
+line 1818, instr: if l2 < 1 goto $stack7 = new java.lang.IllegalArgumentException, YES
+line 1819, instr: $stack7 = new java.lang.IllegalArgumentException, YES
+line 1821, instr: $stack9 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int getLengthOfMonth(int,int)>(l0, l1), YES
+line 1822, instr: $stack10 = new java.lang.IllegalArgumentException, NO
+line 1824, instr: $stack11 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: java.lang.String toString(int,int,int)>(l0, l1, l2), NO
+line 1827, instr: return, YES
+line 1861, instr: if l2 < 1 goto $stack8 = new java.lang.IllegalArgumentException, YES
+line 1862, instr: $stack8 = new java.lang.IllegalArgumentException, YES
+line 1864, instr: $stack10 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int getLengthOfMonth(int,int)>(l0, l1), NO
+line 1865, instr: $stack37 = new java.lang.IllegalArgumentException, NO
+line 1867, instr: $stack38 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: java.lang.String toString(int,int,int)>(l0, l1, l2), NO
+line 1870, instr: l3 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int gaussianWeekTerm(int)>(l1), NO
+line 1871, instr: l4 = l0 % 100, NO
+line 1872, instr: l5 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l0, 100), NO
+line 1874, instr: if l4 >= 0 goto (branch), NO
+line 1875, instr: l4 = l4 + 100, NO
+line 1878, instr: if l1 > 2 goto l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), NO
+line 1879, instr: l4 = l4 + -1, NO
+line 1880, instr: if l4 >= 0 goto l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), NO
+line 1881, instr: l4 = 99, NO
+line 1882, instr: l5 = l5 + -1, NO
+line 1887, instr: l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), NO
+line 1888, instr: $stack14 = l2 + l3, NO
+line 1890, instr: if l7 > 0 goto return l7, NO
+line 1891, instr: l7 = l7 + 7, NO
+line 1894, instr: return l7, NO
+line 1901, instr: $stack4 = new java.lang.StringBuilder, NO
+line 1902, instr: virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l0), NO
+line 1903, instr: virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(45), NO
+line 1904, instr: if l1 >= 10 goto virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l1), NO
+line 1905, instr: virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(48), NO
+line 1907, instr: virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l1), NO
+line 1908, instr: virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(45), NO
+line 1909, instr: if l2 >= 10 goto virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l2), NO
+line 1910, instr: virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(48), NO
+line 1912, instr: virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l2), NO
+line 1913, instr: $stack10 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.String toString()>(), NO
+line 1922, instr: if l0 != 1 goto (branch), NO
+line 1923, instr: if l0 != 2 goto (branch), NO
+line 1924, instr: if l0 != 3 goto (branch), NO
+line 1925, instr: if l0 != 4 goto (branch), NO
+line 1926, instr: if l0 != 5 goto (branch), NO
+line 1927, instr: if l0 != 6 goto (branch), NO
+line 1928, instr: if l0 != 7 goto (branch), NO
+line 1929, instr: if l0 != 8 goto (branch), NO
+line 1930, instr: if l0 != 9 goto (branch), NO
+line 1931, instr: if l0 != 10 goto (branch), NO
+line 1932, instr: if l0 != 11 goto (branch), NO
+line 1933, instr: if l0 != 12 goto $stack1 = new java.lang.IllegalArgumentException, NO
+line 1935, instr: $stack1 = new java.lang.IllegalArgumentException, NO
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+line 900, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), NO
+line 934, instr: if l0 != null goto $stack15 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isBlank(java.lang.CharSequence)>(l0), NO
+line 935, instr: return null, NO
+line 937, instr: $stack15 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isBlank(java.lang.CharSequence)>(l0), NO
+line 938, instr: $stack151 = new java.lang.NumberFormatException, NO
+line 941, instr: $stack16 = newarray (java.lang.String)[3], NO
+line 942, instr: l2 = virtualinvoke l0.<java.lang.String: int length()>(), NO
+line 943, instr: $stack18 = virtualinvoke l0.<java.lang.String: char charAt(int)>(0), NO
+line 944, instr: l4 = 0, NO
+line 945, instr: l6 = lengthof $stack16, NO
+line 946, instr: $stack138 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String,int)>(l8, l3), NO
+line 947, instr: $stack141 = virtualinvoke l8.<java.lang.String: int length()>(), NO
+line 948, instr: goto [?= (branch)], NO
+line 951, instr: if l4 <= 0 goto $stack19 = l2 - 1, NO
+line 952, instr: l5#11 = 0, NO
+line 953, instr: l6 = l4, NO
+line 954, instr: l5#11 = virtualinvoke l0.<java.lang.String: char charAt(int)>(l6), NO
+line 955, instr: if l5#11 == 48 goto l4 = l4 + 1, NO
+line 956, instr: goto [?= l6 = l2 - l4], NO
+line 958, instr: l4 = l4 + 1, NO
+line 960, instr: l6 = l2 - l4, NO
+line 961, instr: if l6 > 16 goto $stack122 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigInteger createBigInteger(java.lang.String)>(l0), NO
+line 962, instr: $stack122 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigInteger createBigInteger(java.lang.String)>(l0), NO
+line 964, instr: if l6 > 8 goto $stack123 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Long createLong(java.lang.String)>(l0), NO
+line 965, instr: $stack123 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Long createLong(java.lang.String)>(l0), NO
+line 967, instr: $stack124 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Integer createInteger(java.lang.String)>(l0), NO
+line 969, instr: $stack19 = l2 - 1, NO
+line 973, instr: l9 = virtualinvoke l0.<java.lang.String: int indexOf(int)>(46), NO
+line 974, instr: $stack22 = virtualinvoke l0.<java.lang.String: int indexOf(int)>(101), NO
+line 979, instr: $stack25 = staticinvoke <java.lang.Character: boolean isDigit(char)>(l5#11), NO
+line 980, instr: if l9 <= -1 goto (branch), NO
+line 981, instr: if l10 <= -1 goto $stack107 = l9 + 1, NO
+line 982, instr: if l10 < l9 goto $stack114 = new java.lang.NumberFormatException, NO
+line 983, instr: $stack114 = new java.lang.NumberFormatException, NO
+line 985, instr: $stack116 = l9 + 1, NO
+line 988, instr: $stack107 = l9 + 1, NO
+line 990, instr: l6#28 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.String getMantissa(java.lang.String,int)>(l0, l9), NO
+line 992, instr: if l10 <= -1 goto (branch), NO
+line 993, instr: if l10 <= l2 goto l6#28 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.String getMantissa(java.lang.String,int)>(l0, l10), NO
+line 994, instr: $stack105 = new java.lang.NumberFormatException, NO
+line 996, instr: l6#28 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.String getMantissa(java.lang.String,int)>(l0, l10), NO
+line 999, instr: if $stack119 == 0 goto $stack101 = l2, NO
+line 1001, instr: l7#20 = null, NO
+line 1003, instr: if l11 == 0 goto (branch), NO
+line 1004, instr: if l10 <= -1 goto l8 = null, NO
+line 1005, instr: $stack98 = l10 + 1, NO
+line 1007, instr: l8 = null, NO
+line 1010, instr: $stack60 = l2 - 1, NO
+line 1012, instr: lookupswitch(l5#11) {     case 68: goto l13#69 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Double createDouble(java.lang.String)>(l0);     case 70: goto l13#63 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Float createFloat(java.lang.String)>(l0);     case 76: goto if l7#20 != null goto $stack62 = new java.lang.NumberFormatException;     case 100: goto l13#69 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Double createDouble(java.lang.String)>(l0);     case 102: goto l13#63 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Float createFloat(java.lang.String)>(l0);     case 108: goto if l7#20 != null goto $stack62 = new java.lang.NumberFormatException;     default: goto $stack88 = new java.lang.NumberFormatException; }, NO
+line 1015, instr: if l7#20 != null goto $stack62 = new java.lang.NumberFormatException, NO
+line 1017, instr: $stack65 = virtualinvoke l12.<java.lang.String: boolean isEmpty()>(), NO
+line 1019, instr: $stack67 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Long createLong(java.lang.String)>(l12), NO
+line 1023, instr: $stack164 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigInteger createBigInteger(java.lang.String)>(l12), NO
+line 1026, instr: $stack62 = new java.lang.NumberFormatException, NO
+line 1030, instr: l13#63 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Float createFloat(java.lang.String)>(l0), NO
+line 1031, instr: $stack74 = virtualinvoke l13#63.<java.lang.Float: boolean isInfinite()>(), NO
+line 1034, instr: return l13#63, NO
+line 1039, instr: goto [?= l13#69 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Double createDouble(java.lang.String)>(l0)], NO
+line 1044, instr: l13#69 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Double createDouble(java.lang.String)>(l0), NO
+line 1045, instr: $stack76 = virtualinvoke l13#69.<java.lang.Double: boolean isInfinite()>(), NO
+line 1046, instr: return l13#69, NO
+line 1050, instr: goto [?= $stack77 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigDecimal createBigDecimal(java.lang.String)>(l12)], NO
+line 1052, instr: $stack77 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigDecimal createBigDecimal(java.lang.String)>(l12), NO
+line 1058, instr: $stack88 = new java.lang.NumberFormatException, NO
+line 1063, instr: if l10 <= -1 goto l8 = null, NO
+line 1064, instr: $stack58 = l10 + 1, NO
+line 1066, instr: l8 = null, NO
+line 1068, instr: if l7#20 != null goto l12#81 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Float createFloat(java.lang.String)>(l0), NO
+line 1071, instr: $stack54 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Integer createInteger(java.lang.String)>(l0), NO
+line 1076, instr: $stack157 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Long createLong(java.lang.String)>(l0), NO
+line 1080, instr: $stack155 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigInteger createBigInteger(java.lang.String)>(l0), NO
+line 1085, instr: l12#81 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Float createFloat(java.lang.String)>(l0), NO
+line 1086, instr: l13#69 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Double createDouble(java.lang.String)>(l0), NO
+line 1087, instr: $stack29 = virtualinvoke l12#81.<java.lang.Float: boolean isInfinite()>(), NO
+line 1088, instr: $stack42 = virtualinvoke l12#81.<java.lang.Float: float floatValue()>(), NO
+line 1089, instr: $stack44 = virtualinvoke l12#81.<java.lang.Float: java.lang.String toString()>(), NO
+line 1090, instr: return l12#81, NO
+line 1092, instr: $stack30 = virtualinvoke l13#69.<java.lang.Double: boolean isInfinite()>(), NO
+line 1093, instr: l14 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigDecimal createBigDecimal(java.lang.String)>(l0), NO
+line 1094, instr: $stack35 = virtualinvoke l13#69.<java.lang.Double: double doubleValue()>(), NO
+line 1095, instr: return l13#69, NO
+line 1097, instr: return l14, NO
+line 1101, instr: goto [?= $stack31 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigDecimal createBigDecimal(java.lang.String)>(l0)], NO
+line 1102, instr: $stack31 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigDecimal createBigDecimal(java.lang.String)>(l0), NO
+line 1115, instr: l2 = virtualinvoke l0.<java.lang.String: char charAt(int)>(0), NO
+line 1116, instr: if l2 == 45 goto $stack7 = 1, NO
+line 1118, instr: if $stack7 == 0 goto $stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l1), NO
+line 1148, instr: $stack2 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: boolean isAllZeros(java.lang.String)>(l0), NO
+line 1160, instr: if l0 != null goto $stack2 = virtualinvoke l0.<java.lang.String: int length()>(), NO
+line 1161, instr: return 1, NO
+line 1163, instr: $stack2 = virtualinvoke l0.<java.lang.String: int length()>(), NO
+line 1164, instr: $stack3 = virtualinvoke l0.<java.lang.String: char charAt(int)>(l1), NO
+line 1165, instr: return 0, NO
+line 1168, instr: return 1, NO
+line 1181, instr: if l0 != null goto $stack1 = staticinvoke <java.lang.Float: java.lang.Float valueOf(java.lang.String)>(l0), NO
+line 1182, instr: return null, NO
+line 1184, instr: $stack1 = staticinvoke <java.lang.Float: java.lang.Float valueOf(java.lang.String)>(l0), NO
+line 1197, instr: if l0 != null goto $stack1 = staticinvoke <java.lang.Double: java.lang.Double valueOf(java.lang.String)>(l0), YES
+line 1198, instr: return null, NO
+line 1200, instr: $stack1 = staticinvoke <java.lang.Double: java.lang.Double valueOf(java.lang.String)>(l0), YES
+line 1215, instr: if l0 != null goto $stack1 = staticinvoke <java.lang.Integer: java.lang.Integer decode(java.lang.String)>(l0), YES
+line 1216, instr: return null, NO
+line 1219, instr: $stack1 = staticinvoke <java.lang.Integer: java.lang.Integer decode(java.lang.String)>(l0), YES
+line 1234, instr: if l0 != null goto $stack1 = staticinvoke <java.lang.Long: java.lang.Long decode(java.lang.String)>(l0), NO
+line 1235, instr: return null, NO
+line 1237, instr: $stack1 = staticinvoke <java.lang.Long: java.lang.Long decode(java.lang.String)>(l0), NO
+line 1251, instr: if l0 != null goto $stack6 = virtualinvoke l0.<java.lang.String: boolean isEmpty()>(), NO
+line 1252, instr: return null, NO
+line 1254, instr: $stack6 = virtualinvoke l0.<java.lang.String: boolean isEmpty()>(), NO
+line 1255, instr: $stack25 = new java.lang.NumberFormatException, NO
+line 1257, instr: l1 = 0, NO
+line 1258, instr: l2 = 10, NO
+line 1259, instr: l3 = 0, NO
+line 1260, instr: l4 = virtualinvoke l0.<java.lang.String: char charAt(int)>(0), NO
+line 1261, instr: if l4 != 45 goto (branch), NO
+line 1262, instr: l3 = 1, NO
+line 1263, instr: l1 = 1, NO
+line 1264, instr: if l4 != 43 goto $stack8 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String,int)>("0x", l1), NO
+line 1265, instr: l1 = 1, NO
+line 1267, instr: $stack8 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String,int)>("0x", l1), NO
+line 1268, instr: l2 = 16, NO
+line 1269, instr: l1 = l1 + 2, NO
+line 1270, instr: $stack13 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String,int)>("#", l1), NO
+line 1271, instr: l2 = 16, NO
+line 1272, instr: l1 = l1 + 1, NO
+line 1273, instr: $stack14 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String,int)>("0", l1), NO
+line 1274, instr: l2 = 8, NO
+line 1275, instr: l1 = l1 + 1, NO
+line 1278, instr: $stack9 = new java.math.BigInteger, NO
+line 1279, instr: if l3 == 0 goto $stack11 = $stack9, NO
+line 1292, instr: if l0 != null goto $stack1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isBlank(java.lang.CharSequence)>(l0), YES
+line 1293, instr: return null, NO
+line 1296, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isBlank(java.lang.CharSequence)>(l0), YES
+line 1297, instr: $stack3 = new java.lang.NumberFormatException, YES
+line 1299, instr: $stack2 = new java.math.BigDecimal, YES
+line 1313, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isNumeric(java.lang.CharSequence)>(l0), YES
+line 1334, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isEmpty(java.lang.CharSequence)>(l0), YES
+line 1335, instr: return 0, YES
+line 1337, instr: $stack2 = virtualinvoke l0.<java.lang.String: int length()>(), YES
+line 1338, instr: return 0, NO
+line 1340, instr: $stack5 = virtualinvoke l0.<java.lang.String: char charAt(int)>(0), YES
+line 1341, instr: $stack7 = virtualinvoke l0.<java.lang.String: int length()>(), NO
+line 1342, instr: return 0, NO
+line 1344, instr: $stack8 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: boolean withDecimalsParsing(java.lang.String,int)>(l0, 1), NO
+line 1346, instr: $stack6 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: boolean withDecimalsParsing(java.lang.String,int)>(l0, 0), YES
+line 1350, instr: l2 = 0, YES
+line 1351, instr: l3 = l1, YES
+line 1352, instr: $stack6 = virtualinvoke l0.<java.lang.String: char charAt(int)>(l3), YES
+line 1353, instr: if $stack13 == 0 goto (branch), YES
+line 1354, instr: l2 = l2 + 1, NO
+line 1356, instr: if l2 <= 1 goto (branch), YES
+line 1357, instr: return 0, NO
+line 1359, instr: if l4 != 0 goto l3 = l3 + 1, YES
+line 1360, instr: return 0, YES
+line 1363, instr: return 1, NO
+line 1377, instr: $stack2 = l0 - l1, NO
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+line 297, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), NO
+line 323, instr: if l0 != null goto $stack1 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), YES
+line 345, instr: l1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: int length(java.lang.CharSequence)>(l0), YES
+line 346, instr: if l1 != 0 goto l2 = 0, YES
+line 347, instr: return 1, YES
+line 349, instr: l2 = 0, YES
+line 350, instr: $stack4 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l2), YES
+line 351, instr: return 0, YES
+line 354, instr: return 1, NO
+line 377, instr: if l0 == null goto $stack2 = 1, YES
+line 412, instr: $stack3 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isEmpty(java.lang.CharSequence)>(l0), YES
+line 413, instr: return 0, YES
+line 415, instr: l1 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), YES
+line 416, instr: l2 = 1, YES
+line 417, instr: $stack5 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l2), YES
+line 418, instr: return 0, YES
+line 421, instr: return 1, NO
+line 448, instr: if l0 != null goto l1 = virtualinvoke l0.<java.lang.String: int length()>(), YES
+line 449, instr: return null, NO
+line 451, instr: l1 = virtualinvoke l0.<java.lang.String: int length()>(), YES
+line 452, instr: if l1 >= 2 goto l2 = l1 - 1, YES
+line 453, instr: return "", NO
+line 455, instr: l2 = l1 - 1, YES
+line 456, instr: l3 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), YES
+line 457, instr: l4 = virtualinvoke l0.<java.lang.String: char charAt(int)>(l2), YES
+line 458, instr: if l4 != 10 goto return l3, YES
+line 459, instr: $stack11 = l2 - 1, NO
+line 461, instr: return l3, YES
+line 490, instr: $stack3 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isEmpty(java.lang.CharSequence)>(l0), YES
+line 491, instr: return l0, NO
+line 494, instr: $stack4 = virtualinvoke l0.<java.lang.String: int length()>(), YES
+line 495, instr: l1 = virtualinvoke l0.<java.lang.String: char charAt(int)>(0), NO
+line 496, instr: if l1 == 13 goto return "", NO
+line 497, instr: return "", NO
+line 499, instr: return l0, NO
+line 502, instr: $stack5 = virtualinvoke l0.<java.lang.String: int length()>(), YES
+line 503, instr: l2 = virtualinvoke l0.<java.lang.String: char charAt(int)>(l1#2), YES
+line 505, instr: if l2 != 10 goto (branch), YES
+line 506, instr: $stack11 = l1#2 - 1, NO
+line 507, instr: l1#2 = l1#2 + -1, NO
+line 509, instr: if l2 == 13 goto $stack7 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l1#2), YES
+line 510, instr: l1#2 = l1#2 + 1, YES
+line 512, instr: $stack7 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l1#2), YES
+line 535, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: java.lang.String[] splitByCharacterType(java.lang.String,boolean)>(l0, 0), YES
+line 553, instr: if l0 != null goto $stack9 = virtualinvoke l0.<java.lang.String: boolean isEmpty()>(), YES
+line 554, instr: return null, NO
+line 556, instr: $stack9 = virtualinvoke l0.<java.lang.String: boolean isEmpty()>(), YES
+line 557, instr: $stack41 = <comp5111.assignment.cut.Subject$ArrayTasks: java.lang.String[] EMPTY_STRING_ARRAY>, YES
+line 559, instr: l2 = virtualinvoke l0.<java.lang.String: char[] toCharArray()>(), YES
+line 560, instr: $stack11 = new java.util.ArrayList, YES
+line 561, instr: l4 = 0, YES
+line 562, instr: $stack12 = l2[0], YES
+line 563, instr: l6 = 0 + 1, YES
+line 564, instr: $stack23 = l2[l6], NO
+line 565, instr: if l7 != l5 goto (branch), NO
+line 566, instr: goto [?= l6 = l6 + 1], NO
+line 568, instr: if l1 == 0 goto $stack25 = new java.lang.String, NO
+line 569, instr: l8 = l6 - 1, NO
+line 570, instr: if l8 == l4 goto (branch), NO
+line 571, instr: $stack38 = new java.lang.String, NO
+line 572, instr: l4 = l8, NO
+line 574, instr: goto [?= l5 = l7], NO
+line 575, instr: $stack25 = new java.lang.String, NO
+line 576, instr: l4 = l6, NO
+line 578, instr: l5 = l7, NO
+line 580, instr: $stack16 = new java.lang.String, YES
+line 581, instr: $stack20 = <comp5111.assignment.cut.Subject$ArrayTasks: java.lang.String[] EMPTY_STRING_ARRAY>, YES
+line 611, instr: $stack9 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isEmpty(java.lang.CharSequence)>(l0), YES
+line 612, instr: return 0, YES
+line 614, instr: l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), YES
+line 615, instr: l3 = lengthof l1, YES
+line 616, instr: l4 = l2 - 1, YES
+line 617, instr: l5 = l3 - 1, YES
+line 618, instr: l6 = 0, YES
+line 619, instr: l7 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l6), YES
+line 620, instr: l8 = 0, YES
+line 621, instr: $stack15 = l1[l8], YES
+line 622, instr: $stack18 = staticinvoke <java.lang.Character: boolean isHighSurrogate(char)>(l7), NO
+line 624, instr: return 1, NO
+line 626, instr: if l8 != l5 goto (branch), NO
+line 628, instr: return 1, NO
+line 630, instr: if l6 >= l4 goto l8 = l8 + 1, NO
+line 631, instr: return 1, NO
+line 636, instr: return 0, YES
+line 663, instr: if l0 == null goto return 1, YES
+line 664, instr: return 1, NO
+line 666, instr: l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), YES
+line 667, instr: l3 = l2 - 1, YES
+line 668, instr: l4 = lengthof l1, YES
+line 669, instr: l5 = l4 - 1, YES
+line 670, instr: l6 = 0, YES
+line 671, instr: l7 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l6), YES
+line 672, instr: l8 = 0, YES
+line 673, instr: $stack13 = l1[l8], YES
+line 674, instr: $stack16 = staticinvoke <java.lang.Character: boolean isHighSurrogate(char)>(l7), NO
+line 676, instr: return 0, NO
+line 678, instr: if l8 != l5 goto (branch), NO
+line 680, instr: return 0, NO
+line 682, instr: if l6 >= l3 goto l8 = l8 + 1, NO
+line 683, instr: return 0, NO
+line 688, instr: return 1, YES
+line 716, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: java.lang.String[] splitByCharacterType(java.lang.String,boolean)>(l0, 1), YES
+line 742, instr: if l0 != l1 goto (branch), NO
+line 743, instr: return 1, NO
+line 745, instr: if l0 == null goto return 0, NO
+line 746, instr: return 0, NO
+line 748, instr: $stack4 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), NO
+line 749, instr: return 0, NO
+line 751, instr: $stack6 = l0 instanceof java.lang.String, NO
+line 752, instr: $stack15 = virtualinvoke l0.<java.lang.Object: boolean equals(java.lang.Object)>(l1), NO
+line 755, instr: l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), NO
+line 756, instr: l3 = 0, NO
+line 757, instr: $stack8 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l3), NO
+line 758, instr: return 0, NO
+line 761, instr: return 1, NO
+line 790, instr: l2 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: int length(java.lang.CharSequence)>(l0), NO
+line 791, instr: if l2 != 0 goto (branch), NO
+line 792, instr: return l0, NO
+line 795, instr: if l1 != null goto $stack4 = virtualinvoke l1.<java.lang.String: boolean isEmpty()>(), NO
+line 796, instr: if l2 == 0 goto $stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), NO
+line 797, instr: l2 = l2 + -1, NO
+line 799, instr: $stack4 = virtualinvoke l1.<java.lang.String: boolean isEmpty()>(), NO
+line 800, instr: return l0, NO
+line 802, instr: if l2 == 0 goto $stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), NO
+line 803, instr: l2 = l2 + -1, NO
+line 806, instr: $stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), NO
+line 833, instr: $stack5 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isEmpty(java.lang.CharSequence)>(l0), NO
+line 834, instr: return 0, NO
+line 836, instr: l1 = 0, NO
+line 837, instr: l2 = 0, NO
+line 838, instr: l3 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), NO
+line 839, instr: l4 = 0, NO
+line 840, instr: if l1 == 0 goto $stack9 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l4), NO
+line 841, instr: return 1, NO
+line 843, instr: $stack9 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l4), NO
+line 844, instr: l1 = 1, NO
+line 845, instr: $stack11 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l4), NO
+line 846, instr: l2 = 1, NO
+line 849, instr: if l1 == 0 goto $stack8 = 0, NO
+line 863, instr: if l0 == null goto return l0, NO
+line 864, instr: return l0, NO
+line 867, instr: l3 = virtualinvoke l0.<java.lang.String: int indexOf(java.lang.String)>(l1), NO
+line 869, instr: if l3 >= 0 goto l4 = virtualinvoke l0.<java.lang.String: int length()>(), NO
+line 870, instr: return l0, NO
+line 873, instr: l4 = virtualinvoke l0.<java.lang.String: int length()>(), NO
+line 875, instr: $stack10 = virtualinvoke l1.<java.lang.String: int length()>(), NO
+line 877, instr: $stack11 = virtualinvoke l1.<java.lang.String: int length()>(), NO
+line 878, instr: l0#4 = l2, NO
+line 880, instr: if l6 != l4 goto $stack12 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l3), NO
+line 881, instr: $stack16 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l3), NO
+line 885, instr: $stack12 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l3), NO
+line 887, instr: $stack13 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int)>(l6), NO
+line 890, instr: return l0#4, NO
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.Regression__Test0
+
+==========================================================================
+comp5111.assignment.cut.Subject
+total statements: 1.0
+covered statements: 1.0
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$ArrayTasks
+total statements: 19.0
+covered statements: 5.0
+Percentage: 26.31578947368421
+
+comp5111.assignment.cut.Subject$BooleanTasks
+total statements: 4.0
+covered statements: 1.0
+Percentage: 25.0
+
+comp5111.assignment.cut.Subject$CharTasks
+total statements: 9.0
+covered statements: 6.0
+Percentage: 66.66666666666666
+
+comp5111.assignment.cut.Subject$FilenameTasks
+total statements: 98.0
+covered statements: 20.0
+Percentage: 20.408163265306122
+
+comp5111.assignment.cut.Subject$GregorianTasks
+total statements: 62.0
+covered statements: 15.0
+Percentage: 24.193548387096776
+
+comp5111.assignment.cut.Subject$NumberTasks
+total statements: 156.0
+covered statements: 21.0
+Percentage: 13.461538461538462
+
+comp5111.assignment.cut.Subject$StringTasks
+total statements: 153.0
+covered statements: 63.0
+Percentage: 41.17647058823529
+
+----------------------------------------------------
+Overall Coverage percentage: 26.294820717131472
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the instructions along with a YES or NO after each statement which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+line 12, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), YES
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+line 1574, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), NO
+line 1579, instr: $stack0 = newarray (java.lang.String)[0], YES
+line 1609, instr: if l0 == null goto $stack1 = 0, YES
+line 1619, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$ArrayTasks: int getLength(java.lang.Object)>(l0), YES
+line 1630, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$ArrayTasks: boolean isArrayEmpty(java.lang.Object)>(l0), YES
+line 1641, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$ArrayTasks: boolean isArrayEmpty(java.lang.Object)>(l0), YES
+line 1661, instr: if l0 == null goto return -1, NO
+line 1662, instr: return -1, NO
+line 1664, instr: $stack4 = lengthof l0, NO
+line 1665, instr: $stack14 = lengthof l0, NO
+line 1667, instr: if l1 != null goto $stack5 = virtualinvoke l0.<java.lang.Object: java.lang.Class getClass()>(), NO
+line 1668, instr: l3 = l2, NO
+line 1669, instr: $stack12 = l0[l3], NO
+line 1670, instr: return l3, NO
+line 1673, instr: $stack5 = virtualinvoke l0.<java.lang.Object: java.lang.Class getClass()>(), NO
+line 1674, instr: l3 = l2, NO
+line 1675, instr: $stack9 = l0[l3], NO
+line 1676, instr: return l3, NO
+line 1680, instr: return -1, NO
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+line 1381, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), YES
+line 1393, instr: if l0 != l1 goto (branch), NO
+line 1394, instr: return 0, NO
+line 1396, instr: if l0 == 0 goto $stack2 = -1, NO
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+line 1400, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), NO
+line 1441, instr: if l0 == null goto $stack2 = l1, NO
+line 1460, instr: if l0 >= 128 goto $stack1 = 0, YES
+line 1479, instr: if l0 < 32 goto $stack1 = 0, YES
+line 1498, instr: if l0 < 32 goto $stack1 = 1, NO
+line 1517, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$CharTasks: boolean isAsciiAlphaUpper(char)>(l0), YES
+line 1536, instr: if l0 < 65 goto $stack1 = 0, YES
+line 1555, instr: if l0 < 97 goto $stack1 = 0, YES
+line 1569, instr: $stack2 = l0 - l1, YES
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+line 14, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), YES
+line 16, instr: $stack0 = newarray (java.lang.String)[0], YES
+line 30, instr: $stack1 = staticinvoke <java.util.regex.Pattern: java.util.regex.Pattern compile(java.lang.String)>("^(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})$"), YES
+line 42, instr: $stack2 = staticinvoke <java.util.regex.Pattern: java.util.regex.Pattern compile(java.lang.String)>("^[a-zA-Z0-9][a-zA-Z0-9-]*$"), YES
+line 51, instr: if l0 != 47 goto (branch), NO
+line 52, instr: return 92, NO
+line 54, instr: if l0 != 92 goto $stack1 = new java.lang.IllegalArgumentException, NO
+line 55, instr: return 47, NO
+line 57, instr: $stack1 = new java.lang.IllegalArgumentException, NO
+line 81, instr: if l0 != null goto $stack1 = staticinvoke <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String requireNonNullChars(java.lang.String)>(l0), YES
+line 82, instr: return null, NO
+line 84, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String requireNonNullChars(java.lang.String)>(l0), YES
+line 100, instr: if l0 != null goto l1 = virtualinvoke l0.<java.lang.String: int lastIndexOf(int)>(47), YES
+line 101, instr: return -1, NO
+line 103, instr: l1 = virtualinvoke l0.<java.lang.String: int lastIndexOf(int)>(47), YES
+line 104, instr: l2 = virtualinvoke l0.<java.lang.String: int lastIndexOf(int)>(92), YES
+line 105, instr: $stack5 = staticinvoke <java.lang.Math: int max(int,int)>(l1, l2), YES
+line 115, instr: $stack5 = <comp5111.assignment.cut.Subject$FilenameTasks: java.util.regex.Pattern IPV4_PATTERN>, YES
+line 116, instr: $stack7 = virtualinvoke l1.<java.util.regex.Matcher: boolean matches()>(), YES
+line 117, instr: return 0, YES
+line 121, instr: l2 = 1, NO
+line 122, instr: l3 = virtualinvoke l1.<java.util.regex.Matcher: java.lang.String group(int)>(l2), NO
+line 123, instr: l4 = staticinvoke <java.lang.Integer: int parseInt(java.lang.String)>(l3), NO
+line 124, instr: if l4 <= 255 goto $stack11 = virtualinvoke l3.<java.lang.String: int length()>(), NO
+line 125, instr: return 0, NO
+line 128, instr: $stack11 = virtualinvoke l3.<java.lang.String: int length()>(), NO
+line 129, instr: return 0, NO
+line 134, instr: return 1, NO
+line 144, instr: l1 = virtualinvoke l0.<java.lang.String: boolean contains(java.lang.CharSequence)>("::"), NO
+line 145, instr: if l1 == 0 goto $stack10 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String)>(":"), NO
+line 146, instr: return 0, NO
+line 148, instr: $stack10 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String)>(":"), NO
+line 149, instr: $stack11 = virtualinvoke l0.<java.lang.String: boolean endsWith(java.lang.String)>(":"), NO
+line 150, instr: return 0, NO
+line 152, instr: l2 = virtualinvoke l0.<java.lang.String: java.lang.String[] split(java.lang.String)>(":"), NO
+line 153, instr: if l1 == 0 goto $stack13 = lengthof l2, NO
+line 154, instr: $stack28 = new java.util.ArrayList, NO
+line 155, instr: $stack30 = virtualinvoke l0.<java.lang.String: boolean endsWith(java.lang.String)>("::"), NO
+line 157, instr: interfaceinvoke $stack28.<java.util.List: boolean add(java.lang.Object)>(""), NO
+line 158, instr: $stack31 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String)>("::"), NO
+line 159, instr: interfaceinvoke $stack28.<java.util.List: java.lang.Object remove(int)>(0), NO
+line 161, instr: $stack32 = <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String[] EMPTY_STRING_ARRAY>, NO
+line 163, instr: $stack13 = lengthof l2, NO
+line 164, instr: return 0, NO
+line 166, instr: l3#27 = 0, NO
+line 167, instr: l4 = 0, NO
+line 168, instr: l5 = 0, NO
+line 169, instr: l6 = l2[l5], NO
+line 170, instr: $stack16 = virtualinvoke l6.<java.lang.String: boolean isEmpty()>(), NO
+line 171, instr: l4 = l4 + 1, NO
+line 172, instr: if l4 <= 1 goto l3#27 = l3#27 + 1, NO
+line 173, instr: return 0, NO
+line 176, instr: l4 = 0, NO
+line 178, instr: $stack17 = lengthof l2, NO
+line 179, instr: $stack27 = staticinvoke <comp5111.assignment.cut.Subject$FilenameTasks: boolean isIPv4Address(java.lang.String)>(l6), NO
+line 180, instr: return 0, NO
+line 182, instr: l3#27 = l3#27 + 2, NO
+line 183, instr: goto [?= l5 = l5 + 1], NO
+line 185, instr: $stack19 = virtualinvoke l6.<java.lang.String: int length()>(), NO
+line 186, instr: return 0, NO
+line 190, instr: l7 = staticinvoke <java.lang.Integer: int parseInt(java.lang.String,int)>(l6, 16), NO
+line 192, instr: return 0, NO
+line 193, instr: goto [?= (branch)], NO
+line 194, instr: if l7 < 0 goto return 0, NO
+line 195, instr: return 0, NO
+line 198, instr: l3#27 = l3#27 + 1, NO
+line 200, instr: if l3#27 > 8 goto $stack15 = 0, NO
+line 212, instr: l1 = virtualinvoke l0.<java.lang.String: java.lang.String[] split(java.lang.String,int)>("\\.", -1), YES
+line 213, instr: l2 = 0, YES
+line 214, instr: $stack5 = l1[l2], YES
+line 216, instr: $stack13 = lengthof l1, NO
+line 218, instr: $stack8 = <comp5111.assignment.cut.Subject$FilenameTasks: java.util.regex.Pattern REG_NAME_PART_PATTERN>, YES
+line 219, instr: return 0, NO
+line 222, instr: return 1, YES
+line 232, instr: if l0 == 47 goto $stack1 = 1, NO
+line 245, instr: $stack1 = virtualinvoke l0.<java.lang.String: int indexOf(int)>(0), YES
+line 246, instr: $stack2 = new java.lang.IllegalArgumentException, NO
+line 249, instr: return l0, YES
+line 265, instr: $stack9 = virtualinvoke l0.<java.lang.String: int indexOf(int)>(63), NO
+line 266, instr: $stack39 = newarray (java.lang.String)[1], NO
+line 269, instr: l1 = virtualinvoke l0.<java.lang.String: char[] toCharArray()>(), NO
+line 270, instr: $stack11 = new java.util.ArrayList, NO
+line 271, instr: $stack12 = new java.lang.StringBuilder, NO
+line 272, instr: l4 = 0, NO
+line 273, instr: l6 = lengthof l1, NO
+line 274, instr: if l8 == 63 goto $stack20 = virtualinvoke $stack12.<java.lang.StringBuilder: int length()>(), NO
+line 275, instr: $stack20 = virtualinvoke $stack12.<java.lang.StringBuilder: int length()>(), NO
+line 276, instr: $stack26 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.String toString()>(), NO
+line 277, instr: virtualinvoke $stack12.<java.lang.StringBuilder: void setLength(int)>(0), NO
+line 279, instr: if l8 != 63 goto (branch), NO
+line 280, instr: virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>("?"), NO
+line 281, instr: if l4 == 42 goto l4 = l8, NO
+line 282, instr: virtualinvoke $stack11.<java.util.ArrayList: boolean add(java.lang.Object)>("*"), NO
+line 285, instr: virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(l8), NO
+line 287, instr: l4 = l8, NO
+line 289, instr: $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: int length()>(), NO
+line 290, instr: $stack17 = virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.String toString()>(), NO
+line 293, instr: $stack14 = <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String[] EMPTY_STRING_ARRAY>, NO
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+line 1684, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), YES
+line 1728, instr: if l0 <= 1900 goto $stack1 = l0 & 3, YES
+line 1729, instr: $stack7 = l0 & 3, NO
+line 1732, instr: $stack1 = l0 & 3, YES
+line 1759, instr: if l1 == 1 goto return 31, YES
+line 1760, instr: if l1 == 4 goto return 30, YES
+line 1761, instr: if l1 != 2 goto $stack4 = new java.lang.IllegalArgumentException, YES
+line 1762, instr: $stack4 = new java.lang.IllegalArgumentException, YES
+line 1812, instr: if l0 < -999999999 goto $stack3 = new java.lang.IllegalArgumentException, YES
+line 1813, instr: $stack3 = new java.lang.IllegalArgumentException, NO
+line 1815, instr: if l1 < 1 goto $stack5 = new java.lang.IllegalArgumentException, YES
+line 1816, instr: $stack5 = new java.lang.IllegalArgumentException, NO
+line 1818, instr: if l2 < 1 goto $stack7 = new java.lang.IllegalArgumentException, YES
+line 1819, instr: $stack7 = new java.lang.IllegalArgumentException, YES
+line 1821, instr: $stack9 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int getLengthOfMonth(int,int)>(l0, l1), YES
+line 1822, instr: $stack10 = new java.lang.IllegalArgumentException, NO
+line 1824, instr: $stack11 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: java.lang.String toString(int,int,int)>(l0, l1, l2), NO
+line 1827, instr: return, YES
+line 1861, instr: if l2 < 1 goto $stack8 = new java.lang.IllegalArgumentException, YES
+line 1862, instr: $stack8 = new java.lang.IllegalArgumentException, YES
+line 1864, instr: $stack10 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int getLengthOfMonth(int,int)>(l0, l1), NO
+line 1865, instr: $stack37 = new java.lang.IllegalArgumentException, NO
+line 1867, instr: $stack38 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: java.lang.String toString(int,int,int)>(l0, l1, l2), NO
+line 1870, instr: l3 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int gaussianWeekTerm(int)>(l1), NO
+line 1871, instr: l4 = l0 % 100, NO
+line 1872, instr: l5 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l0, 100), NO
+line 1874, instr: if l4 >= 0 goto (branch), NO
+line 1875, instr: l4 = l4 + 100, NO
+line 1878, instr: if l1 > 2 goto l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), NO
+line 1879, instr: l4 = l4 + -1, NO
+line 1880, instr: if l4 >= 0 goto l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), NO
+line 1881, instr: l4 = 99, NO
+line 1882, instr: l5 = l5 + -1, NO
+line 1887, instr: l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), NO
+line 1888, instr: $stack14 = l2 + l3, NO
+line 1890, instr: if l7 > 0 goto return l7, NO
+line 1891, instr: l7 = l7 + 7, NO
+line 1894, instr: return l7, NO
+line 1901, instr: $stack4 = new java.lang.StringBuilder, NO
+line 1902, instr: virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l0), NO
+line 1903, instr: virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(45), NO
+line 1904, instr: if l1 >= 10 goto virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l1), NO
+line 1905, instr: virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(48), NO
+line 1907, instr: virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l1), NO
+line 1908, instr: virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(45), NO
+line 1909, instr: if l2 >= 10 goto virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l2), NO
+line 1910, instr: virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(48), NO
+line 1912, instr: virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l2), NO
+line 1913, instr: $stack10 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.String toString()>(), NO
+line 1922, instr: if l0 != 1 goto (branch), NO
+line 1923, instr: if l0 != 2 goto (branch), NO
+line 1924, instr: if l0 != 3 goto (branch), NO
+line 1925, instr: if l0 != 4 goto (branch), NO
+line 1926, instr: if l0 != 5 goto (branch), NO
+line 1927, instr: if l0 != 6 goto (branch), NO
+line 1928, instr: if l0 != 7 goto (branch), NO
+line 1929, instr: if l0 != 8 goto (branch), NO
+line 1930, instr: if l0 != 9 goto (branch), NO
+line 1931, instr: if l0 != 10 goto (branch), NO
+line 1932, instr: if l0 != 11 goto (branch), NO
+line 1933, instr: if l0 != 12 goto $stack1 = new java.lang.IllegalArgumentException, NO
+line 1935, instr: $stack1 = new java.lang.IllegalArgumentException, NO
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+line 900, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), NO
+line 934, instr: if l0 != null goto $stack15 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isBlank(java.lang.CharSequence)>(l0), NO
+line 935, instr: return null, NO
+line 937, instr: $stack15 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isBlank(java.lang.CharSequence)>(l0), NO
+line 938, instr: $stack151 = new java.lang.NumberFormatException, NO
+line 941, instr: $stack16 = newarray (java.lang.String)[3], NO
+line 942, instr: l2 = virtualinvoke l0.<java.lang.String: int length()>(), NO
+line 943, instr: $stack18 = virtualinvoke l0.<java.lang.String: char charAt(int)>(0), NO
+line 944, instr: l4 = 0, NO
+line 945, instr: l6 = lengthof $stack16, NO
+line 946, instr: $stack138 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String,int)>(l8, l3), NO
+line 947, instr: $stack141 = virtualinvoke l8.<java.lang.String: int length()>(), NO
+line 948, instr: goto [?= (branch)], NO
+line 951, instr: if l4 <= 0 goto $stack19 = l2 - 1, NO
+line 952, instr: l5#11 = 0, NO
+line 953, instr: l6 = l4, NO
+line 954, instr: l5#11 = virtualinvoke l0.<java.lang.String: char charAt(int)>(l6), NO
+line 955, instr: if l5#11 == 48 goto l4 = l4 + 1, NO
+line 956, instr: goto [?= l6 = l2 - l4], NO
+line 958, instr: l4 = l4 + 1, NO
+line 960, instr: l6 = l2 - l4, NO
+line 961, instr: if l6 > 16 goto $stack122 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigInteger createBigInteger(java.lang.String)>(l0), NO
+line 962, instr: $stack122 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigInteger createBigInteger(java.lang.String)>(l0), NO
+line 964, instr: if l6 > 8 goto $stack123 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Long createLong(java.lang.String)>(l0), NO
+line 965, instr: $stack123 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Long createLong(java.lang.String)>(l0), NO
+line 967, instr: $stack124 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Integer createInteger(java.lang.String)>(l0), NO
+line 969, instr: $stack19 = l2 - 1, NO
+line 973, instr: l9 = virtualinvoke l0.<java.lang.String: int indexOf(int)>(46), NO
+line 974, instr: $stack22 = virtualinvoke l0.<java.lang.String: int indexOf(int)>(101), NO
+line 979, instr: $stack25 = staticinvoke <java.lang.Character: boolean isDigit(char)>(l5#11), NO
+line 980, instr: if l9 <= -1 goto (branch), NO
+line 981, instr: if l10 <= -1 goto $stack107 = l9 + 1, NO
+line 982, instr: if l10 < l9 goto $stack114 = new java.lang.NumberFormatException, NO
+line 983, instr: $stack114 = new java.lang.NumberFormatException, NO
+line 985, instr: $stack116 = l9 + 1, NO
+line 988, instr: $stack107 = l9 + 1, NO
+line 990, instr: l6#28 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.String getMantissa(java.lang.String,int)>(l0, l9), NO
+line 992, instr: if l10 <= -1 goto (branch), NO
+line 993, instr: if l10 <= l2 goto l6#28 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.String getMantissa(java.lang.String,int)>(l0, l10), NO
+line 994, instr: $stack105 = new java.lang.NumberFormatException, NO
+line 996, instr: l6#28 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.String getMantissa(java.lang.String,int)>(l0, l10), NO
+line 999, instr: if $stack119 == 0 goto $stack101 = l2, NO
+line 1001, instr: l7#20 = null, NO
+line 1003, instr: if l11 == 0 goto (branch), NO
+line 1004, instr: if l10 <= -1 goto l8 = null, NO
+line 1005, instr: $stack98 = l10 + 1, NO
+line 1007, instr: l8 = null, NO
+line 1010, instr: $stack60 = l2 - 1, NO
+line 1012, instr: lookupswitch(l5#11) {     case 68: goto l13#69 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Double createDouble(java.lang.String)>(l0);     case 70: goto l13#63 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Float createFloat(java.lang.String)>(l0);     case 76: goto if l7#20 != null goto $stack62 = new java.lang.NumberFormatException;     case 100: goto l13#69 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Double createDouble(java.lang.String)>(l0);     case 102: goto l13#63 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Float createFloat(java.lang.String)>(l0);     case 108: goto if l7#20 != null goto $stack62 = new java.lang.NumberFormatException;     default: goto $stack88 = new java.lang.NumberFormatException; }, NO
+line 1015, instr: if l7#20 != null goto $stack62 = new java.lang.NumberFormatException, NO
+line 1017, instr: $stack65 = virtualinvoke l12.<java.lang.String: boolean isEmpty()>(), NO
+line 1019, instr: $stack67 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Long createLong(java.lang.String)>(l12), NO
+line 1023, instr: $stack164 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigInteger createBigInteger(java.lang.String)>(l12), NO
+line 1026, instr: $stack62 = new java.lang.NumberFormatException, NO
+line 1030, instr: l13#63 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Float createFloat(java.lang.String)>(l0), NO
+line 1031, instr: $stack74 = virtualinvoke l13#63.<java.lang.Float: boolean isInfinite()>(), NO
+line 1034, instr: return l13#63, NO
+line 1039, instr: goto [?= l13#69 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Double createDouble(java.lang.String)>(l0)], NO
+line 1044, instr: l13#69 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Double createDouble(java.lang.String)>(l0), NO
+line 1045, instr: $stack76 = virtualinvoke l13#69.<java.lang.Double: boolean isInfinite()>(), NO
+line 1046, instr: return l13#69, NO
+line 1050, instr: goto [?= $stack77 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigDecimal createBigDecimal(java.lang.String)>(l12)], NO
+line 1052, instr: $stack77 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigDecimal createBigDecimal(java.lang.String)>(l12), NO
+line 1058, instr: $stack88 = new java.lang.NumberFormatException, NO
+line 1063, instr: if l10 <= -1 goto l8 = null, NO
+line 1064, instr: $stack58 = l10 + 1, NO
+line 1066, instr: l8 = null, NO
+line 1068, instr: if l7#20 != null goto l12#81 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Float createFloat(java.lang.String)>(l0), NO
+line 1071, instr: $stack54 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Integer createInteger(java.lang.String)>(l0), NO
+line 1076, instr: $stack157 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Long createLong(java.lang.String)>(l0), NO
+line 1080, instr: $stack155 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigInteger createBigInteger(java.lang.String)>(l0), NO
+line 1085, instr: l12#81 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Float createFloat(java.lang.String)>(l0), NO
+line 1086, instr: l13#69 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.lang.Double createDouble(java.lang.String)>(l0), NO
+line 1087, instr: $stack29 = virtualinvoke l12#81.<java.lang.Float: boolean isInfinite()>(), NO
+line 1088, instr: $stack42 = virtualinvoke l12#81.<java.lang.Float: float floatValue()>(), NO
+line 1089, instr: $stack44 = virtualinvoke l12#81.<java.lang.Float: java.lang.String toString()>(), NO
+line 1090, instr: return l12#81, NO
+line 1092, instr: $stack30 = virtualinvoke l13#69.<java.lang.Double: boolean isInfinite()>(), NO
+line 1093, instr: l14 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigDecimal createBigDecimal(java.lang.String)>(l0), NO
+line 1094, instr: $stack35 = virtualinvoke l13#69.<java.lang.Double: double doubleValue()>(), NO
+line 1095, instr: return l13#69, NO
+line 1097, instr: return l14, NO
+line 1101, instr: goto [?= $stack31 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigDecimal createBigDecimal(java.lang.String)>(l0)], NO
+line 1102, instr: $stack31 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: java.math.BigDecimal createBigDecimal(java.lang.String)>(l0), NO
+line 1115, instr: l2 = virtualinvoke l0.<java.lang.String: char charAt(int)>(0), NO
+line 1116, instr: if l2 == 45 goto $stack7 = 1, NO
+line 1118, instr: if $stack7 == 0 goto $stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l1), NO
+line 1148, instr: $stack2 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: boolean isAllZeros(java.lang.String)>(l0), NO
+line 1160, instr: if l0 != null goto $stack2 = virtualinvoke l0.<java.lang.String: int length()>(), NO
+line 1161, instr: return 1, NO
+line 1163, instr: $stack2 = virtualinvoke l0.<java.lang.String: int length()>(), NO
+line 1164, instr: $stack3 = virtualinvoke l0.<java.lang.String: char charAt(int)>(l1), NO
+line 1165, instr: return 0, NO
+line 1168, instr: return 1, NO
+line 1181, instr: if l0 != null goto $stack1 = staticinvoke <java.lang.Float: java.lang.Float valueOf(java.lang.String)>(l0), NO
+line 1182, instr: return null, NO
+line 1184, instr: $stack1 = staticinvoke <java.lang.Float: java.lang.Float valueOf(java.lang.String)>(l0), NO
+line 1197, instr: if l0 != null goto $stack1 = staticinvoke <java.lang.Double: java.lang.Double valueOf(java.lang.String)>(l0), YES
+line 1198, instr: return null, NO
+line 1200, instr: $stack1 = staticinvoke <java.lang.Double: java.lang.Double valueOf(java.lang.String)>(l0), YES
+line 1215, instr: if l0 != null goto $stack1 = staticinvoke <java.lang.Integer: java.lang.Integer decode(java.lang.String)>(l0), YES
+line 1216, instr: return null, NO
+line 1219, instr: $stack1 = staticinvoke <java.lang.Integer: java.lang.Integer decode(java.lang.String)>(l0), YES
+line 1234, instr: if l0 != null goto $stack1 = staticinvoke <java.lang.Long: java.lang.Long decode(java.lang.String)>(l0), NO
+line 1235, instr: return null, NO
+line 1237, instr: $stack1 = staticinvoke <java.lang.Long: java.lang.Long decode(java.lang.String)>(l0), NO
+line 1251, instr: if l0 != null goto $stack6 = virtualinvoke l0.<java.lang.String: boolean isEmpty()>(), NO
+line 1252, instr: return null, NO
+line 1254, instr: $stack6 = virtualinvoke l0.<java.lang.String: boolean isEmpty()>(), NO
+line 1255, instr: $stack25 = new java.lang.NumberFormatException, NO
+line 1257, instr: l1 = 0, NO
+line 1258, instr: l2 = 10, NO
+line 1259, instr: l3 = 0, NO
+line 1260, instr: l4 = virtualinvoke l0.<java.lang.String: char charAt(int)>(0), NO
+line 1261, instr: if l4 != 45 goto (branch), NO
+line 1262, instr: l3 = 1, NO
+line 1263, instr: l1 = 1, NO
+line 1264, instr: if l4 != 43 goto $stack8 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String,int)>("0x", l1), NO
+line 1265, instr: l1 = 1, NO
+line 1267, instr: $stack8 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String,int)>("0x", l1), NO
+line 1268, instr: l2 = 16, NO
+line 1269, instr: l1 = l1 + 2, NO
+line 1270, instr: $stack13 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String,int)>("#", l1), NO
+line 1271, instr: l2 = 16, NO
+line 1272, instr: l1 = l1 + 1, NO
+line 1273, instr: $stack14 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String,int)>("0", l1), NO
+line 1274, instr: l2 = 8, NO
+line 1275, instr: l1 = l1 + 1, NO
+line 1278, instr: $stack9 = new java.math.BigInteger, NO
+line 1279, instr: if l3 == 0 goto $stack11 = $stack9, NO
+line 1292, instr: if l0 != null goto $stack1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isBlank(java.lang.CharSequence)>(l0), YES
+line 1293, instr: return null, NO
+line 1296, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isBlank(java.lang.CharSequence)>(l0), YES
+line 1297, instr: $stack3 = new java.lang.NumberFormatException, YES
+line 1299, instr: $stack2 = new java.math.BigDecimal, YES
+line 1313, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isNumeric(java.lang.CharSequence)>(l0), YES
+line 1334, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isEmpty(java.lang.CharSequence)>(l0), YES
+line 1335, instr: return 0, YES
+line 1337, instr: $stack2 = virtualinvoke l0.<java.lang.String: int length()>(), YES
+line 1338, instr: return 0, NO
+line 1340, instr: $stack5 = virtualinvoke l0.<java.lang.String: char charAt(int)>(0), YES
+line 1341, instr: $stack7 = virtualinvoke l0.<java.lang.String: int length()>(), NO
+line 1342, instr: return 0, NO
+line 1344, instr: $stack8 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: boolean withDecimalsParsing(java.lang.String,int)>(l0, 1), NO
+line 1346, instr: $stack6 = staticinvoke <comp5111.assignment.cut.Subject$NumberTasks: boolean withDecimalsParsing(java.lang.String,int)>(l0, 0), YES
+line 1350, instr: l2 = 0, YES
+line 1351, instr: l3 = l1, YES
+line 1352, instr: $stack6 = virtualinvoke l0.<java.lang.String: char charAt(int)>(l3), YES
+line 1353, instr: if $stack13 == 0 goto (branch), YES
+line 1354, instr: l2 = l2 + 1, NO
+line 1356, instr: if l2 <= 1 goto (branch), YES
+line 1357, instr: return 0, NO
+line 1359, instr: if l4 != 0 goto l3 = l3 + 1, YES
+line 1360, instr: return 0, YES
+line 1363, instr: return 1, NO
+line 1377, instr: $stack2 = l0 - l1, NO
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+line 297, instr: specialinvoke l0.<java.lang.Object: void <init>()>(), NO
+line 323, instr: if l0 != null goto $stack1 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), YES
+line 345, instr: l1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: int length(java.lang.CharSequence)>(l0), YES
+line 346, instr: if l1 != 0 goto l2 = 0, YES
+line 347, instr: return 1, YES
+line 349, instr: l2 = 0, YES
+line 350, instr: $stack4 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l2), YES
+line 351, instr: return 0, YES
+line 354, instr: return 1, NO
+line 377, instr: if l0 == null goto $stack2 = 1, YES
+line 412, instr: $stack3 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isEmpty(java.lang.CharSequence)>(l0), YES
+line 413, instr: return 0, YES
+line 415, instr: l1 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), YES
+line 416, instr: l2 = 1, YES
+line 417, instr: $stack5 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l2), YES
+line 418, instr: return 0, YES
+line 421, instr: return 1, NO
+line 448, instr: if l0 != null goto l1 = virtualinvoke l0.<java.lang.String: int length()>(), YES
+line 449, instr: return null, NO
+line 451, instr: l1 = virtualinvoke l0.<java.lang.String: int length()>(), YES
+line 452, instr: if l1 >= 2 goto l2 = l1 - 1, YES
+line 453, instr: return "", NO
+line 455, instr: l2 = l1 - 1, YES
+line 456, instr: l3 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), YES
+line 457, instr: l4 = virtualinvoke l0.<java.lang.String: char charAt(int)>(l2), YES
+line 458, instr: if l4 != 10 goto return l3, YES
+line 459, instr: $stack11 = l2 - 1, NO
+line 461, instr: return l3, YES
+line 490, instr: $stack3 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isEmpty(java.lang.CharSequence)>(l0), YES
+line 491, instr: return l0, NO
+line 494, instr: $stack4 = virtualinvoke l0.<java.lang.String: int length()>(), YES
+line 495, instr: l1 = virtualinvoke l0.<java.lang.String: char charAt(int)>(0), NO
+line 496, instr: if l1 == 13 goto return "", NO
+line 497, instr: return "", NO
+line 499, instr: return l0, NO
+line 502, instr: $stack5 = virtualinvoke l0.<java.lang.String: int length()>(), YES
+line 503, instr: l2 = virtualinvoke l0.<java.lang.String: char charAt(int)>(l1#2), YES
+line 505, instr: if l2 != 10 goto (branch), YES
+line 506, instr: $stack11 = l1#2 - 1, NO
+line 507, instr: l1#2 = l1#2 + -1, NO
+line 509, instr: if l2 == 13 goto $stack7 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l1#2), YES
+line 510, instr: l1#2 = l1#2 + 1, YES
+line 512, instr: $stack7 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l1#2), YES
+line 535, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: java.lang.String[] splitByCharacterType(java.lang.String,boolean)>(l0, 0), YES
+line 553, instr: if l0 != null goto $stack9 = virtualinvoke l0.<java.lang.String: boolean isEmpty()>(), YES
+line 554, instr: return null, NO
+line 556, instr: $stack9 = virtualinvoke l0.<java.lang.String: boolean isEmpty()>(), YES
+line 557, instr: $stack41 = <comp5111.assignment.cut.Subject$ArrayTasks: java.lang.String[] EMPTY_STRING_ARRAY>, YES
+line 559, instr: l2 = virtualinvoke l0.<java.lang.String: char[] toCharArray()>(), YES
+line 560, instr: $stack11 = new java.util.ArrayList, YES
+line 561, instr: l4 = 0, YES
+line 562, instr: $stack12 = l2[0], YES
+line 563, instr: l6 = 0 + 1, YES
+line 564, instr: $stack23 = l2[l6], NO
+line 565, instr: if l7 != l5 goto (branch), NO
+line 566, instr: goto [?= l6 = l6 + 1], NO
+line 568, instr: if l1 == 0 goto $stack25 = new java.lang.String, NO
+line 569, instr: l8 = l6 - 1, NO
+line 570, instr: if l8 == l4 goto (branch), NO
+line 571, instr: $stack38 = new java.lang.String, NO
+line 572, instr: l4 = l8, NO
+line 574, instr: goto [?= l5 = l7], NO
+line 575, instr: $stack25 = new java.lang.String, NO
+line 576, instr: l4 = l6, NO
+line 578, instr: l5 = l7, NO
+line 580, instr: $stack16 = new java.lang.String, YES
+line 581, instr: $stack20 = <comp5111.assignment.cut.Subject$ArrayTasks: java.lang.String[] EMPTY_STRING_ARRAY>, YES
+line 611, instr: $stack9 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isEmpty(java.lang.CharSequence)>(l0), YES
+line 612, instr: return 0, YES
+line 614, instr: l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), YES
+line 615, instr: l3 = lengthof l1, YES
+line 616, instr: l4 = l2 - 1, YES
+line 617, instr: l5 = l3 - 1, YES
+line 618, instr: l6 = 0, YES
+line 619, instr: l7 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l6), YES
+line 620, instr: l8 = 0, YES
+line 621, instr: $stack15 = l1[l8], YES
+line 622, instr: $stack18 = staticinvoke <java.lang.Character: boolean isHighSurrogate(char)>(l7), NO
+line 624, instr: return 1, NO
+line 626, instr: if l8 != l5 goto (branch), NO
+line 628, instr: return 1, NO
+line 630, instr: if l6 >= l4 goto l8 = l8 + 1, NO
+line 631, instr: return 1, NO
+line 636, instr: return 0, YES
+line 663, instr: if l0 == null goto return 1, YES
+line 664, instr: return 1, NO
+line 666, instr: l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), YES
+line 667, instr: l3 = l2 - 1, YES
+line 668, instr: l4 = lengthof l1, YES
+line 669, instr: l5 = l4 - 1, YES
+line 670, instr: l6 = 0, YES
+line 671, instr: l7 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l6), YES
+line 672, instr: l8 = 0, YES
+line 673, instr: $stack13 = l1[l8], YES
+line 674, instr: $stack16 = staticinvoke <java.lang.Character: boolean isHighSurrogate(char)>(l7), NO
+line 676, instr: return 0, NO
+line 678, instr: if l8 != l5 goto (branch), NO
+line 680, instr: return 0, NO
+line 682, instr: if l6 >= l3 goto l8 = l8 + 1, NO
+line 683, instr: return 0, NO
+line 688, instr: return 1, YES
+line 716, instr: $stack1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: java.lang.String[] splitByCharacterType(java.lang.String,boolean)>(l0, 1), YES
+line 742, instr: if l0 != l1 goto (branch), NO
+line 743, instr: return 1, NO
+line 745, instr: if l0 == null goto return 0, NO
+line 746, instr: return 0, NO
+line 748, instr: $stack4 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), NO
+line 749, instr: return 0, NO
+line 751, instr: $stack6 = l0 instanceof java.lang.String, NO
+line 752, instr: $stack15 = virtualinvoke l0.<java.lang.Object: boolean equals(java.lang.Object)>(l1), NO
+line 755, instr: l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), NO
+line 756, instr: l3 = 0, NO
+line 757, instr: $stack8 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l3), NO
+line 758, instr: return 0, NO
+line 761, instr: return 1, NO
+line 790, instr: l2 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: int length(java.lang.CharSequence)>(l0), NO
+line 791, instr: if l2 != 0 goto (branch), NO
+line 792, instr: return l0, NO
+line 795, instr: if l1 != null goto $stack4 = virtualinvoke l1.<java.lang.String: boolean isEmpty()>(), NO
+line 796, instr: if l2 == 0 goto $stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), NO
+line 797, instr: l2 = l2 + -1, NO
+line 799, instr: $stack4 = virtualinvoke l1.<java.lang.String: boolean isEmpty()>(), NO
+line 800, instr: return l0, NO
+line 802, instr: if l2 == 0 goto $stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), NO
+line 803, instr: l2 = l2 + -1, NO
+line 806, instr: $stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), NO
+line 833, instr: $stack5 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isEmpty(java.lang.CharSequence)>(l0), NO
+line 834, instr: return 0, NO
+line 836, instr: l1 = 0, NO
+line 837, instr: l2 = 0, NO
+line 838, instr: l3 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), NO
+line 839, instr: l4 = 0, NO
+line 840, instr: if l1 == 0 goto $stack9 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l4), NO
+line 841, instr: return 1, NO
+line 843, instr: $stack9 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l4), NO
+line 844, instr: l1 = 1, NO
+line 845, instr: $stack11 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l4), NO
+line 846, instr: l2 = 1, NO
+line 849, instr: if l1 == 0 goto $stack8 = 0, NO
+line 863, instr: if l0 == null goto return l0, NO
+line 864, instr: return l0, NO
+line 867, instr: l3 = virtualinvoke l0.<java.lang.String: int indexOf(java.lang.String)>(l1), NO
+line 869, instr: if l3 >= 0 goto l4 = virtualinvoke l0.<java.lang.String: int length()>(), NO
+line 870, instr: return l0, NO
+line 873, instr: l4 = virtualinvoke l0.<java.lang.String: int length()>(), NO
+line 875, instr: $stack10 = virtualinvoke l1.<java.lang.String: int length()>(), NO
+line 877, instr: $stack11 = virtualinvoke l1.<java.lang.String: int length()>(), NO
+line 878, instr: l0#4 = l2, NO
+line 880, instr: if l6 != l4 goto $stack12 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l3), NO
+line 881, instr: $stack16 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l3), NO
+line 885, instr: $stack12 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l3), NO
+line 887, instr: $stack13 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int)>(l6), NO
+line 890, instr: return l0#4, NO
+
+
 
