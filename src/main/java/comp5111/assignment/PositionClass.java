@@ -5,7 +5,7 @@ public class PositionClass implements Comparable<PositionClass>{
 	int columnnr;
 	public PositionClass(int linenr, int columnnr) {
 		this.linenr = linenr;
-		this.columnnr = columnnr;
+		this.columnnr = columnnr; 
 	}
 	
 	@Override
