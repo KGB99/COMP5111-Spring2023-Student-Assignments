@@ -32,10 +32,15 @@ public class Assignment1 {
 
 		// these args will be passed into soot.
 		// String[] classNames = Arrays.copyOfRange(args, 1, args.length);
-		String[] classNames = { "comp5111.assignment.cut.Subject", "comp5111.assignment.cut.Subject$ArrayTasks",
-				"comp5111.assignment.cut.Subject$BooleanTasks", "comp5111.assignment.cut.Subject$CharTasks",
-				"comp5111.assignment.cut.Subject$FilenameTasks", "comp5111.assignment.cut.Subject$GregorianTasks",
-				"comp5111.assignment.cut.Subject$NumberTasks", "comp5111.assignment.cut.Subject$StringTasks" };
+		String[] classNames = { "comp5111.assignment.cut.Subject",
+				"comp5111.assignment.cut.Subject$NumberTasks",
+				"comp5111.assignment.cut.Subject$CharTasks",
+				"comp5111.assignment.cut.Subject$GregorianTasks", 
+				"comp5111.assignment.cut.Subject$FilenameTasks", 
+				"comp5111.assignment.cut.Subject$ArrayTasks",
+				"comp5111.assignment.cut.Subject$StringTasks",
+				"comp5111.assignment.cut.Subject$BooleanTasks" 
+				};
 		subjectClasses = classNames;
 
 		// we set up path directions and options such as keeping the line numbers and
