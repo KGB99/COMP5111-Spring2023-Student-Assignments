@@ -1,0 +1,5712 @@
+LINE COVERAGE REPORT
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest
+
+==========================================================================
+comp5111.assignment.cut.Subject
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 42.94871794871795
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 90.32258064516128
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 51.02040816326531
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 94.73684210526315
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 77.77777777777779
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 64.5418326693227
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the lines along with a YES or NO after each line which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+line 12, YES
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+line 900, YES
+line 934, YES
+line 935, NO
+line 937, YES
+line 938, YES
+line 941, YES
+line 942, YES
+line 943, YES
+line 944, YES
+line 945, YES
+line 946, YES
+line 947, NO
+line 948, NO
+line 951, YES
+line 952, NO
+line 953, NO
+line 954, NO
+line 955, NO
+line 956, NO
+line 958, NO
+line 960, NO
+line 961, NO
+line 962, NO
+line 964, NO
+line 965, NO
+line 967, NO
+line 969, YES
+line 973, YES
+line 974, YES
+line 979, YES
+line 980, YES
+line 981, NO
+line 982, NO
+line 983, NO
+line 985, NO
+line 988, NO
+line 990, NO
+line 992, YES
+line 993, NO
+line 994, NO
+line 996, NO
+line 999, YES
+line 1001, YES
+line 1003, YES
+line 1004, YES
+line 1005, NO
+line 1007, YES
+line 1010, YES
+line 1012, YES
+line 1015, NO
+line 1017, NO
+line 1019, NO
+line 1023, NO
+line 1026, NO
+line 1030, NO
+line 1031, NO
+line 1034, NO
+line 1039, NO
+line 1044, NO
+line 1045, NO
+line 1046, NO
+line 1050, NO
+line 1052, NO
+line 1058, YES
+line 1063, NO
+line 1064, NO
+line 1066, NO
+line 1068, NO
+line 1071, NO
+line 1076, NO
+line 1080, NO
+line 1085, NO
+line 1086, NO
+line 1087, NO
+line 1088, NO
+line 1089, NO
+line 1090, NO
+line 1092, NO
+line 1093, NO
+line 1094, NO
+line 1095, NO
+line 1097, NO
+line 1101, NO
+line 1102, NO
+line 1115, YES
+line 1116, YES
+line 1118, YES
+line 1148, NO
+line 1160, NO
+line 1161, NO
+line 1163, NO
+line 1164, NO
+line 1165, NO
+line 1168, NO
+line 1181, YES
+line 1182, NO
+line 1184, YES
+line 1197, YES
+line 1198, NO
+line 1200, YES
+line 1215, YES
+line 1216, NO
+line 1219, YES
+line 1234, YES
+line 1235, NO
+line 1237, YES
+line 1251, YES
+line 1252, NO
+line 1254, YES
+line 1255, YES
+line 1257, YES
+line 1258, YES
+line 1259, YES
+line 1260, YES
+line 1261, YES
+line 1262, NO
+line 1263, NO
+line 1264, YES
+line 1265, NO
+line 1267, YES
+line 1268, NO
+line 1269, NO
+line 1270, YES
+line 1271, NO
+line 1272, NO
+line 1273, YES
+line 1274, NO
+line 1275, NO
+line 1278, YES
+line 1279, NO
+line 1292, YES
+line 1293, NO
+line 1296, YES
+line 1297, YES
+line 1299, YES
+line 1313, YES
+line 1334, YES
+line 1335, YES
+line 1337, YES
+line 1338, NO
+line 1340, YES
+line 1341, NO
+line 1342, NO
+line 1344, NO
+line 1346, YES
+line 1350, YES
+line 1351, YES
+line 1352, YES
+line 1353, YES
+line 1354, NO
+line 1356, YES
+line 1357, NO
+line 1359, YES
+line 1360, YES
+line 1363, NO
+line 1377, YES
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+line 1400, YES
+line 1441, YES
+line 1460, YES
+line 1479, YES
+line 1498, YES
+line 1517, YES
+line 1536, YES
+line 1555, YES
+line 1569, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+line 1684, YES
+line 1728, YES
+line 1729, NO
+line 1732, YES
+line 1759, YES
+line 1760, YES
+line 1761, YES
+line 1762, YES
+line 1812, YES
+line 1813, NO
+line 1815, YES
+line 1816, YES
+line 1818, YES
+line 1819, YES
+line 1821, YES
+line 1822, YES
+line 1824, YES
+line 1827, YES
+line 1861, YES
+line 1862, YES
+line 1864, YES
+line 1865, NO
+line 1867, NO
+line 1870, YES
+line 1871, YES
+line 1872, YES
+line 1874, YES
+line 1875, YES
+line 1878, YES
+line 1879, YES
+line 1880, YES
+line 1881, YES
+line 1882, YES
+line 1887, YES
+line 1888, YES
+line 1890, YES
+line 1891, YES
+line 1894, YES
+line 1901, YES
+line 1902, YES
+line 1903, YES
+line 1904, YES
+line 1905, YES
+line 1907, YES
+line 1908, YES
+line 1909, YES
+line 1910, NO
+line 1912, YES
+line 1913, YES
+line 1922, YES
+line 1923, YES
+line 1924, YES
+line 1925, YES
+line 1926, YES
+line 1927, YES
+line 1928, YES
+line 1929, YES
+line 1930, YES
+line 1931, YES
+line 1932, YES
+line 1933, YES
+line 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+line 14, YES
+line 16, YES
+line 30, YES
+line 42, YES
+line 51, YES
+line 52, NO
+line 54, YES
+line 55, NO
+line 57, YES
+line 81, YES
+line 82, NO
+line 84, YES
+line 100, YES
+line 101, NO
+line 103, YES
+line 104, YES
+line 105, YES
+line 115, YES
+line 116, YES
+line 117, YES
+line 121, NO
+line 122, NO
+line 123, NO
+line 124, NO
+line 125, NO
+line 128, NO
+line 129, NO
+line 134, NO
+line 144, YES
+line 145, YES
+line 146, NO
+line 148, YES
+line 149, YES
+line 150, NO
+line 152, YES
+line 153, YES
+line 154, NO
+line 155, NO
+line 157, NO
+line 158, NO
+line 159, NO
+line 161, NO
+line 163, YES
+line 164, NO
+line 166, YES
+line 167, YES
+line 168, YES
+line 169, YES
+line 170, YES
+line 171, YES
+line 172, YES
+line 173, NO
+line 176, YES
+line 178, YES
+line 179, NO
+line 180, NO
+line 182, NO
+line 183, NO
+line 185, YES
+line 186, YES
+line 190, YES
+line 192, YES
+line 193, NO
+line 194, NO
+line 195, NO
+line 198, YES
+line 200, YES
+line 212, YES
+line 213, YES
+line 214, YES
+line 216, YES
+line 218, YES
+line 219, YES
+line 222, YES
+line 232, YES
+line 245, YES
+line 246, NO
+line 249, YES
+line 265, YES
+line 266, YES
+line 269, NO
+line 270, NO
+line 271, NO
+line 272, NO
+line 273, NO
+line 274, NO
+line 275, NO
+line 276, NO
+line 277, NO
+line 279, NO
+line 280, NO
+line 281, NO
+line 282, NO
+line 285, NO
+line 287, NO
+line 289, NO
+line 290, NO
+line 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+line 1574, YES
+line 1579, YES
+line 1609, YES
+line 1619, YES
+line 1630, YES
+line 1641, YES
+line 1661, YES
+line 1662, YES
+line 1664, YES
+line 1665, YES
+line 1667, YES
+line 1668, YES
+line 1669, YES
+line 1670, NO
+line 1673, YES
+line 1674, YES
+line 1675, YES
+line 1676, YES
+line 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+line 297, YES
+line 323, YES
+line 345, YES
+line 346, YES
+line 347, YES
+line 349, YES
+line 350, YES
+line 351, YES
+line 354, NO
+line 377, YES
+line 412, YES
+line 413, YES
+line 415, YES
+line 416, YES
+line 417, YES
+line 418, YES
+line 421, YES
+line 448, YES
+line 449, NO
+line 451, YES
+line 452, YES
+line 453, YES
+line 455, YES
+line 456, YES
+line 457, YES
+line 458, YES
+line 459, NO
+line 461, YES
+line 490, YES
+line 491, YES
+line 494, YES
+line 495, YES
+line 496, YES
+line 497, NO
+line 499, YES
+line 502, YES
+line 503, YES
+line 505, YES
+line 506, NO
+line 507, NO
+line 509, YES
+line 510, YES
+line 512, YES
+line 535, YES
+line 553, YES
+line 554, NO
+line 556, YES
+line 557, YES
+line 559, YES
+line 560, YES
+line 561, YES
+line 562, YES
+line 563, YES
+line 564, YES
+line 565, YES
+line 566, YES
+line 568, YES
+line 569, NO
+line 570, NO
+line 571, NO
+line 572, NO
+line 574, NO
+line 575, YES
+line 576, YES
+line 578, YES
+line 580, YES
+line 581, YES
+line 611, YES
+line 612, YES
+line 614, YES
+line 615, YES
+line 616, YES
+line 617, YES
+line 618, YES
+line 619, YES
+line 620, YES
+line 621, YES
+line 622, NO
+line 624, NO
+line 626, NO
+line 628, NO
+line 630, NO
+line 631, NO
+line 636, YES
+line 663, YES
+line 664, YES
+line 666, YES
+line 667, YES
+line 668, YES
+line 669, YES
+line 670, YES
+line 671, YES
+line 672, YES
+line 673, YES
+line 674, NO
+line 676, NO
+line 678, NO
+line 680, NO
+line 682, NO
+line 683, NO
+line 688, YES
+line 716, YES
+line 742, YES
+line 743, YES
+line 745, YES
+line 746, YES
+line 748, YES
+line 749, YES
+line 751, YES
+line 752, YES
+line 755, NO
+line 756, NO
+line 757, NO
+line 758, NO
+line 761, NO
+line 790, YES
+line 791, YES
+line 792, YES
+line 795, YES
+line 796, NO
+line 797, NO
+line 799, YES
+line 800, YES
+line 802, YES
+line 803, YES
+line 806, YES
+line 833, YES
+line 834, YES
+line 836, YES
+line 837, YES
+line 838, YES
+line 839, YES
+line 840, YES
+line 841, NO
+line 843, YES
+line 844, NO
+line 845, YES
+line 846, YES
+line 849, YES
+line 863, YES
+line 864, NO
+line 867, YES
+line 869, YES
+line 870, YES
+line 873, YES
+line 875, YES
+line 877, YES
+line 878, YES
+line 880, YES
+line 881, YES
+line 885, YES
+line 887, YES
+line 890, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+line 1381, YES
+line 1393, YES
+line 1394, YES
+line 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest0
+
+==========================================================================
+comp5111.assignment.cut.Subject
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 42.94871794871795
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 90.32258064516128
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 51.02040816326531
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 94.73684210526315
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 77.77777777777779
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 64.5418326693227
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the lines along with a YES or NO after each line which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+line 12, YES
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+line 900, YES
+line 934, YES
+line 935, NO
+line 937, YES
+line 938, YES
+line 941, YES
+line 942, YES
+line 943, YES
+line 944, YES
+line 945, YES
+line 946, YES
+line 947, NO
+line 948, NO
+line 951, YES
+line 952, NO
+line 953, NO
+line 954, NO
+line 955, NO
+line 956, NO
+line 958, NO
+line 960, NO
+line 961, NO
+line 962, NO
+line 964, NO
+line 965, NO
+line 967, NO
+line 969, YES
+line 973, YES
+line 974, YES
+line 979, YES
+line 980, YES
+line 981, NO
+line 982, NO
+line 983, NO
+line 985, NO
+line 988, NO
+line 990, NO
+line 992, YES
+line 993, NO
+line 994, NO
+line 996, NO
+line 999, YES
+line 1001, YES
+line 1003, YES
+line 1004, YES
+line 1005, NO
+line 1007, YES
+line 1010, YES
+line 1012, YES
+line 1015, NO
+line 1017, NO
+line 1019, NO
+line 1023, NO
+line 1026, NO
+line 1030, NO
+line 1031, NO
+line 1034, NO
+line 1039, NO
+line 1044, NO
+line 1045, NO
+line 1046, NO
+line 1050, NO
+line 1052, NO
+line 1058, YES
+line 1063, NO
+line 1064, NO
+line 1066, NO
+line 1068, NO
+line 1071, NO
+line 1076, NO
+line 1080, NO
+line 1085, NO
+line 1086, NO
+line 1087, NO
+line 1088, NO
+line 1089, NO
+line 1090, NO
+line 1092, NO
+line 1093, NO
+line 1094, NO
+line 1095, NO
+line 1097, NO
+line 1101, NO
+line 1102, NO
+line 1115, YES
+line 1116, YES
+line 1118, YES
+line 1148, NO
+line 1160, NO
+line 1161, NO
+line 1163, NO
+line 1164, NO
+line 1165, NO
+line 1168, NO
+line 1181, YES
+line 1182, NO
+line 1184, YES
+line 1197, YES
+line 1198, NO
+line 1200, YES
+line 1215, YES
+line 1216, NO
+line 1219, YES
+line 1234, YES
+line 1235, NO
+line 1237, YES
+line 1251, YES
+line 1252, NO
+line 1254, YES
+line 1255, YES
+line 1257, YES
+line 1258, YES
+line 1259, YES
+line 1260, YES
+line 1261, YES
+line 1262, NO
+line 1263, NO
+line 1264, YES
+line 1265, NO
+line 1267, YES
+line 1268, NO
+line 1269, NO
+line 1270, YES
+line 1271, NO
+line 1272, NO
+line 1273, YES
+line 1274, NO
+line 1275, NO
+line 1278, YES
+line 1279, NO
+line 1292, YES
+line 1293, NO
+line 1296, YES
+line 1297, YES
+line 1299, YES
+line 1313, YES
+line 1334, YES
+line 1335, YES
+line 1337, YES
+line 1338, NO
+line 1340, YES
+line 1341, NO
+line 1342, NO
+line 1344, NO
+line 1346, YES
+line 1350, YES
+line 1351, YES
+line 1352, YES
+line 1353, YES
+line 1354, NO
+line 1356, YES
+line 1357, NO
+line 1359, YES
+line 1360, YES
+line 1363, NO
+line 1377, YES
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+line 1400, YES
+line 1441, YES
+line 1460, YES
+line 1479, YES
+line 1498, YES
+line 1517, YES
+line 1536, YES
+line 1555, YES
+line 1569, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+line 1684, YES
+line 1728, YES
+line 1729, NO
+line 1732, YES
+line 1759, YES
+line 1760, YES
+line 1761, YES
+line 1762, YES
+line 1812, YES
+line 1813, NO
+line 1815, YES
+line 1816, YES
+line 1818, YES
+line 1819, YES
+line 1821, YES
+line 1822, YES
+line 1824, YES
+line 1827, YES
+line 1861, YES
+line 1862, YES
+line 1864, YES
+line 1865, NO
+line 1867, NO
+line 1870, YES
+line 1871, YES
+line 1872, YES
+line 1874, YES
+line 1875, YES
+line 1878, YES
+line 1879, YES
+line 1880, YES
+line 1881, YES
+line 1882, YES
+line 1887, YES
+line 1888, YES
+line 1890, YES
+line 1891, YES
+line 1894, YES
+line 1901, YES
+line 1902, YES
+line 1903, YES
+line 1904, YES
+line 1905, YES
+line 1907, YES
+line 1908, YES
+line 1909, YES
+line 1910, NO
+line 1912, YES
+line 1913, YES
+line 1922, YES
+line 1923, YES
+line 1924, YES
+line 1925, YES
+line 1926, YES
+line 1927, YES
+line 1928, YES
+line 1929, YES
+line 1930, YES
+line 1931, YES
+line 1932, YES
+line 1933, YES
+line 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+line 14, YES
+line 16, YES
+line 30, YES
+line 42, YES
+line 51, YES
+line 52, NO
+line 54, YES
+line 55, NO
+line 57, YES
+line 81, YES
+line 82, NO
+line 84, YES
+line 100, YES
+line 101, NO
+line 103, YES
+line 104, YES
+line 105, YES
+line 115, YES
+line 116, YES
+line 117, YES
+line 121, NO
+line 122, NO
+line 123, NO
+line 124, NO
+line 125, NO
+line 128, NO
+line 129, NO
+line 134, NO
+line 144, YES
+line 145, YES
+line 146, NO
+line 148, YES
+line 149, YES
+line 150, NO
+line 152, YES
+line 153, YES
+line 154, NO
+line 155, NO
+line 157, NO
+line 158, NO
+line 159, NO
+line 161, NO
+line 163, YES
+line 164, NO
+line 166, YES
+line 167, YES
+line 168, YES
+line 169, YES
+line 170, YES
+line 171, YES
+line 172, YES
+line 173, NO
+line 176, YES
+line 178, YES
+line 179, NO
+line 180, NO
+line 182, NO
+line 183, NO
+line 185, YES
+line 186, YES
+line 190, YES
+line 192, YES
+line 193, NO
+line 194, NO
+line 195, NO
+line 198, YES
+line 200, YES
+line 212, YES
+line 213, YES
+line 214, YES
+line 216, YES
+line 218, YES
+line 219, YES
+line 222, YES
+line 232, YES
+line 245, YES
+line 246, NO
+line 249, YES
+line 265, YES
+line 266, YES
+line 269, NO
+line 270, NO
+line 271, NO
+line 272, NO
+line 273, NO
+line 274, NO
+line 275, NO
+line 276, NO
+line 277, NO
+line 279, NO
+line 280, NO
+line 281, NO
+line 282, NO
+line 285, NO
+line 287, NO
+line 289, NO
+line 290, NO
+line 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+line 1574, YES
+line 1579, YES
+line 1609, YES
+line 1619, YES
+line 1630, YES
+line 1641, YES
+line 1661, YES
+line 1662, YES
+line 1664, YES
+line 1665, YES
+line 1667, YES
+line 1668, YES
+line 1669, YES
+line 1670, NO
+line 1673, YES
+line 1674, YES
+line 1675, YES
+line 1676, YES
+line 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+line 297, YES
+line 323, YES
+line 345, YES
+line 346, YES
+line 347, YES
+line 349, YES
+line 350, YES
+line 351, YES
+line 354, NO
+line 377, YES
+line 412, YES
+line 413, YES
+line 415, YES
+line 416, YES
+line 417, YES
+line 418, YES
+line 421, YES
+line 448, YES
+line 449, NO
+line 451, YES
+line 452, YES
+line 453, YES
+line 455, YES
+line 456, YES
+line 457, YES
+line 458, YES
+line 459, NO
+line 461, YES
+line 490, YES
+line 491, YES
+line 494, YES
+line 495, YES
+line 496, YES
+line 497, NO
+line 499, YES
+line 502, YES
+line 503, YES
+line 505, YES
+line 506, NO
+line 507, NO
+line 509, YES
+line 510, YES
+line 512, YES
+line 535, YES
+line 553, YES
+line 554, NO
+line 556, YES
+line 557, YES
+line 559, YES
+line 560, YES
+line 561, YES
+line 562, YES
+line 563, YES
+line 564, YES
+line 565, YES
+line 566, YES
+line 568, YES
+line 569, NO
+line 570, NO
+line 571, NO
+line 572, NO
+line 574, NO
+line 575, YES
+line 576, YES
+line 578, YES
+line 580, YES
+line 581, YES
+line 611, YES
+line 612, YES
+line 614, YES
+line 615, YES
+line 616, YES
+line 617, YES
+line 618, YES
+line 619, YES
+line 620, YES
+line 621, YES
+line 622, NO
+line 624, NO
+line 626, NO
+line 628, NO
+line 630, NO
+line 631, NO
+line 636, YES
+line 663, YES
+line 664, YES
+line 666, YES
+line 667, YES
+line 668, YES
+line 669, YES
+line 670, YES
+line 671, YES
+line 672, YES
+line 673, YES
+line 674, NO
+line 676, NO
+line 678, NO
+line 680, NO
+line 682, NO
+line 683, NO
+line 688, YES
+line 716, YES
+line 742, YES
+line 743, YES
+line 745, YES
+line 746, YES
+line 748, YES
+line 749, YES
+line 751, YES
+line 752, YES
+line 755, NO
+line 756, NO
+line 757, NO
+line 758, NO
+line 761, NO
+line 790, YES
+line 791, YES
+line 792, YES
+line 795, YES
+line 796, NO
+line 797, NO
+line 799, YES
+line 800, YES
+line 802, YES
+line 803, YES
+line 806, YES
+line 833, YES
+line 834, YES
+line 836, YES
+line 837, YES
+line 838, YES
+line 839, YES
+line 840, YES
+line 841, NO
+line 843, YES
+line 844, NO
+line 845, YES
+line 846, YES
+line 849, YES
+line 863, YES
+line 864, NO
+line 867, YES
+line 869, YES
+line 870, YES
+line 873, YES
+line 875, YES
+line 877, YES
+line 878, YES
+line 880, YES
+line 881, YES
+line 885, YES
+line 887, YES
+line 890, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+line 1381, YES
+line 1393, YES
+line 1394, YES
+line 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest1
+
+==========================================================================
+comp5111.assignment.cut.Subject
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 42.94871794871795
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 90.32258064516128
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 51.02040816326531
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 94.73684210526315
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 77.77777777777779
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 64.5418326693227
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the lines along with a YES or NO after each line which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+line 12, YES
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+line 900, YES
+line 934, YES
+line 935, NO
+line 937, YES
+line 938, YES
+line 941, YES
+line 942, YES
+line 943, YES
+line 944, YES
+line 945, YES
+line 946, YES
+line 947, NO
+line 948, NO
+line 951, YES
+line 952, NO
+line 953, NO
+line 954, NO
+line 955, NO
+line 956, NO
+line 958, NO
+line 960, NO
+line 961, NO
+line 962, NO
+line 964, NO
+line 965, NO
+line 967, NO
+line 969, YES
+line 973, YES
+line 974, YES
+line 979, YES
+line 980, YES
+line 981, NO
+line 982, NO
+line 983, NO
+line 985, NO
+line 988, NO
+line 990, NO
+line 992, YES
+line 993, NO
+line 994, NO
+line 996, NO
+line 999, YES
+line 1001, YES
+line 1003, YES
+line 1004, YES
+line 1005, NO
+line 1007, YES
+line 1010, YES
+line 1012, YES
+line 1015, NO
+line 1017, NO
+line 1019, NO
+line 1023, NO
+line 1026, NO
+line 1030, NO
+line 1031, NO
+line 1034, NO
+line 1039, NO
+line 1044, NO
+line 1045, NO
+line 1046, NO
+line 1050, NO
+line 1052, NO
+line 1058, YES
+line 1063, NO
+line 1064, NO
+line 1066, NO
+line 1068, NO
+line 1071, NO
+line 1076, NO
+line 1080, NO
+line 1085, NO
+line 1086, NO
+line 1087, NO
+line 1088, NO
+line 1089, NO
+line 1090, NO
+line 1092, NO
+line 1093, NO
+line 1094, NO
+line 1095, NO
+line 1097, NO
+line 1101, NO
+line 1102, NO
+line 1115, YES
+line 1116, YES
+line 1118, YES
+line 1148, NO
+line 1160, NO
+line 1161, NO
+line 1163, NO
+line 1164, NO
+line 1165, NO
+line 1168, NO
+line 1181, YES
+line 1182, NO
+line 1184, YES
+line 1197, YES
+line 1198, NO
+line 1200, YES
+line 1215, YES
+line 1216, NO
+line 1219, YES
+line 1234, YES
+line 1235, NO
+line 1237, YES
+line 1251, YES
+line 1252, NO
+line 1254, YES
+line 1255, YES
+line 1257, YES
+line 1258, YES
+line 1259, YES
+line 1260, YES
+line 1261, YES
+line 1262, NO
+line 1263, NO
+line 1264, YES
+line 1265, NO
+line 1267, YES
+line 1268, NO
+line 1269, NO
+line 1270, YES
+line 1271, NO
+line 1272, NO
+line 1273, YES
+line 1274, NO
+line 1275, NO
+line 1278, YES
+line 1279, NO
+line 1292, YES
+line 1293, NO
+line 1296, YES
+line 1297, YES
+line 1299, YES
+line 1313, YES
+line 1334, YES
+line 1335, YES
+line 1337, YES
+line 1338, NO
+line 1340, YES
+line 1341, NO
+line 1342, NO
+line 1344, NO
+line 1346, YES
+line 1350, YES
+line 1351, YES
+line 1352, YES
+line 1353, YES
+line 1354, NO
+line 1356, YES
+line 1357, NO
+line 1359, YES
+line 1360, YES
+line 1363, NO
+line 1377, YES
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+line 1400, YES
+line 1441, YES
+line 1460, YES
+line 1479, YES
+line 1498, YES
+line 1517, YES
+line 1536, YES
+line 1555, YES
+line 1569, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+line 1684, YES
+line 1728, YES
+line 1729, NO
+line 1732, YES
+line 1759, YES
+line 1760, YES
+line 1761, YES
+line 1762, YES
+line 1812, YES
+line 1813, NO
+line 1815, YES
+line 1816, YES
+line 1818, YES
+line 1819, YES
+line 1821, YES
+line 1822, YES
+line 1824, YES
+line 1827, YES
+line 1861, YES
+line 1862, YES
+line 1864, YES
+line 1865, NO
+line 1867, NO
+line 1870, YES
+line 1871, YES
+line 1872, YES
+line 1874, YES
+line 1875, YES
+line 1878, YES
+line 1879, YES
+line 1880, YES
+line 1881, YES
+line 1882, YES
+line 1887, YES
+line 1888, YES
+line 1890, YES
+line 1891, YES
+line 1894, YES
+line 1901, YES
+line 1902, YES
+line 1903, YES
+line 1904, YES
+line 1905, YES
+line 1907, YES
+line 1908, YES
+line 1909, YES
+line 1910, NO
+line 1912, YES
+line 1913, YES
+line 1922, YES
+line 1923, YES
+line 1924, YES
+line 1925, YES
+line 1926, YES
+line 1927, YES
+line 1928, YES
+line 1929, YES
+line 1930, YES
+line 1931, YES
+line 1932, YES
+line 1933, YES
+line 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+line 14, YES
+line 16, YES
+line 30, YES
+line 42, YES
+line 51, YES
+line 52, NO
+line 54, YES
+line 55, NO
+line 57, YES
+line 81, YES
+line 82, NO
+line 84, YES
+line 100, YES
+line 101, NO
+line 103, YES
+line 104, YES
+line 105, YES
+line 115, YES
+line 116, YES
+line 117, YES
+line 121, NO
+line 122, NO
+line 123, NO
+line 124, NO
+line 125, NO
+line 128, NO
+line 129, NO
+line 134, NO
+line 144, YES
+line 145, YES
+line 146, NO
+line 148, YES
+line 149, YES
+line 150, NO
+line 152, YES
+line 153, YES
+line 154, NO
+line 155, NO
+line 157, NO
+line 158, NO
+line 159, NO
+line 161, NO
+line 163, YES
+line 164, NO
+line 166, YES
+line 167, YES
+line 168, YES
+line 169, YES
+line 170, YES
+line 171, YES
+line 172, YES
+line 173, NO
+line 176, YES
+line 178, YES
+line 179, NO
+line 180, NO
+line 182, NO
+line 183, NO
+line 185, YES
+line 186, YES
+line 190, YES
+line 192, YES
+line 193, NO
+line 194, NO
+line 195, NO
+line 198, YES
+line 200, YES
+line 212, YES
+line 213, YES
+line 214, YES
+line 216, YES
+line 218, YES
+line 219, YES
+line 222, YES
+line 232, YES
+line 245, YES
+line 246, NO
+line 249, YES
+line 265, YES
+line 266, YES
+line 269, NO
+line 270, NO
+line 271, NO
+line 272, NO
+line 273, NO
+line 274, NO
+line 275, NO
+line 276, NO
+line 277, NO
+line 279, NO
+line 280, NO
+line 281, NO
+line 282, NO
+line 285, NO
+line 287, NO
+line 289, NO
+line 290, NO
+line 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+line 1574, YES
+line 1579, YES
+line 1609, YES
+line 1619, YES
+line 1630, YES
+line 1641, YES
+line 1661, YES
+line 1662, YES
+line 1664, YES
+line 1665, YES
+line 1667, YES
+line 1668, YES
+line 1669, YES
+line 1670, NO
+line 1673, YES
+line 1674, YES
+line 1675, YES
+line 1676, YES
+line 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+line 297, YES
+line 323, YES
+line 345, YES
+line 346, YES
+line 347, YES
+line 349, YES
+line 350, YES
+line 351, YES
+line 354, NO
+line 377, YES
+line 412, YES
+line 413, YES
+line 415, YES
+line 416, YES
+line 417, YES
+line 418, YES
+line 421, YES
+line 448, YES
+line 449, NO
+line 451, YES
+line 452, YES
+line 453, YES
+line 455, YES
+line 456, YES
+line 457, YES
+line 458, YES
+line 459, NO
+line 461, YES
+line 490, YES
+line 491, YES
+line 494, YES
+line 495, YES
+line 496, YES
+line 497, NO
+line 499, YES
+line 502, YES
+line 503, YES
+line 505, YES
+line 506, NO
+line 507, NO
+line 509, YES
+line 510, YES
+line 512, YES
+line 535, YES
+line 553, YES
+line 554, NO
+line 556, YES
+line 557, YES
+line 559, YES
+line 560, YES
+line 561, YES
+line 562, YES
+line 563, YES
+line 564, YES
+line 565, YES
+line 566, YES
+line 568, YES
+line 569, NO
+line 570, NO
+line 571, NO
+line 572, NO
+line 574, NO
+line 575, YES
+line 576, YES
+line 578, YES
+line 580, YES
+line 581, YES
+line 611, YES
+line 612, YES
+line 614, YES
+line 615, YES
+line 616, YES
+line 617, YES
+line 618, YES
+line 619, YES
+line 620, YES
+line 621, YES
+line 622, NO
+line 624, NO
+line 626, NO
+line 628, NO
+line 630, NO
+line 631, NO
+line 636, YES
+line 663, YES
+line 664, YES
+line 666, YES
+line 667, YES
+line 668, YES
+line 669, YES
+line 670, YES
+line 671, YES
+line 672, YES
+line 673, YES
+line 674, NO
+line 676, NO
+line 678, NO
+line 680, NO
+line 682, NO
+line 683, NO
+line 688, YES
+line 716, YES
+line 742, YES
+line 743, YES
+line 745, YES
+line 746, YES
+line 748, YES
+line 749, YES
+line 751, YES
+line 752, YES
+line 755, NO
+line 756, NO
+line 757, NO
+line 758, NO
+line 761, NO
+line 790, YES
+line 791, YES
+line 792, YES
+line 795, YES
+line 796, NO
+line 797, NO
+line 799, YES
+line 800, YES
+line 802, YES
+line 803, YES
+line 806, YES
+line 833, YES
+line 834, YES
+line 836, YES
+line 837, YES
+line 838, YES
+line 839, YES
+line 840, YES
+line 841, NO
+line 843, YES
+line 844, NO
+line 845, YES
+line 846, YES
+line 849, YES
+line 863, YES
+line 864, NO
+line 867, YES
+line 869, YES
+line 870, YES
+line 873, YES
+line 875, YES
+line 877, YES
+line 878, YES
+line 880, YES
+line 881, YES
+line 885, YES
+line 887, YES
+line 890, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+line 1381, YES
+line 1393, YES
+line 1394, YES
+line 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest2
+
+==========================================================================
+comp5111.assignment.cut.Subject
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 42.94871794871795
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 90.32258064516128
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 51.02040816326531
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 94.73684210526315
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 77.77777777777779
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 64.5418326693227
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the lines along with a YES or NO after each line which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+line 12, YES
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+line 900, YES
+line 934, YES
+line 935, NO
+line 937, YES
+line 938, YES
+line 941, YES
+line 942, YES
+line 943, YES
+line 944, YES
+line 945, YES
+line 946, YES
+line 947, NO
+line 948, NO
+line 951, YES
+line 952, NO
+line 953, NO
+line 954, NO
+line 955, NO
+line 956, NO
+line 958, NO
+line 960, NO
+line 961, NO
+line 962, NO
+line 964, NO
+line 965, NO
+line 967, NO
+line 969, YES
+line 973, YES
+line 974, YES
+line 979, YES
+line 980, YES
+line 981, NO
+line 982, NO
+line 983, NO
+line 985, NO
+line 988, NO
+line 990, NO
+line 992, YES
+line 993, NO
+line 994, NO
+line 996, NO
+line 999, YES
+line 1001, YES
+line 1003, YES
+line 1004, YES
+line 1005, NO
+line 1007, YES
+line 1010, YES
+line 1012, YES
+line 1015, NO
+line 1017, NO
+line 1019, NO
+line 1023, NO
+line 1026, NO
+line 1030, NO
+line 1031, NO
+line 1034, NO
+line 1039, NO
+line 1044, NO
+line 1045, NO
+line 1046, NO
+line 1050, NO
+line 1052, NO
+line 1058, YES
+line 1063, NO
+line 1064, NO
+line 1066, NO
+line 1068, NO
+line 1071, NO
+line 1076, NO
+line 1080, NO
+line 1085, NO
+line 1086, NO
+line 1087, NO
+line 1088, NO
+line 1089, NO
+line 1090, NO
+line 1092, NO
+line 1093, NO
+line 1094, NO
+line 1095, NO
+line 1097, NO
+line 1101, NO
+line 1102, NO
+line 1115, YES
+line 1116, YES
+line 1118, YES
+line 1148, NO
+line 1160, NO
+line 1161, NO
+line 1163, NO
+line 1164, NO
+line 1165, NO
+line 1168, NO
+line 1181, YES
+line 1182, NO
+line 1184, YES
+line 1197, YES
+line 1198, NO
+line 1200, YES
+line 1215, YES
+line 1216, NO
+line 1219, YES
+line 1234, YES
+line 1235, NO
+line 1237, YES
+line 1251, YES
+line 1252, NO
+line 1254, YES
+line 1255, YES
+line 1257, YES
+line 1258, YES
+line 1259, YES
+line 1260, YES
+line 1261, YES
+line 1262, NO
+line 1263, NO
+line 1264, YES
+line 1265, NO
+line 1267, YES
+line 1268, NO
+line 1269, NO
+line 1270, YES
+line 1271, NO
+line 1272, NO
+line 1273, YES
+line 1274, NO
+line 1275, NO
+line 1278, YES
+line 1279, NO
+line 1292, YES
+line 1293, NO
+line 1296, YES
+line 1297, YES
+line 1299, YES
+line 1313, YES
+line 1334, YES
+line 1335, YES
+line 1337, YES
+line 1338, NO
+line 1340, YES
+line 1341, NO
+line 1342, NO
+line 1344, NO
+line 1346, YES
+line 1350, YES
+line 1351, YES
+line 1352, YES
+line 1353, YES
+line 1354, NO
+line 1356, YES
+line 1357, NO
+line 1359, YES
+line 1360, YES
+line 1363, NO
+line 1377, YES
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+line 1400, YES
+line 1441, YES
+line 1460, YES
+line 1479, YES
+line 1498, YES
+line 1517, YES
+line 1536, YES
+line 1555, YES
+line 1569, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+line 1684, YES
+line 1728, YES
+line 1729, NO
+line 1732, YES
+line 1759, YES
+line 1760, YES
+line 1761, YES
+line 1762, YES
+line 1812, YES
+line 1813, NO
+line 1815, YES
+line 1816, YES
+line 1818, YES
+line 1819, YES
+line 1821, YES
+line 1822, YES
+line 1824, YES
+line 1827, YES
+line 1861, YES
+line 1862, YES
+line 1864, YES
+line 1865, NO
+line 1867, NO
+line 1870, YES
+line 1871, YES
+line 1872, YES
+line 1874, YES
+line 1875, YES
+line 1878, YES
+line 1879, YES
+line 1880, YES
+line 1881, YES
+line 1882, YES
+line 1887, YES
+line 1888, YES
+line 1890, YES
+line 1891, YES
+line 1894, YES
+line 1901, YES
+line 1902, YES
+line 1903, YES
+line 1904, YES
+line 1905, YES
+line 1907, YES
+line 1908, YES
+line 1909, YES
+line 1910, NO
+line 1912, YES
+line 1913, YES
+line 1922, YES
+line 1923, YES
+line 1924, YES
+line 1925, YES
+line 1926, YES
+line 1927, YES
+line 1928, YES
+line 1929, YES
+line 1930, YES
+line 1931, YES
+line 1932, YES
+line 1933, YES
+line 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+line 14, YES
+line 16, YES
+line 30, YES
+line 42, YES
+line 51, YES
+line 52, NO
+line 54, YES
+line 55, NO
+line 57, YES
+line 81, YES
+line 82, NO
+line 84, YES
+line 100, YES
+line 101, NO
+line 103, YES
+line 104, YES
+line 105, YES
+line 115, YES
+line 116, YES
+line 117, YES
+line 121, NO
+line 122, NO
+line 123, NO
+line 124, NO
+line 125, NO
+line 128, NO
+line 129, NO
+line 134, NO
+line 144, YES
+line 145, YES
+line 146, NO
+line 148, YES
+line 149, YES
+line 150, NO
+line 152, YES
+line 153, YES
+line 154, NO
+line 155, NO
+line 157, NO
+line 158, NO
+line 159, NO
+line 161, NO
+line 163, YES
+line 164, NO
+line 166, YES
+line 167, YES
+line 168, YES
+line 169, YES
+line 170, YES
+line 171, YES
+line 172, YES
+line 173, NO
+line 176, YES
+line 178, YES
+line 179, NO
+line 180, NO
+line 182, NO
+line 183, NO
+line 185, YES
+line 186, YES
+line 190, YES
+line 192, YES
+line 193, NO
+line 194, NO
+line 195, NO
+line 198, YES
+line 200, YES
+line 212, YES
+line 213, YES
+line 214, YES
+line 216, YES
+line 218, YES
+line 219, YES
+line 222, YES
+line 232, YES
+line 245, YES
+line 246, NO
+line 249, YES
+line 265, YES
+line 266, YES
+line 269, NO
+line 270, NO
+line 271, NO
+line 272, NO
+line 273, NO
+line 274, NO
+line 275, NO
+line 276, NO
+line 277, NO
+line 279, NO
+line 280, NO
+line 281, NO
+line 282, NO
+line 285, NO
+line 287, NO
+line 289, NO
+line 290, NO
+line 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+line 1574, YES
+line 1579, YES
+line 1609, YES
+line 1619, YES
+line 1630, YES
+line 1641, YES
+line 1661, YES
+line 1662, YES
+line 1664, YES
+line 1665, YES
+line 1667, YES
+line 1668, YES
+line 1669, YES
+line 1670, NO
+line 1673, YES
+line 1674, YES
+line 1675, YES
+line 1676, YES
+line 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+line 297, YES
+line 323, YES
+line 345, YES
+line 346, YES
+line 347, YES
+line 349, YES
+line 350, YES
+line 351, YES
+line 354, NO
+line 377, YES
+line 412, YES
+line 413, YES
+line 415, YES
+line 416, YES
+line 417, YES
+line 418, YES
+line 421, YES
+line 448, YES
+line 449, NO
+line 451, YES
+line 452, YES
+line 453, YES
+line 455, YES
+line 456, YES
+line 457, YES
+line 458, YES
+line 459, NO
+line 461, YES
+line 490, YES
+line 491, YES
+line 494, YES
+line 495, YES
+line 496, YES
+line 497, NO
+line 499, YES
+line 502, YES
+line 503, YES
+line 505, YES
+line 506, NO
+line 507, NO
+line 509, YES
+line 510, YES
+line 512, YES
+line 535, YES
+line 553, YES
+line 554, NO
+line 556, YES
+line 557, YES
+line 559, YES
+line 560, YES
+line 561, YES
+line 562, YES
+line 563, YES
+line 564, YES
+line 565, YES
+line 566, YES
+line 568, YES
+line 569, NO
+line 570, NO
+line 571, NO
+line 572, NO
+line 574, NO
+line 575, YES
+line 576, YES
+line 578, YES
+line 580, YES
+line 581, YES
+line 611, YES
+line 612, YES
+line 614, YES
+line 615, YES
+line 616, YES
+line 617, YES
+line 618, YES
+line 619, YES
+line 620, YES
+line 621, YES
+line 622, NO
+line 624, NO
+line 626, NO
+line 628, NO
+line 630, NO
+line 631, NO
+line 636, YES
+line 663, YES
+line 664, YES
+line 666, YES
+line 667, YES
+line 668, YES
+line 669, YES
+line 670, YES
+line 671, YES
+line 672, YES
+line 673, YES
+line 674, NO
+line 676, NO
+line 678, NO
+line 680, NO
+line 682, NO
+line 683, NO
+line 688, YES
+line 716, YES
+line 742, YES
+line 743, YES
+line 745, YES
+line 746, YES
+line 748, YES
+line 749, YES
+line 751, YES
+line 752, YES
+line 755, NO
+line 756, NO
+line 757, NO
+line 758, NO
+line 761, NO
+line 790, YES
+line 791, YES
+line 792, YES
+line 795, YES
+line 796, NO
+line 797, NO
+line 799, YES
+line 800, YES
+line 802, YES
+line 803, YES
+line 806, YES
+line 833, YES
+line 834, YES
+line 836, YES
+line 837, YES
+line 838, YES
+line 839, YES
+line 840, YES
+line 841, NO
+line 843, YES
+line 844, NO
+line 845, YES
+line 846, YES
+line 849, YES
+line 863, YES
+line 864, NO
+line 867, YES
+line 869, YES
+line 870, YES
+line 873, YES
+line 875, YES
+line 877, YES
+line 878, YES
+line 880, YES
+line 881, YES
+line 885, YES
+line 887, YES
+line 890, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+line 1381, YES
+line 1393, YES
+line 1394, YES
+line 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest3
+
+==========================================================================
+comp5111.assignment.cut.Subject
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 42.94871794871795
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 90.32258064516128
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 51.02040816326531
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 94.73684210526315
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 77.77777777777779
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 64.5418326693227
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the lines along with a YES or NO after each line which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+line 12, YES
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+line 900, YES
+line 934, YES
+line 935, NO
+line 937, YES
+line 938, YES
+line 941, YES
+line 942, YES
+line 943, YES
+line 944, YES
+line 945, YES
+line 946, YES
+line 947, NO
+line 948, NO
+line 951, YES
+line 952, NO
+line 953, NO
+line 954, NO
+line 955, NO
+line 956, NO
+line 958, NO
+line 960, NO
+line 961, NO
+line 962, NO
+line 964, NO
+line 965, NO
+line 967, NO
+line 969, YES
+line 973, YES
+line 974, YES
+line 979, YES
+line 980, YES
+line 981, NO
+line 982, NO
+line 983, NO
+line 985, NO
+line 988, NO
+line 990, NO
+line 992, YES
+line 993, NO
+line 994, NO
+line 996, NO
+line 999, YES
+line 1001, YES
+line 1003, YES
+line 1004, YES
+line 1005, NO
+line 1007, YES
+line 1010, YES
+line 1012, YES
+line 1015, NO
+line 1017, NO
+line 1019, NO
+line 1023, NO
+line 1026, NO
+line 1030, NO
+line 1031, NO
+line 1034, NO
+line 1039, NO
+line 1044, NO
+line 1045, NO
+line 1046, NO
+line 1050, NO
+line 1052, NO
+line 1058, YES
+line 1063, NO
+line 1064, NO
+line 1066, NO
+line 1068, NO
+line 1071, NO
+line 1076, NO
+line 1080, NO
+line 1085, NO
+line 1086, NO
+line 1087, NO
+line 1088, NO
+line 1089, NO
+line 1090, NO
+line 1092, NO
+line 1093, NO
+line 1094, NO
+line 1095, NO
+line 1097, NO
+line 1101, NO
+line 1102, NO
+line 1115, YES
+line 1116, YES
+line 1118, YES
+line 1148, NO
+line 1160, NO
+line 1161, NO
+line 1163, NO
+line 1164, NO
+line 1165, NO
+line 1168, NO
+line 1181, YES
+line 1182, NO
+line 1184, YES
+line 1197, YES
+line 1198, NO
+line 1200, YES
+line 1215, YES
+line 1216, NO
+line 1219, YES
+line 1234, YES
+line 1235, NO
+line 1237, YES
+line 1251, YES
+line 1252, NO
+line 1254, YES
+line 1255, YES
+line 1257, YES
+line 1258, YES
+line 1259, YES
+line 1260, YES
+line 1261, YES
+line 1262, NO
+line 1263, NO
+line 1264, YES
+line 1265, NO
+line 1267, YES
+line 1268, NO
+line 1269, NO
+line 1270, YES
+line 1271, NO
+line 1272, NO
+line 1273, YES
+line 1274, NO
+line 1275, NO
+line 1278, YES
+line 1279, NO
+line 1292, YES
+line 1293, NO
+line 1296, YES
+line 1297, YES
+line 1299, YES
+line 1313, YES
+line 1334, YES
+line 1335, YES
+line 1337, YES
+line 1338, NO
+line 1340, YES
+line 1341, NO
+line 1342, NO
+line 1344, NO
+line 1346, YES
+line 1350, YES
+line 1351, YES
+line 1352, YES
+line 1353, YES
+line 1354, NO
+line 1356, YES
+line 1357, NO
+line 1359, YES
+line 1360, YES
+line 1363, NO
+line 1377, YES
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+line 1400, YES
+line 1441, YES
+line 1460, YES
+line 1479, YES
+line 1498, YES
+line 1517, YES
+line 1536, YES
+line 1555, YES
+line 1569, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+line 1684, YES
+line 1728, YES
+line 1729, NO
+line 1732, YES
+line 1759, YES
+line 1760, YES
+line 1761, YES
+line 1762, YES
+line 1812, YES
+line 1813, NO
+line 1815, YES
+line 1816, YES
+line 1818, YES
+line 1819, YES
+line 1821, YES
+line 1822, YES
+line 1824, YES
+line 1827, YES
+line 1861, YES
+line 1862, YES
+line 1864, YES
+line 1865, NO
+line 1867, NO
+line 1870, YES
+line 1871, YES
+line 1872, YES
+line 1874, YES
+line 1875, YES
+line 1878, YES
+line 1879, YES
+line 1880, YES
+line 1881, YES
+line 1882, YES
+line 1887, YES
+line 1888, YES
+line 1890, YES
+line 1891, YES
+line 1894, YES
+line 1901, YES
+line 1902, YES
+line 1903, YES
+line 1904, YES
+line 1905, YES
+line 1907, YES
+line 1908, YES
+line 1909, YES
+line 1910, NO
+line 1912, YES
+line 1913, YES
+line 1922, YES
+line 1923, YES
+line 1924, YES
+line 1925, YES
+line 1926, YES
+line 1927, YES
+line 1928, YES
+line 1929, YES
+line 1930, YES
+line 1931, YES
+line 1932, YES
+line 1933, YES
+line 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+line 14, YES
+line 16, YES
+line 30, YES
+line 42, YES
+line 51, YES
+line 52, NO
+line 54, YES
+line 55, NO
+line 57, YES
+line 81, YES
+line 82, NO
+line 84, YES
+line 100, YES
+line 101, NO
+line 103, YES
+line 104, YES
+line 105, YES
+line 115, YES
+line 116, YES
+line 117, YES
+line 121, NO
+line 122, NO
+line 123, NO
+line 124, NO
+line 125, NO
+line 128, NO
+line 129, NO
+line 134, NO
+line 144, YES
+line 145, YES
+line 146, NO
+line 148, YES
+line 149, YES
+line 150, NO
+line 152, YES
+line 153, YES
+line 154, NO
+line 155, NO
+line 157, NO
+line 158, NO
+line 159, NO
+line 161, NO
+line 163, YES
+line 164, NO
+line 166, YES
+line 167, YES
+line 168, YES
+line 169, YES
+line 170, YES
+line 171, YES
+line 172, YES
+line 173, NO
+line 176, YES
+line 178, YES
+line 179, NO
+line 180, NO
+line 182, NO
+line 183, NO
+line 185, YES
+line 186, YES
+line 190, YES
+line 192, YES
+line 193, NO
+line 194, NO
+line 195, NO
+line 198, YES
+line 200, YES
+line 212, YES
+line 213, YES
+line 214, YES
+line 216, YES
+line 218, YES
+line 219, YES
+line 222, YES
+line 232, YES
+line 245, YES
+line 246, NO
+line 249, YES
+line 265, YES
+line 266, YES
+line 269, NO
+line 270, NO
+line 271, NO
+line 272, NO
+line 273, NO
+line 274, NO
+line 275, NO
+line 276, NO
+line 277, NO
+line 279, NO
+line 280, NO
+line 281, NO
+line 282, NO
+line 285, NO
+line 287, NO
+line 289, NO
+line 290, NO
+line 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+line 1574, YES
+line 1579, YES
+line 1609, YES
+line 1619, YES
+line 1630, YES
+line 1641, YES
+line 1661, YES
+line 1662, YES
+line 1664, YES
+line 1665, YES
+line 1667, YES
+line 1668, YES
+line 1669, YES
+line 1670, NO
+line 1673, YES
+line 1674, YES
+line 1675, YES
+line 1676, YES
+line 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+line 297, YES
+line 323, YES
+line 345, YES
+line 346, YES
+line 347, YES
+line 349, YES
+line 350, YES
+line 351, YES
+line 354, NO
+line 377, YES
+line 412, YES
+line 413, YES
+line 415, YES
+line 416, YES
+line 417, YES
+line 418, YES
+line 421, YES
+line 448, YES
+line 449, NO
+line 451, YES
+line 452, YES
+line 453, YES
+line 455, YES
+line 456, YES
+line 457, YES
+line 458, YES
+line 459, NO
+line 461, YES
+line 490, YES
+line 491, YES
+line 494, YES
+line 495, YES
+line 496, YES
+line 497, NO
+line 499, YES
+line 502, YES
+line 503, YES
+line 505, YES
+line 506, NO
+line 507, NO
+line 509, YES
+line 510, YES
+line 512, YES
+line 535, YES
+line 553, YES
+line 554, NO
+line 556, YES
+line 557, YES
+line 559, YES
+line 560, YES
+line 561, YES
+line 562, YES
+line 563, YES
+line 564, YES
+line 565, YES
+line 566, YES
+line 568, YES
+line 569, NO
+line 570, NO
+line 571, NO
+line 572, NO
+line 574, NO
+line 575, YES
+line 576, YES
+line 578, YES
+line 580, YES
+line 581, YES
+line 611, YES
+line 612, YES
+line 614, YES
+line 615, YES
+line 616, YES
+line 617, YES
+line 618, YES
+line 619, YES
+line 620, YES
+line 621, YES
+line 622, NO
+line 624, NO
+line 626, NO
+line 628, NO
+line 630, NO
+line 631, NO
+line 636, YES
+line 663, YES
+line 664, YES
+line 666, YES
+line 667, YES
+line 668, YES
+line 669, YES
+line 670, YES
+line 671, YES
+line 672, YES
+line 673, YES
+line 674, NO
+line 676, NO
+line 678, NO
+line 680, NO
+line 682, NO
+line 683, NO
+line 688, YES
+line 716, YES
+line 742, YES
+line 743, YES
+line 745, YES
+line 746, YES
+line 748, YES
+line 749, YES
+line 751, YES
+line 752, YES
+line 755, NO
+line 756, NO
+line 757, NO
+line 758, NO
+line 761, NO
+line 790, YES
+line 791, YES
+line 792, YES
+line 795, YES
+line 796, NO
+line 797, NO
+line 799, YES
+line 800, YES
+line 802, YES
+line 803, YES
+line 806, YES
+line 833, YES
+line 834, YES
+line 836, YES
+line 837, YES
+line 838, YES
+line 839, YES
+line 840, YES
+line 841, NO
+line 843, YES
+line 844, NO
+line 845, YES
+line 846, YES
+line 849, YES
+line 863, YES
+line 864, NO
+line 867, YES
+line 869, YES
+line 870, YES
+line 873, YES
+line 875, YES
+line 877, YES
+line 878, YES
+line 880, YES
+line 881, YES
+line 885, YES
+line 887, YES
+line 890, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+line 1381, YES
+line 1393, YES
+line 1394, YES
+line 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest4
+
+==========================================================================
+comp5111.assignment.cut.Subject
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 42.94871794871795
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 90.32258064516128
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 51.02040816326531
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 94.73684210526315
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 77.77777777777779
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 64.5418326693227
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the lines along with a YES or NO after each line which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+line 12, YES
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+line 900, YES
+line 934, YES
+line 935, NO
+line 937, YES
+line 938, YES
+line 941, YES
+line 942, YES
+line 943, YES
+line 944, YES
+line 945, YES
+line 946, YES
+line 947, NO
+line 948, NO
+line 951, YES
+line 952, NO
+line 953, NO
+line 954, NO
+line 955, NO
+line 956, NO
+line 958, NO
+line 960, NO
+line 961, NO
+line 962, NO
+line 964, NO
+line 965, NO
+line 967, NO
+line 969, YES
+line 973, YES
+line 974, YES
+line 979, YES
+line 980, YES
+line 981, NO
+line 982, NO
+line 983, NO
+line 985, NO
+line 988, NO
+line 990, NO
+line 992, YES
+line 993, NO
+line 994, NO
+line 996, NO
+line 999, YES
+line 1001, YES
+line 1003, YES
+line 1004, YES
+line 1005, NO
+line 1007, YES
+line 1010, YES
+line 1012, YES
+line 1015, NO
+line 1017, NO
+line 1019, NO
+line 1023, NO
+line 1026, NO
+line 1030, NO
+line 1031, NO
+line 1034, NO
+line 1039, NO
+line 1044, NO
+line 1045, NO
+line 1046, NO
+line 1050, NO
+line 1052, NO
+line 1058, YES
+line 1063, NO
+line 1064, NO
+line 1066, NO
+line 1068, NO
+line 1071, NO
+line 1076, NO
+line 1080, NO
+line 1085, NO
+line 1086, NO
+line 1087, NO
+line 1088, NO
+line 1089, NO
+line 1090, NO
+line 1092, NO
+line 1093, NO
+line 1094, NO
+line 1095, NO
+line 1097, NO
+line 1101, NO
+line 1102, NO
+line 1115, YES
+line 1116, YES
+line 1118, YES
+line 1148, NO
+line 1160, NO
+line 1161, NO
+line 1163, NO
+line 1164, NO
+line 1165, NO
+line 1168, NO
+line 1181, YES
+line 1182, NO
+line 1184, YES
+line 1197, YES
+line 1198, NO
+line 1200, YES
+line 1215, YES
+line 1216, NO
+line 1219, YES
+line 1234, YES
+line 1235, NO
+line 1237, YES
+line 1251, YES
+line 1252, NO
+line 1254, YES
+line 1255, YES
+line 1257, YES
+line 1258, YES
+line 1259, YES
+line 1260, YES
+line 1261, YES
+line 1262, NO
+line 1263, NO
+line 1264, YES
+line 1265, NO
+line 1267, YES
+line 1268, NO
+line 1269, NO
+line 1270, YES
+line 1271, NO
+line 1272, NO
+line 1273, YES
+line 1274, NO
+line 1275, NO
+line 1278, YES
+line 1279, NO
+line 1292, YES
+line 1293, NO
+line 1296, YES
+line 1297, YES
+line 1299, YES
+line 1313, YES
+line 1334, YES
+line 1335, YES
+line 1337, YES
+line 1338, NO
+line 1340, YES
+line 1341, NO
+line 1342, NO
+line 1344, NO
+line 1346, YES
+line 1350, YES
+line 1351, YES
+line 1352, YES
+line 1353, YES
+line 1354, NO
+line 1356, YES
+line 1357, NO
+line 1359, YES
+line 1360, YES
+line 1363, NO
+line 1377, YES
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+line 1400, YES
+line 1441, YES
+line 1460, YES
+line 1479, YES
+line 1498, YES
+line 1517, YES
+line 1536, YES
+line 1555, YES
+line 1569, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+line 1684, YES
+line 1728, YES
+line 1729, NO
+line 1732, YES
+line 1759, YES
+line 1760, YES
+line 1761, YES
+line 1762, YES
+line 1812, YES
+line 1813, NO
+line 1815, YES
+line 1816, YES
+line 1818, YES
+line 1819, YES
+line 1821, YES
+line 1822, YES
+line 1824, YES
+line 1827, YES
+line 1861, YES
+line 1862, YES
+line 1864, YES
+line 1865, NO
+line 1867, NO
+line 1870, YES
+line 1871, YES
+line 1872, YES
+line 1874, YES
+line 1875, YES
+line 1878, YES
+line 1879, YES
+line 1880, YES
+line 1881, YES
+line 1882, YES
+line 1887, YES
+line 1888, YES
+line 1890, YES
+line 1891, YES
+line 1894, YES
+line 1901, YES
+line 1902, YES
+line 1903, YES
+line 1904, YES
+line 1905, YES
+line 1907, YES
+line 1908, YES
+line 1909, YES
+line 1910, NO
+line 1912, YES
+line 1913, YES
+line 1922, YES
+line 1923, YES
+line 1924, YES
+line 1925, YES
+line 1926, YES
+line 1927, YES
+line 1928, YES
+line 1929, YES
+line 1930, YES
+line 1931, YES
+line 1932, YES
+line 1933, YES
+line 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+line 14, YES
+line 16, YES
+line 30, YES
+line 42, YES
+line 51, YES
+line 52, NO
+line 54, YES
+line 55, NO
+line 57, YES
+line 81, YES
+line 82, NO
+line 84, YES
+line 100, YES
+line 101, NO
+line 103, YES
+line 104, YES
+line 105, YES
+line 115, YES
+line 116, YES
+line 117, YES
+line 121, NO
+line 122, NO
+line 123, NO
+line 124, NO
+line 125, NO
+line 128, NO
+line 129, NO
+line 134, NO
+line 144, YES
+line 145, YES
+line 146, NO
+line 148, YES
+line 149, YES
+line 150, NO
+line 152, YES
+line 153, YES
+line 154, NO
+line 155, NO
+line 157, NO
+line 158, NO
+line 159, NO
+line 161, NO
+line 163, YES
+line 164, NO
+line 166, YES
+line 167, YES
+line 168, YES
+line 169, YES
+line 170, YES
+line 171, YES
+line 172, YES
+line 173, NO
+line 176, YES
+line 178, YES
+line 179, NO
+line 180, NO
+line 182, NO
+line 183, NO
+line 185, YES
+line 186, YES
+line 190, YES
+line 192, YES
+line 193, NO
+line 194, NO
+line 195, NO
+line 198, YES
+line 200, YES
+line 212, YES
+line 213, YES
+line 214, YES
+line 216, YES
+line 218, YES
+line 219, YES
+line 222, YES
+line 232, YES
+line 245, YES
+line 246, NO
+line 249, YES
+line 265, YES
+line 266, YES
+line 269, NO
+line 270, NO
+line 271, NO
+line 272, NO
+line 273, NO
+line 274, NO
+line 275, NO
+line 276, NO
+line 277, NO
+line 279, NO
+line 280, NO
+line 281, NO
+line 282, NO
+line 285, NO
+line 287, NO
+line 289, NO
+line 290, NO
+line 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+line 1574, YES
+line 1579, YES
+line 1609, YES
+line 1619, YES
+line 1630, YES
+line 1641, YES
+line 1661, YES
+line 1662, YES
+line 1664, YES
+line 1665, YES
+line 1667, YES
+line 1668, YES
+line 1669, YES
+line 1670, NO
+line 1673, YES
+line 1674, YES
+line 1675, YES
+line 1676, YES
+line 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+line 297, YES
+line 323, YES
+line 345, YES
+line 346, YES
+line 347, YES
+line 349, YES
+line 350, YES
+line 351, YES
+line 354, NO
+line 377, YES
+line 412, YES
+line 413, YES
+line 415, YES
+line 416, YES
+line 417, YES
+line 418, YES
+line 421, YES
+line 448, YES
+line 449, NO
+line 451, YES
+line 452, YES
+line 453, YES
+line 455, YES
+line 456, YES
+line 457, YES
+line 458, YES
+line 459, NO
+line 461, YES
+line 490, YES
+line 491, YES
+line 494, YES
+line 495, YES
+line 496, YES
+line 497, NO
+line 499, YES
+line 502, YES
+line 503, YES
+line 505, YES
+line 506, NO
+line 507, NO
+line 509, YES
+line 510, YES
+line 512, YES
+line 535, YES
+line 553, YES
+line 554, NO
+line 556, YES
+line 557, YES
+line 559, YES
+line 560, YES
+line 561, YES
+line 562, YES
+line 563, YES
+line 564, YES
+line 565, YES
+line 566, YES
+line 568, YES
+line 569, NO
+line 570, NO
+line 571, NO
+line 572, NO
+line 574, NO
+line 575, YES
+line 576, YES
+line 578, YES
+line 580, YES
+line 581, YES
+line 611, YES
+line 612, YES
+line 614, YES
+line 615, YES
+line 616, YES
+line 617, YES
+line 618, YES
+line 619, YES
+line 620, YES
+line 621, YES
+line 622, NO
+line 624, NO
+line 626, NO
+line 628, NO
+line 630, NO
+line 631, NO
+line 636, YES
+line 663, YES
+line 664, YES
+line 666, YES
+line 667, YES
+line 668, YES
+line 669, YES
+line 670, YES
+line 671, YES
+line 672, YES
+line 673, YES
+line 674, NO
+line 676, NO
+line 678, NO
+line 680, NO
+line 682, NO
+line 683, NO
+line 688, YES
+line 716, YES
+line 742, YES
+line 743, YES
+line 745, YES
+line 746, YES
+line 748, YES
+line 749, YES
+line 751, YES
+line 752, YES
+line 755, NO
+line 756, NO
+line 757, NO
+line 758, NO
+line 761, NO
+line 790, YES
+line 791, YES
+line 792, YES
+line 795, YES
+line 796, NO
+line 797, NO
+line 799, YES
+line 800, YES
+line 802, YES
+line 803, YES
+line 806, YES
+line 833, YES
+line 834, YES
+line 836, YES
+line 837, YES
+line 838, YES
+line 839, YES
+line 840, YES
+line 841, NO
+line 843, YES
+line 844, NO
+line 845, YES
+line 846, YES
+line 849, YES
+line 863, YES
+line 864, NO
+line 867, YES
+line 869, YES
+line 870, YES
+line 873, YES
+line 875, YES
+line 877, YES
+line 878, YES
+line 880, YES
+line 881, YES
+line 885, YES
+line 887, YES
+line 890, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+line 1381, YES
+line 1393, YES
+line 1394, YES
+line 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest5
+
+==========================================================================
+comp5111.assignment.cut.Subject
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 42.94871794871795
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 90.32258064516128
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 51.02040816326531
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 94.73684210526315
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 77.77777777777779
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 64.5418326693227
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the lines along with a YES or NO after each line which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+line 12, YES
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+line 900, YES
+line 934, YES
+line 935, NO
+line 937, YES
+line 938, YES
+line 941, YES
+line 942, YES
+line 943, YES
+line 944, YES
+line 945, YES
+line 946, YES
+line 947, NO
+line 948, NO
+line 951, YES
+line 952, NO
+line 953, NO
+line 954, NO
+line 955, NO
+line 956, NO
+line 958, NO
+line 960, NO
+line 961, NO
+line 962, NO
+line 964, NO
+line 965, NO
+line 967, NO
+line 969, YES
+line 973, YES
+line 974, YES
+line 979, YES
+line 980, YES
+line 981, NO
+line 982, NO
+line 983, NO
+line 985, NO
+line 988, NO
+line 990, NO
+line 992, YES
+line 993, NO
+line 994, NO
+line 996, NO
+line 999, YES
+line 1001, YES
+line 1003, YES
+line 1004, YES
+line 1005, NO
+line 1007, YES
+line 1010, YES
+line 1012, YES
+line 1015, NO
+line 1017, NO
+line 1019, NO
+line 1023, NO
+line 1026, NO
+line 1030, NO
+line 1031, NO
+line 1034, NO
+line 1039, NO
+line 1044, NO
+line 1045, NO
+line 1046, NO
+line 1050, NO
+line 1052, NO
+line 1058, YES
+line 1063, NO
+line 1064, NO
+line 1066, NO
+line 1068, NO
+line 1071, NO
+line 1076, NO
+line 1080, NO
+line 1085, NO
+line 1086, NO
+line 1087, NO
+line 1088, NO
+line 1089, NO
+line 1090, NO
+line 1092, NO
+line 1093, NO
+line 1094, NO
+line 1095, NO
+line 1097, NO
+line 1101, NO
+line 1102, NO
+line 1115, YES
+line 1116, YES
+line 1118, YES
+line 1148, NO
+line 1160, NO
+line 1161, NO
+line 1163, NO
+line 1164, NO
+line 1165, NO
+line 1168, NO
+line 1181, YES
+line 1182, NO
+line 1184, YES
+line 1197, YES
+line 1198, NO
+line 1200, YES
+line 1215, YES
+line 1216, NO
+line 1219, YES
+line 1234, YES
+line 1235, NO
+line 1237, YES
+line 1251, YES
+line 1252, NO
+line 1254, YES
+line 1255, YES
+line 1257, YES
+line 1258, YES
+line 1259, YES
+line 1260, YES
+line 1261, YES
+line 1262, NO
+line 1263, NO
+line 1264, YES
+line 1265, NO
+line 1267, YES
+line 1268, NO
+line 1269, NO
+line 1270, YES
+line 1271, NO
+line 1272, NO
+line 1273, YES
+line 1274, NO
+line 1275, NO
+line 1278, YES
+line 1279, NO
+line 1292, YES
+line 1293, NO
+line 1296, YES
+line 1297, YES
+line 1299, YES
+line 1313, YES
+line 1334, YES
+line 1335, YES
+line 1337, YES
+line 1338, NO
+line 1340, YES
+line 1341, NO
+line 1342, NO
+line 1344, NO
+line 1346, YES
+line 1350, YES
+line 1351, YES
+line 1352, YES
+line 1353, YES
+line 1354, NO
+line 1356, YES
+line 1357, NO
+line 1359, YES
+line 1360, YES
+line 1363, NO
+line 1377, YES
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+line 1400, YES
+line 1441, YES
+line 1460, YES
+line 1479, YES
+line 1498, YES
+line 1517, YES
+line 1536, YES
+line 1555, YES
+line 1569, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+line 1684, YES
+line 1728, YES
+line 1729, NO
+line 1732, YES
+line 1759, YES
+line 1760, YES
+line 1761, YES
+line 1762, YES
+line 1812, YES
+line 1813, NO
+line 1815, YES
+line 1816, YES
+line 1818, YES
+line 1819, YES
+line 1821, YES
+line 1822, YES
+line 1824, YES
+line 1827, YES
+line 1861, YES
+line 1862, YES
+line 1864, YES
+line 1865, NO
+line 1867, NO
+line 1870, YES
+line 1871, YES
+line 1872, YES
+line 1874, YES
+line 1875, YES
+line 1878, YES
+line 1879, YES
+line 1880, YES
+line 1881, YES
+line 1882, YES
+line 1887, YES
+line 1888, YES
+line 1890, YES
+line 1891, YES
+line 1894, YES
+line 1901, YES
+line 1902, YES
+line 1903, YES
+line 1904, YES
+line 1905, YES
+line 1907, YES
+line 1908, YES
+line 1909, YES
+line 1910, NO
+line 1912, YES
+line 1913, YES
+line 1922, YES
+line 1923, YES
+line 1924, YES
+line 1925, YES
+line 1926, YES
+line 1927, YES
+line 1928, YES
+line 1929, YES
+line 1930, YES
+line 1931, YES
+line 1932, YES
+line 1933, YES
+line 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+line 14, YES
+line 16, YES
+line 30, YES
+line 42, YES
+line 51, YES
+line 52, NO
+line 54, YES
+line 55, NO
+line 57, YES
+line 81, YES
+line 82, NO
+line 84, YES
+line 100, YES
+line 101, NO
+line 103, YES
+line 104, YES
+line 105, YES
+line 115, YES
+line 116, YES
+line 117, YES
+line 121, NO
+line 122, NO
+line 123, NO
+line 124, NO
+line 125, NO
+line 128, NO
+line 129, NO
+line 134, NO
+line 144, YES
+line 145, YES
+line 146, NO
+line 148, YES
+line 149, YES
+line 150, NO
+line 152, YES
+line 153, YES
+line 154, NO
+line 155, NO
+line 157, NO
+line 158, NO
+line 159, NO
+line 161, NO
+line 163, YES
+line 164, NO
+line 166, YES
+line 167, YES
+line 168, YES
+line 169, YES
+line 170, YES
+line 171, YES
+line 172, YES
+line 173, NO
+line 176, YES
+line 178, YES
+line 179, NO
+line 180, NO
+line 182, NO
+line 183, NO
+line 185, YES
+line 186, YES
+line 190, YES
+line 192, YES
+line 193, NO
+line 194, NO
+line 195, NO
+line 198, YES
+line 200, YES
+line 212, YES
+line 213, YES
+line 214, YES
+line 216, YES
+line 218, YES
+line 219, YES
+line 222, YES
+line 232, YES
+line 245, YES
+line 246, NO
+line 249, YES
+line 265, YES
+line 266, YES
+line 269, NO
+line 270, NO
+line 271, NO
+line 272, NO
+line 273, NO
+line 274, NO
+line 275, NO
+line 276, NO
+line 277, NO
+line 279, NO
+line 280, NO
+line 281, NO
+line 282, NO
+line 285, NO
+line 287, NO
+line 289, NO
+line 290, NO
+line 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+line 1574, YES
+line 1579, YES
+line 1609, YES
+line 1619, YES
+line 1630, YES
+line 1641, YES
+line 1661, YES
+line 1662, YES
+line 1664, YES
+line 1665, YES
+line 1667, YES
+line 1668, YES
+line 1669, YES
+line 1670, NO
+line 1673, YES
+line 1674, YES
+line 1675, YES
+line 1676, YES
+line 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+line 297, YES
+line 323, YES
+line 345, YES
+line 346, YES
+line 347, YES
+line 349, YES
+line 350, YES
+line 351, YES
+line 354, NO
+line 377, YES
+line 412, YES
+line 413, YES
+line 415, YES
+line 416, YES
+line 417, YES
+line 418, YES
+line 421, YES
+line 448, YES
+line 449, NO
+line 451, YES
+line 452, YES
+line 453, YES
+line 455, YES
+line 456, YES
+line 457, YES
+line 458, YES
+line 459, NO
+line 461, YES
+line 490, YES
+line 491, YES
+line 494, YES
+line 495, YES
+line 496, YES
+line 497, NO
+line 499, YES
+line 502, YES
+line 503, YES
+line 505, YES
+line 506, NO
+line 507, NO
+line 509, YES
+line 510, YES
+line 512, YES
+line 535, YES
+line 553, YES
+line 554, NO
+line 556, YES
+line 557, YES
+line 559, YES
+line 560, YES
+line 561, YES
+line 562, YES
+line 563, YES
+line 564, YES
+line 565, YES
+line 566, YES
+line 568, YES
+line 569, NO
+line 570, NO
+line 571, NO
+line 572, NO
+line 574, NO
+line 575, YES
+line 576, YES
+line 578, YES
+line 580, YES
+line 581, YES
+line 611, YES
+line 612, YES
+line 614, YES
+line 615, YES
+line 616, YES
+line 617, YES
+line 618, YES
+line 619, YES
+line 620, YES
+line 621, YES
+line 622, NO
+line 624, NO
+line 626, NO
+line 628, NO
+line 630, NO
+line 631, NO
+line 636, YES
+line 663, YES
+line 664, YES
+line 666, YES
+line 667, YES
+line 668, YES
+line 669, YES
+line 670, YES
+line 671, YES
+line 672, YES
+line 673, YES
+line 674, NO
+line 676, NO
+line 678, NO
+line 680, NO
+line 682, NO
+line 683, NO
+line 688, YES
+line 716, YES
+line 742, YES
+line 743, YES
+line 745, YES
+line 746, YES
+line 748, YES
+line 749, YES
+line 751, YES
+line 752, YES
+line 755, NO
+line 756, NO
+line 757, NO
+line 758, NO
+line 761, NO
+line 790, YES
+line 791, YES
+line 792, YES
+line 795, YES
+line 796, NO
+line 797, NO
+line 799, YES
+line 800, YES
+line 802, YES
+line 803, YES
+line 806, YES
+line 833, YES
+line 834, YES
+line 836, YES
+line 837, YES
+line 838, YES
+line 839, YES
+line 840, YES
+line 841, NO
+line 843, YES
+line 844, NO
+line 845, YES
+line 846, YES
+line 849, YES
+line 863, YES
+line 864, NO
+line 867, YES
+line 869, YES
+line 870, YES
+line 873, YES
+line 875, YES
+line 877, YES
+line 878, YES
+line 880, YES
+line 881, YES
+line 885, YES
+line 887, YES
+line 890, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+line 1381, YES
+line 1393, YES
+line 1394, YES
+line 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest6
+
+==========================================================================
+comp5111.assignment.cut.Subject
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 42.94871794871795
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 90.32258064516128
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 51.02040816326531
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 94.73684210526315
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 77.77777777777779
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 64.5418326693227
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the lines along with a YES or NO after each line which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+line 12, YES
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+line 900, YES
+line 934, YES
+line 935, NO
+line 937, YES
+line 938, YES
+line 941, YES
+line 942, YES
+line 943, YES
+line 944, YES
+line 945, YES
+line 946, YES
+line 947, NO
+line 948, NO
+line 951, YES
+line 952, NO
+line 953, NO
+line 954, NO
+line 955, NO
+line 956, NO
+line 958, NO
+line 960, NO
+line 961, NO
+line 962, NO
+line 964, NO
+line 965, NO
+line 967, NO
+line 969, YES
+line 973, YES
+line 974, YES
+line 979, YES
+line 980, YES
+line 981, NO
+line 982, NO
+line 983, NO
+line 985, NO
+line 988, NO
+line 990, NO
+line 992, YES
+line 993, NO
+line 994, NO
+line 996, NO
+line 999, YES
+line 1001, YES
+line 1003, YES
+line 1004, YES
+line 1005, NO
+line 1007, YES
+line 1010, YES
+line 1012, YES
+line 1015, NO
+line 1017, NO
+line 1019, NO
+line 1023, NO
+line 1026, NO
+line 1030, NO
+line 1031, NO
+line 1034, NO
+line 1039, NO
+line 1044, NO
+line 1045, NO
+line 1046, NO
+line 1050, NO
+line 1052, NO
+line 1058, YES
+line 1063, NO
+line 1064, NO
+line 1066, NO
+line 1068, NO
+line 1071, NO
+line 1076, NO
+line 1080, NO
+line 1085, NO
+line 1086, NO
+line 1087, NO
+line 1088, NO
+line 1089, NO
+line 1090, NO
+line 1092, NO
+line 1093, NO
+line 1094, NO
+line 1095, NO
+line 1097, NO
+line 1101, NO
+line 1102, NO
+line 1115, YES
+line 1116, YES
+line 1118, YES
+line 1148, NO
+line 1160, NO
+line 1161, NO
+line 1163, NO
+line 1164, NO
+line 1165, NO
+line 1168, NO
+line 1181, YES
+line 1182, NO
+line 1184, YES
+line 1197, YES
+line 1198, NO
+line 1200, YES
+line 1215, YES
+line 1216, NO
+line 1219, YES
+line 1234, YES
+line 1235, NO
+line 1237, YES
+line 1251, YES
+line 1252, NO
+line 1254, YES
+line 1255, YES
+line 1257, YES
+line 1258, YES
+line 1259, YES
+line 1260, YES
+line 1261, YES
+line 1262, NO
+line 1263, NO
+line 1264, YES
+line 1265, NO
+line 1267, YES
+line 1268, NO
+line 1269, NO
+line 1270, YES
+line 1271, NO
+line 1272, NO
+line 1273, YES
+line 1274, NO
+line 1275, NO
+line 1278, YES
+line 1279, NO
+line 1292, YES
+line 1293, NO
+line 1296, YES
+line 1297, YES
+line 1299, YES
+line 1313, YES
+line 1334, YES
+line 1335, YES
+line 1337, YES
+line 1338, NO
+line 1340, YES
+line 1341, NO
+line 1342, NO
+line 1344, NO
+line 1346, YES
+line 1350, YES
+line 1351, YES
+line 1352, YES
+line 1353, YES
+line 1354, NO
+line 1356, YES
+line 1357, NO
+line 1359, YES
+line 1360, YES
+line 1363, NO
+line 1377, YES
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+line 1400, YES
+line 1441, YES
+line 1460, YES
+line 1479, YES
+line 1498, YES
+line 1517, YES
+line 1536, YES
+line 1555, YES
+line 1569, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+line 1684, YES
+line 1728, YES
+line 1729, NO
+line 1732, YES
+line 1759, YES
+line 1760, YES
+line 1761, YES
+line 1762, YES
+line 1812, YES
+line 1813, NO
+line 1815, YES
+line 1816, YES
+line 1818, YES
+line 1819, YES
+line 1821, YES
+line 1822, YES
+line 1824, YES
+line 1827, YES
+line 1861, YES
+line 1862, YES
+line 1864, YES
+line 1865, NO
+line 1867, NO
+line 1870, YES
+line 1871, YES
+line 1872, YES
+line 1874, YES
+line 1875, YES
+line 1878, YES
+line 1879, YES
+line 1880, YES
+line 1881, YES
+line 1882, YES
+line 1887, YES
+line 1888, YES
+line 1890, YES
+line 1891, YES
+line 1894, YES
+line 1901, YES
+line 1902, YES
+line 1903, YES
+line 1904, YES
+line 1905, YES
+line 1907, YES
+line 1908, YES
+line 1909, YES
+line 1910, NO
+line 1912, YES
+line 1913, YES
+line 1922, YES
+line 1923, YES
+line 1924, YES
+line 1925, YES
+line 1926, YES
+line 1927, YES
+line 1928, YES
+line 1929, YES
+line 1930, YES
+line 1931, YES
+line 1932, YES
+line 1933, YES
+line 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+line 14, YES
+line 16, YES
+line 30, YES
+line 42, YES
+line 51, YES
+line 52, NO
+line 54, YES
+line 55, NO
+line 57, YES
+line 81, YES
+line 82, NO
+line 84, YES
+line 100, YES
+line 101, NO
+line 103, YES
+line 104, YES
+line 105, YES
+line 115, YES
+line 116, YES
+line 117, YES
+line 121, NO
+line 122, NO
+line 123, NO
+line 124, NO
+line 125, NO
+line 128, NO
+line 129, NO
+line 134, NO
+line 144, YES
+line 145, YES
+line 146, NO
+line 148, YES
+line 149, YES
+line 150, NO
+line 152, YES
+line 153, YES
+line 154, NO
+line 155, NO
+line 157, NO
+line 158, NO
+line 159, NO
+line 161, NO
+line 163, YES
+line 164, NO
+line 166, YES
+line 167, YES
+line 168, YES
+line 169, YES
+line 170, YES
+line 171, YES
+line 172, YES
+line 173, NO
+line 176, YES
+line 178, YES
+line 179, NO
+line 180, NO
+line 182, NO
+line 183, NO
+line 185, YES
+line 186, YES
+line 190, YES
+line 192, YES
+line 193, NO
+line 194, NO
+line 195, NO
+line 198, YES
+line 200, YES
+line 212, YES
+line 213, YES
+line 214, YES
+line 216, YES
+line 218, YES
+line 219, YES
+line 222, YES
+line 232, YES
+line 245, YES
+line 246, NO
+line 249, YES
+line 265, YES
+line 266, YES
+line 269, NO
+line 270, NO
+line 271, NO
+line 272, NO
+line 273, NO
+line 274, NO
+line 275, NO
+line 276, NO
+line 277, NO
+line 279, NO
+line 280, NO
+line 281, NO
+line 282, NO
+line 285, NO
+line 287, NO
+line 289, NO
+line 290, NO
+line 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+line 1574, YES
+line 1579, YES
+line 1609, YES
+line 1619, YES
+line 1630, YES
+line 1641, YES
+line 1661, YES
+line 1662, YES
+line 1664, YES
+line 1665, YES
+line 1667, YES
+line 1668, YES
+line 1669, YES
+line 1670, NO
+line 1673, YES
+line 1674, YES
+line 1675, YES
+line 1676, YES
+line 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+line 297, YES
+line 323, YES
+line 345, YES
+line 346, YES
+line 347, YES
+line 349, YES
+line 350, YES
+line 351, YES
+line 354, NO
+line 377, YES
+line 412, YES
+line 413, YES
+line 415, YES
+line 416, YES
+line 417, YES
+line 418, YES
+line 421, YES
+line 448, YES
+line 449, NO
+line 451, YES
+line 452, YES
+line 453, YES
+line 455, YES
+line 456, YES
+line 457, YES
+line 458, YES
+line 459, NO
+line 461, YES
+line 490, YES
+line 491, YES
+line 494, YES
+line 495, YES
+line 496, YES
+line 497, NO
+line 499, YES
+line 502, YES
+line 503, YES
+line 505, YES
+line 506, NO
+line 507, NO
+line 509, YES
+line 510, YES
+line 512, YES
+line 535, YES
+line 553, YES
+line 554, NO
+line 556, YES
+line 557, YES
+line 559, YES
+line 560, YES
+line 561, YES
+line 562, YES
+line 563, YES
+line 564, YES
+line 565, YES
+line 566, YES
+line 568, YES
+line 569, NO
+line 570, NO
+line 571, NO
+line 572, NO
+line 574, NO
+line 575, YES
+line 576, YES
+line 578, YES
+line 580, YES
+line 581, YES
+line 611, YES
+line 612, YES
+line 614, YES
+line 615, YES
+line 616, YES
+line 617, YES
+line 618, YES
+line 619, YES
+line 620, YES
+line 621, YES
+line 622, NO
+line 624, NO
+line 626, NO
+line 628, NO
+line 630, NO
+line 631, NO
+line 636, YES
+line 663, YES
+line 664, YES
+line 666, YES
+line 667, YES
+line 668, YES
+line 669, YES
+line 670, YES
+line 671, YES
+line 672, YES
+line 673, YES
+line 674, NO
+line 676, NO
+line 678, NO
+line 680, NO
+line 682, NO
+line 683, NO
+line 688, YES
+line 716, YES
+line 742, YES
+line 743, YES
+line 745, YES
+line 746, YES
+line 748, YES
+line 749, YES
+line 751, YES
+line 752, YES
+line 755, NO
+line 756, NO
+line 757, NO
+line 758, NO
+line 761, NO
+line 790, YES
+line 791, YES
+line 792, YES
+line 795, YES
+line 796, NO
+line 797, NO
+line 799, YES
+line 800, YES
+line 802, YES
+line 803, YES
+line 806, YES
+line 833, YES
+line 834, YES
+line 836, YES
+line 837, YES
+line 838, YES
+line 839, YES
+line 840, YES
+line 841, NO
+line 843, YES
+line 844, NO
+line 845, YES
+line 846, YES
+line 849, YES
+line 863, YES
+line 864, NO
+line 867, YES
+line 869, YES
+line 870, YES
+line 873, YES
+line 875, YES
+line 877, YES
+line 878, YES
+line 880, YES
+line 881, YES
+line 885, YES
+line 887, YES
+line 890, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+line 1381, YES
+line 1393, YES
+line 1394, YES
+line 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest7
+
+==========================================================================
+comp5111.assignment.cut.Subject
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 42.94871794871795
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 90.32258064516128
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 51.02040816326531
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 94.73684210526315
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 77.77777777777779
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 64.5418326693227
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the lines along with a YES or NO after each line which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+line 12, YES
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+line 900, YES
+line 934, YES
+line 935, NO
+line 937, YES
+line 938, YES
+line 941, YES
+line 942, YES
+line 943, YES
+line 944, YES
+line 945, YES
+line 946, YES
+line 947, NO
+line 948, NO
+line 951, YES
+line 952, NO
+line 953, NO
+line 954, NO
+line 955, NO
+line 956, NO
+line 958, NO
+line 960, NO
+line 961, NO
+line 962, NO
+line 964, NO
+line 965, NO
+line 967, NO
+line 969, YES
+line 973, YES
+line 974, YES
+line 979, YES
+line 980, YES
+line 981, NO
+line 982, NO
+line 983, NO
+line 985, NO
+line 988, NO
+line 990, NO
+line 992, YES
+line 993, NO
+line 994, NO
+line 996, NO
+line 999, YES
+line 1001, YES
+line 1003, YES
+line 1004, YES
+line 1005, NO
+line 1007, YES
+line 1010, YES
+line 1012, YES
+line 1015, NO
+line 1017, NO
+line 1019, NO
+line 1023, NO
+line 1026, NO
+line 1030, NO
+line 1031, NO
+line 1034, NO
+line 1039, NO
+line 1044, NO
+line 1045, NO
+line 1046, NO
+line 1050, NO
+line 1052, NO
+line 1058, YES
+line 1063, NO
+line 1064, NO
+line 1066, NO
+line 1068, NO
+line 1071, NO
+line 1076, NO
+line 1080, NO
+line 1085, NO
+line 1086, NO
+line 1087, NO
+line 1088, NO
+line 1089, NO
+line 1090, NO
+line 1092, NO
+line 1093, NO
+line 1094, NO
+line 1095, NO
+line 1097, NO
+line 1101, NO
+line 1102, NO
+line 1115, YES
+line 1116, YES
+line 1118, YES
+line 1148, NO
+line 1160, NO
+line 1161, NO
+line 1163, NO
+line 1164, NO
+line 1165, NO
+line 1168, NO
+line 1181, YES
+line 1182, NO
+line 1184, YES
+line 1197, YES
+line 1198, NO
+line 1200, YES
+line 1215, YES
+line 1216, NO
+line 1219, YES
+line 1234, YES
+line 1235, NO
+line 1237, YES
+line 1251, YES
+line 1252, NO
+line 1254, YES
+line 1255, YES
+line 1257, YES
+line 1258, YES
+line 1259, YES
+line 1260, YES
+line 1261, YES
+line 1262, NO
+line 1263, NO
+line 1264, YES
+line 1265, NO
+line 1267, YES
+line 1268, NO
+line 1269, NO
+line 1270, YES
+line 1271, NO
+line 1272, NO
+line 1273, YES
+line 1274, NO
+line 1275, NO
+line 1278, YES
+line 1279, NO
+line 1292, YES
+line 1293, NO
+line 1296, YES
+line 1297, YES
+line 1299, YES
+line 1313, YES
+line 1334, YES
+line 1335, YES
+line 1337, YES
+line 1338, NO
+line 1340, YES
+line 1341, NO
+line 1342, NO
+line 1344, NO
+line 1346, YES
+line 1350, YES
+line 1351, YES
+line 1352, YES
+line 1353, YES
+line 1354, NO
+line 1356, YES
+line 1357, NO
+line 1359, YES
+line 1360, YES
+line 1363, NO
+line 1377, YES
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+line 1400, YES
+line 1441, YES
+line 1460, YES
+line 1479, YES
+line 1498, YES
+line 1517, YES
+line 1536, YES
+line 1555, YES
+line 1569, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+line 1684, YES
+line 1728, YES
+line 1729, NO
+line 1732, YES
+line 1759, YES
+line 1760, YES
+line 1761, YES
+line 1762, YES
+line 1812, YES
+line 1813, NO
+line 1815, YES
+line 1816, YES
+line 1818, YES
+line 1819, YES
+line 1821, YES
+line 1822, YES
+line 1824, YES
+line 1827, YES
+line 1861, YES
+line 1862, YES
+line 1864, YES
+line 1865, NO
+line 1867, NO
+line 1870, YES
+line 1871, YES
+line 1872, YES
+line 1874, YES
+line 1875, YES
+line 1878, YES
+line 1879, YES
+line 1880, YES
+line 1881, YES
+line 1882, YES
+line 1887, YES
+line 1888, YES
+line 1890, YES
+line 1891, YES
+line 1894, YES
+line 1901, YES
+line 1902, YES
+line 1903, YES
+line 1904, YES
+line 1905, YES
+line 1907, YES
+line 1908, YES
+line 1909, YES
+line 1910, NO
+line 1912, YES
+line 1913, YES
+line 1922, YES
+line 1923, YES
+line 1924, YES
+line 1925, YES
+line 1926, YES
+line 1927, YES
+line 1928, YES
+line 1929, YES
+line 1930, YES
+line 1931, YES
+line 1932, YES
+line 1933, YES
+line 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+line 14, YES
+line 16, YES
+line 30, YES
+line 42, YES
+line 51, YES
+line 52, NO
+line 54, YES
+line 55, NO
+line 57, YES
+line 81, YES
+line 82, NO
+line 84, YES
+line 100, YES
+line 101, NO
+line 103, YES
+line 104, YES
+line 105, YES
+line 115, YES
+line 116, YES
+line 117, YES
+line 121, NO
+line 122, NO
+line 123, NO
+line 124, NO
+line 125, NO
+line 128, NO
+line 129, NO
+line 134, NO
+line 144, YES
+line 145, YES
+line 146, NO
+line 148, YES
+line 149, YES
+line 150, NO
+line 152, YES
+line 153, YES
+line 154, NO
+line 155, NO
+line 157, NO
+line 158, NO
+line 159, NO
+line 161, NO
+line 163, YES
+line 164, NO
+line 166, YES
+line 167, YES
+line 168, YES
+line 169, YES
+line 170, YES
+line 171, YES
+line 172, YES
+line 173, NO
+line 176, YES
+line 178, YES
+line 179, NO
+line 180, NO
+line 182, NO
+line 183, NO
+line 185, YES
+line 186, YES
+line 190, YES
+line 192, YES
+line 193, NO
+line 194, NO
+line 195, NO
+line 198, YES
+line 200, YES
+line 212, YES
+line 213, YES
+line 214, YES
+line 216, YES
+line 218, YES
+line 219, YES
+line 222, YES
+line 232, YES
+line 245, YES
+line 246, NO
+line 249, YES
+line 265, YES
+line 266, YES
+line 269, NO
+line 270, NO
+line 271, NO
+line 272, NO
+line 273, NO
+line 274, NO
+line 275, NO
+line 276, NO
+line 277, NO
+line 279, NO
+line 280, NO
+line 281, NO
+line 282, NO
+line 285, NO
+line 287, NO
+line 289, NO
+line 290, NO
+line 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+line 1574, YES
+line 1579, YES
+line 1609, YES
+line 1619, YES
+line 1630, YES
+line 1641, YES
+line 1661, YES
+line 1662, YES
+line 1664, YES
+line 1665, YES
+line 1667, YES
+line 1668, YES
+line 1669, YES
+line 1670, NO
+line 1673, YES
+line 1674, YES
+line 1675, YES
+line 1676, YES
+line 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+line 297, YES
+line 323, YES
+line 345, YES
+line 346, YES
+line 347, YES
+line 349, YES
+line 350, YES
+line 351, YES
+line 354, NO
+line 377, YES
+line 412, YES
+line 413, YES
+line 415, YES
+line 416, YES
+line 417, YES
+line 418, YES
+line 421, YES
+line 448, YES
+line 449, NO
+line 451, YES
+line 452, YES
+line 453, YES
+line 455, YES
+line 456, YES
+line 457, YES
+line 458, YES
+line 459, NO
+line 461, YES
+line 490, YES
+line 491, YES
+line 494, YES
+line 495, YES
+line 496, YES
+line 497, NO
+line 499, YES
+line 502, YES
+line 503, YES
+line 505, YES
+line 506, NO
+line 507, NO
+line 509, YES
+line 510, YES
+line 512, YES
+line 535, YES
+line 553, YES
+line 554, NO
+line 556, YES
+line 557, YES
+line 559, YES
+line 560, YES
+line 561, YES
+line 562, YES
+line 563, YES
+line 564, YES
+line 565, YES
+line 566, YES
+line 568, YES
+line 569, NO
+line 570, NO
+line 571, NO
+line 572, NO
+line 574, NO
+line 575, YES
+line 576, YES
+line 578, YES
+line 580, YES
+line 581, YES
+line 611, YES
+line 612, YES
+line 614, YES
+line 615, YES
+line 616, YES
+line 617, YES
+line 618, YES
+line 619, YES
+line 620, YES
+line 621, YES
+line 622, NO
+line 624, NO
+line 626, NO
+line 628, NO
+line 630, NO
+line 631, NO
+line 636, YES
+line 663, YES
+line 664, YES
+line 666, YES
+line 667, YES
+line 668, YES
+line 669, YES
+line 670, YES
+line 671, YES
+line 672, YES
+line 673, YES
+line 674, NO
+line 676, NO
+line 678, NO
+line 680, NO
+line 682, NO
+line 683, NO
+line 688, YES
+line 716, YES
+line 742, YES
+line 743, YES
+line 745, YES
+line 746, YES
+line 748, YES
+line 749, YES
+line 751, YES
+line 752, YES
+line 755, NO
+line 756, NO
+line 757, NO
+line 758, NO
+line 761, NO
+line 790, YES
+line 791, YES
+line 792, YES
+line 795, YES
+line 796, NO
+line 797, NO
+line 799, YES
+line 800, YES
+line 802, YES
+line 803, YES
+line 806, YES
+line 833, YES
+line 834, YES
+line 836, YES
+line 837, YES
+line 838, YES
+line 839, YES
+line 840, YES
+line 841, NO
+line 843, YES
+line 844, NO
+line 845, YES
+line 846, YES
+line 849, YES
+line 863, YES
+line 864, NO
+line 867, YES
+line 869, YES
+line 870, YES
+line 873, YES
+line 875, YES
+line 877, YES
+line 878, YES
+line 880, YES
+line 881, YES
+line 885, YES
+line 887, YES
+line 890, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+line 1381, YES
+line 1393, YES
+line 1394, YES
+line 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest8
+
+==========================================================================
+comp5111.assignment.cut.Subject
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 42.94871794871795
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 90.32258064516128
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 51.02040816326531
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 94.73684210526315
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 77.77777777777779
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 64.5418326693227
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the lines along with a YES or NO after each line which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+line 12, YES
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+line 900, YES
+line 934, YES
+line 935, NO
+line 937, YES
+line 938, YES
+line 941, YES
+line 942, YES
+line 943, YES
+line 944, YES
+line 945, YES
+line 946, YES
+line 947, NO
+line 948, NO
+line 951, YES
+line 952, NO
+line 953, NO
+line 954, NO
+line 955, NO
+line 956, NO
+line 958, NO
+line 960, NO
+line 961, NO
+line 962, NO
+line 964, NO
+line 965, NO
+line 967, NO
+line 969, YES
+line 973, YES
+line 974, YES
+line 979, YES
+line 980, YES
+line 981, NO
+line 982, NO
+line 983, NO
+line 985, NO
+line 988, NO
+line 990, NO
+line 992, YES
+line 993, NO
+line 994, NO
+line 996, NO
+line 999, YES
+line 1001, YES
+line 1003, YES
+line 1004, YES
+line 1005, NO
+line 1007, YES
+line 1010, YES
+line 1012, YES
+line 1015, NO
+line 1017, NO
+line 1019, NO
+line 1023, NO
+line 1026, NO
+line 1030, NO
+line 1031, NO
+line 1034, NO
+line 1039, NO
+line 1044, NO
+line 1045, NO
+line 1046, NO
+line 1050, NO
+line 1052, NO
+line 1058, YES
+line 1063, NO
+line 1064, NO
+line 1066, NO
+line 1068, NO
+line 1071, NO
+line 1076, NO
+line 1080, NO
+line 1085, NO
+line 1086, NO
+line 1087, NO
+line 1088, NO
+line 1089, NO
+line 1090, NO
+line 1092, NO
+line 1093, NO
+line 1094, NO
+line 1095, NO
+line 1097, NO
+line 1101, NO
+line 1102, NO
+line 1115, YES
+line 1116, YES
+line 1118, YES
+line 1148, NO
+line 1160, NO
+line 1161, NO
+line 1163, NO
+line 1164, NO
+line 1165, NO
+line 1168, NO
+line 1181, YES
+line 1182, NO
+line 1184, YES
+line 1197, YES
+line 1198, NO
+line 1200, YES
+line 1215, YES
+line 1216, NO
+line 1219, YES
+line 1234, YES
+line 1235, NO
+line 1237, YES
+line 1251, YES
+line 1252, NO
+line 1254, YES
+line 1255, YES
+line 1257, YES
+line 1258, YES
+line 1259, YES
+line 1260, YES
+line 1261, YES
+line 1262, NO
+line 1263, NO
+line 1264, YES
+line 1265, NO
+line 1267, YES
+line 1268, NO
+line 1269, NO
+line 1270, YES
+line 1271, NO
+line 1272, NO
+line 1273, YES
+line 1274, NO
+line 1275, NO
+line 1278, YES
+line 1279, NO
+line 1292, YES
+line 1293, NO
+line 1296, YES
+line 1297, YES
+line 1299, YES
+line 1313, YES
+line 1334, YES
+line 1335, YES
+line 1337, YES
+line 1338, NO
+line 1340, YES
+line 1341, NO
+line 1342, NO
+line 1344, NO
+line 1346, YES
+line 1350, YES
+line 1351, YES
+line 1352, YES
+line 1353, YES
+line 1354, NO
+line 1356, YES
+line 1357, NO
+line 1359, YES
+line 1360, YES
+line 1363, NO
+line 1377, YES
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+line 1400, YES
+line 1441, YES
+line 1460, YES
+line 1479, YES
+line 1498, YES
+line 1517, YES
+line 1536, YES
+line 1555, YES
+line 1569, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+line 1684, YES
+line 1728, YES
+line 1729, NO
+line 1732, YES
+line 1759, YES
+line 1760, YES
+line 1761, YES
+line 1762, YES
+line 1812, YES
+line 1813, NO
+line 1815, YES
+line 1816, YES
+line 1818, YES
+line 1819, YES
+line 1821, YES
+line 1822, YES
+line 1824, YES
+line 1827, YES
+line 1861, YES
+line 1862, YES
+line 1864, YES
+line 1865, NO
+line 1867, NO
+line 1870, YES
+line 1871, YES
+line 1872, YES
+line 1874, YES
+line 1875, YES
+line 1878, YES
+line 1879, YES
+line 1880, YES
+line 1881, YES
+line 1882, YES
+line 1887, YES
+line 1888, YES
+line 1890, YES
+line 1891, YES
+line 1894, YES
+line 1901, YES
+line 1902, YES
+line 1903, YES
+line 1904, YES
+line 1905, YES
+line 1907, YES
+line 1908, YES
+line 1909, YES
+line 1910, NO
+line 1912, YES
+line 1913, YES
+line 1922, YES
+line 1923, YES
+line 1924, YES
+line 1925, YES
+line 1926, YES
+line 1927, YES
+line 1928, YES
+line 1929, YES
+line 1930, YES
+line 1931, YES
+line 1932, YES
+line 1933, YES
+line 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+line 14, YES
+line 16, YES
+line 30, YES
+line 42, YES
+line 51, YES
+line 52, NO
+line 54, YES
+line 55, NO
+line 57, YES
+line 81, YES
+line 82, NO
+line 84, YES
+line 100, YES
+line 101, NO
+line 103, YES
+line 104, YES
+line 105, YES
+line 115, YES
+line 116, YES
+line 117, YES
+line 121, NO
+line 122, NO
+line 123, NO
+line 124, NO
+line 125, NO
+line 128, NO
+line 129, NO
+line 134, NO
+line 144, YES
+line 145, YES
+line 146, NO
+line 148, YES
+line 149, YES
+line 150, NO
+line 152, YES
+line 153, YES
+line 154, NO
+line 155, NO
+line 157, NO
+line 158, NO
+line 159, NO
+line 161, NO
+line 163, YES
+line 164, NO
+line 166, YES
+line 167, YES
+line 168, YES
+line 169, YES
+line 170, YES
+line 171, YES
+line 172, YES
+line 173, NO
+line 176, YES
+line 178, YES
+line 179, NO
+line 180, NO
+line 182, NO
+line 183, NO
+line 185, YES
+line 186, YES
+line 190, YES
+line 192, YES
+line 193, NO
+line 194, NO
+line 195, NO
+line 198, YES
+line 200, YES
+line 212, YES
+line 213, YES
+line 214, YES
+line 216, YES
+line 218, YES
+line 219, YES
+line 222, YES
+line 232, YES
+line 245, YES
+line 246, NO
+line 249, YES
+line 265, YES
+line 266, YES
+line 269, NO
+line 270, NO
+line 271, NO
+line 272, NO
+line 273, NO
+line 274, NO
+line 275, NO
+line 276, NO
+line 277, NO
+line 279, NO
+line 280, NO
+line 281, NO
+line 282, NO
+line 285, NO
+line 287, NO
+line 289, NO
+line 290, NO
+line 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+line 1574, YES
+line 1579, YES
+line 1609, YES
+line 1619, YES
+line 1630, YES
+line 1641, YES
+line 1661, YES
+line 1662, YES
+line 1664, YES
+line 1665, YES
+line 1667, YES
+line 1668, YES
+line 1669, YES
+line 1670, NO
+line 1673, YES
+line 1674, YES
+line 1675, YES
+line 1676, YES
+line 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+line 297, YES
+line 323, YES
+line 345, YES
+line 346, YES
+line 347, YES
+line 349, YES
+line 350, YES
+line 351, YES
+line 354, NO
+line 377, YES
+line 412, YES
+line 413, YES
+line 415, YES
+line 416, YES
+line 417, YES
+line 418, YES
+line 421, YES
+line 448, YES
+line 449, NO
+line 451, YES
+line 452, YES
+line 453, YES
+line 455, YES
+line 456, YES
+line 457, YES
+line 458, YES
+line 459, NO
+line 461, YES
+line 490, YES
+line 491, YES
+line 494, YES
+line 495, YES
+line 496, YES
+line 497, NO
+line 499, YES
+line 502, YES
+line 503, YES
+line 505, YES
+line 506, NO
+line 507, NO
+line 509, YES
+line 510, YES
+line 512, YES
+line 535, YES
+line 553, YES
+line 554, NO
+line 556, YES
+line 557, YES
+line 559, YES
+line 560, YES
+line 561, YES
+line 562, YES
+line 563, YES
+line 564, YES
+line 565, YES
+line 566, YES
+line 568, YES
+line 569, NO
+line 570, NO
+line 571, NO
+line 572, NO
+line 574, NO
+line 575, YES
+line 576, YES
+line 578, YES
+line 580, YES
+line 581, YES
+line 611, YES
+line 612, YES
+line 614, YES
+line 615, YES
+line 616, YES
+line 617, YES
+line 618, YES
+line 619, YES
+line 620, YES
+line 621, YES
+line 622, NO
+line 624, NO
+line 626, NO
+line 628, NO
+line 630, NO
+line 631, NO
+line 636, YES
+line 663, YES
+line 664, YES
+line 666, YES
+line 667, YES
+line 668, YES
+line 669, YES
+line 670, YES
+line 671, YES
+line 672, YES
+line 673, YES
+line 674, NO
+line 676, NO
+line 678, NO
+line 680, NO
+line 682, NO
+line 683, NO
+line 688, YES
+line 716, YES
+line 742, YES
+line 743, YES
+line 745, YES
+line 746, YES
+line 748, YES
+line 749, YES
+line 751, YES
+line 752, YES
+line 755, NO
+line 756, NO
+line 757, NO
+line 758, NO
+line 761, NO
+line 790, YES
+line 791, YES
+line 792, YES
+line 795, YES
+line 796, NO
+line 797, NO
+line 799, YES
+line 800, YES
+line 802, YES
+line 803, YES
+line 806, YES
+line 833, YES
+line 834, YES
+line 836, YES
+line 837, YES
+line 838, YES
+line 839, YES
+line 840, YES
+line 841, NO
+line 843, YES
+line 844, NO
+line 845, YES
+line 846, YES
+line 849, YES
+line 863, YES
+line 864, NO
+line 867, YES
+line 869, YES
+line 870, YES
+line 873, YES
+line 875, YES
+line 877, YES
+line 878, YES
+line 880, YES
+line 881, YES
+line 885, YES
+line 887, YES
+line 890, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+line 1381, YES
+line 1393, YES
+line 1394, YES
+line 1396, YES
+
+
+

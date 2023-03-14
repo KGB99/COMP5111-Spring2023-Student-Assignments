@@ -21,6 +21,10 @@ find "$ROOT_DIR"/src/main/java -name "*.java" -print0 | xargs -0 \
   javac -classpath .:"$ROOT_DIR"/lib/* -d "$ROOT_DIR"/target/classes
 
 # 3. we run the main method of castle.comp5111.example.EntryPoint
-echo "coverage number 0..."
-java -classpath .:"$ROOT_DIR"/lib/*:"$ROOT_DIR"/target/classes comp5111.assignment.Assignment1 0 Placeholder
+echo "0 = statement coverage"
+echo "1 = branch coverage"
+echo "2 = line coverage"
+echo "enter level of coverage: "
+read coverage
+java -classpath .:"$ROOT_DIR"/lib/*:"$ROOT_DIR"/target/classes comp5111.assignment.Assignment1 $coverage Placeholder
 #Subject\$ArrayTasks Subject\$BooleanTasks Subject\$CharTasks Subject\$FilenameTasks Subject\$GregorianTasks Subject\$NumberTasks Subject\$StringTasks

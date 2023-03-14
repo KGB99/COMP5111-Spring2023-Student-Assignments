@@ -190,7 +190,7 @@ public class Subject {
                         octetInt = Integer.parseInt(octet, BASE_16);
                     } catch (final NumberFormatException e) {
                         return false;
-                    } 
+                    }
                     if (octetInt < 0 || octetInt > MAX_UNSIGNED_SHORT) {
                         return false;
                     }
@@ -319,10 +319,10 @@ public class Subject {
          * @since 2.4
          * @since 3.0 Changed signature from length(String) to length(CharSequence)
          */
-        public static int length(final CharSequence cs) { 
+        public static int length(final CharSequence cs) {
             return cs == null ? 0 : cs.length();
         }
-        //COVERED
+        
         /**
          * Checks if a CharSequence is empty (""), null or whitespace only.
          *
@@ -353,7 +353,7 @@ public class Subject {
             }
             return true;
         }
-        //COVERED
+
         /**
          * Checks if a CharSequence is empty ("") or null.
          *
@@ -376,7 +376,7 @@ public class Subject {
         public static boolean isEmpty(final CharSequence cs) {
             return cs == null || cs.length() == 0;
         }
-        //COVERED
+        
         /**
          * Checks if the CharSequence contains only Unicode digits.
          * A decimal point is not a Unicode digit and returns false.
@@ -420,7 +420,7 @@ public class Subject {
             }
             return true;
         }
-        //COVERED
+
         /**
          * Remove the last character from a String.
          *
@@ -460,7 +460,7 @@ public class Subject {
             }
             return ret;
         }
-        //COVERED
+
         /**
          * Removes one newline from end of a String if it's there,
          * otherwise leave it alone.  A newline is &quot;{@code \n}&quot;,
@@ -511,7 +511,7 @@ public class Subject {
             }
             return str.substring(0, lastIdx);
         }
-        //COVERED
+
         /**
          * Splits a String by Character type as returned by
          * {@code java.lang.Character.getType(char)}. Groups of contiguous
@@ -534,7 +534,7 @@ public class Subject {
         public static String[] splitByCharacterType(final String str) {
             return splitByCharacterType(str, false);
         }
-        //COVERED
+
         /**
          * <p>Splits a String by Character type as returned by
          * {@code java.lang.Character.getType(char)}. Groups of contiguous
@@ -580,7 +580,7 @@ public class Subject {
             list.add(new String(c, tokenStart, c.length - tokenStart));
             return list.toArray(ArrayTasks.EMPTY_STRING_ARRAY);
         }
-        //COVERED
+
 
         /**
          * Checks if the CharSequence contains any character in the given
@@ -635,7 +635,7 @@ public class Subject {
             }
             return false;
         }
-        //COVERED
+
         /**
          * Checks that the CharSequence does not contain certain characters.
          *
@@ -687,7 +687,7 @@ public class Subject {
             }
             return true;
         }
-        //COVERED
+
         /**
          * <p>Splits a String by Character type as returned by
          * {@code java.lang.Character.getType(char)}. Groups of contiguous
@@ -715,7 +715,7 @@ public class Subject {
         public static String[] splitByCharacterTypeCamelCase(final String str) {
             return splitByCharacterType(str, true);
         }
-        //COVERED
+
         /**
          * Compares two CharSequences, returning {@code true} if they represent
          * equal sequences of characters.
@@ -760,7 +760,7 @@ public class Subject {
             }
             return true;
         }
-        //COVERED
+
         /**
          * Strips any of a set of characters from the end of a String.
          *
@@ -805,7 +805,7 @@ public class Subject {
             }
             return str.substring(0, end);
         }
-        //COVERED
+
         /**
          * Checks if the CharSequence contains mixed casing of both uppercase and lowercase characters.
          *
@@ -848,7 +848,7 @@ public class Subject {
             }
             return containsUppercase && containsLowercase;
         }
-        //COVERED
+
         /**
          * <p>Replace part of a <code>String</code> with another value.</p>
          *
@@ -889,7 +889,7 @@ public class Subject {
 
             return value;
         }
-        //COVERED
+        
     }
 
     /**

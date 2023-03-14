@@ -1,0 +1,2812 @@
+BRANCH COVERAGE REPORT
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest
+
+==========================================================================
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 47.69230769230769
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 75.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 82.35294117647058
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 55.26315789473685
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 79.66101694915254
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 66.97674418604652
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the instructions along with a YES or NO after each branch which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+Branch on line: -1, YES
+Branch on line: 937, YES
+Branch on line: 941, YES
+Branch on line: 943, YES
+Branch on line: 945, YES
+Branch on line: 951, YES
+Branch on line: 958, NO
+Branch on line: 960, NO
+Branch on line: 962, NO
+Branch on line: 964, NO
+Branch on line: 965, NO
+Branch on line: 967, NO
+Branch on line: 969, YES
+Branch on line: 979, NO
+Branch on line: 983, NO
+Branch on line: 985, NO
+Branch on line: 988, NO
+Branch on line: 992, YES
+Branch on line: 996, NO
+Branch on line: 999, YES
+Branch on line: 1007, YES
+Branch on line: 1017, NO
+Branch on line: 1019, NO
+Branch on line: 1026, NO
+Branch on line: 1034, NO
+Branch on line: 1039, NO
+Branch on line: 1046, NO
+Branch on line: 1050, NO
+Branch on line: 1063, NO
+Branch on line: 1066, NO
+Branch on line: 1085, NO
+Branch on line: 1089, NO
+Branch on line: 1092, NO
+Branch on line: 1093, NO
+Branch on line: 1097, NO
+Branch on line: 1101, NO
+Branch on line: 1116, YES
+Branch on line: 1118, YES
+Branch on line: 1148, NO
+Branch on line: 1163, NO
+Branch on line: 1168, NO
+Branch on line: 1184, YES
+Branch on line: 1200, YES
+Branch on line: 1219, YES
+Branch on line: 1237, YES
+Branch on line: 1254, YES
+Branch on line: 1257, YES
+Branch on line: 1264, YES
+Branch on line: 1267, YES
+Branch on line: 1268, NO
+Branch on line: 1270, YES
+Branch on line: 1273, YES
+Branch on line: 1278, YES
+Branch on line: 1279, NO
+Branch on line: 1296, YES
+Branch on line: 1299, YES
+Branch on line: 1337, YES
+Branch on line: 1340, YES
+Branch on line: 1344, NO
+Branch on line: 1346, YES
+Branch on line: 1351, NO
+Branch on line: 1352, YES
+Branch on line: 1356, YES
+Branch on line: 1359, YES
+Branch on line: 1363, NO
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+Branch on line: -1, YES
+Branch on line: 1441, NO
+Branch on line: 1460, NO
+Branch on line: 1479, YES
+Branch on line: 1498, YES
+Branch on line: 1517, YES
+Branch on line: 1536, YES
+Branch on line: 1555, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Branch on line: -1, YES
+Branch on line: 1729, NO
+Branch on line: 1732, YES
+Branch on line: 1759, YES
+Branch on line: 1760, YES
+Branch on line: 1761, YES
+Branch on line: 1762, YES
+Branch on line: 1813, NO
+Branch on line: 1815, YES
+Branch on line: 1816, YES
+Branch on line: 1818, YES
+Branch on line: 1819, YES
+Branch on line: 1821, YES
+Branch on line: 1827, YES
+Branch on line: 1862, YES
+Branch on line: 1864, YES
+Branch on line: 1870, YES
+Branch on line: 1878, YES
+Branch on line: 1887, YES
+Branch on line: 1894, YES
+Branch on line: 1907, NO
+Branch on line: 1912, NO
+Branch on line: 1923, YES
+Branch on line: 1924, YES
+Branch on line: 1925, YES
+Branch on line: 1926, YES
+Branch on line: 1927, YES
+Branch on line: 1928, YES
+Branch on line: 1929, YES
+Branch on line: 1930, YES
+Branch on line: 1931, YES
+Branch on line: 1932, YES
+Branch on line: 1933, NO
+Branch on line: 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Branch on line: -1, YES
+Branch on line: 54, YES
+Branch on line: 57, YES
+Branch on line: 84, YES
+Branch on line: 103, YES
+Branch on line: 117, YES
+Branch on line: 121, NO
+Branch on line: 128, NO
+Branch on line: 134, NO
+Branch on line: 148, YES
+Branch on line: 149, YES
+Branch on line: 150, NO
+Branch on line: 152, YES
+Branch on line: 158, NO
+Branch on line: 161, NO
+Branch on line: 163, YES
+Branch on line: 166, YES
+Branch on line: 176, YES
+Branch on line: 182, NO
+Branch on line: 185, YES
+Branch on line: 190, YES
+Branch on line: 195, NO
+Branch on line: 198, YES
+Branch on line: 200, YES
+Branch on line: 213, YES
+Branch on line: 216, NO
+Branch on line: 218, YES
+Branch on line: 222, YES
+Branch on line: 232, YES
+Branch on line: 249, YES
+Branch on line: 269, NO
+Branch on line: 275, NO
+Branch on line: 279, NO
+Branch on line: 281, NO
+Branch on line: 285, NO
+Branch on line: 287, NO
+Branch on line: 289, NO
+Branch on line: 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Branch on line: -1, YES
+Branch on line: 1609, YES
+Branch on line: 1619, YES
+Branch on line: 1662, YES
+Branch on line: 1664, YES
+Branch on line: 1667, YES
+Branch on line: 1668, YES
+Branch on line: 1673, YES
+Branch on line: 1674, YES
+Branch on line: 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+Branch on line: -1, YES
+Branch on line: 323, YES
+Branch on line: 349, YES
+Branch on line: 354, NO
+Branch on line: 377, YES
+Branch on line: 415, YES
+Branch on line: 416, NO
+Branch on line: 421, YES
+Branch on line: 451, YES
+Branch on line: 455, YES
+Branch on line: 461, YES
+Branch on line: 494, YES
+Branch on line: 497, NO
+Branch on line: 499, YES
+Branch on line: 502, YES
+Branch on line: 509, YES
+Branch on line: 512, YES
+Branch on line: 556, YES
+Branch on line: 559, YES
+Branch on line: 568, YES
+Branch on line: 574, NO
+Branch on line: 575, YES
+Branch on line: 580, YES
+Branch on line: 612, YES
+Branch on line: 614, YES
+Branch on line: 618, YES
+Branch on line: 620, YES
+Branch on line: 626, NO
+Branch on line: 630, NO
+Branch on line: 636, YES
+Branch on line: 664, YES
+Branch on line: 666, YES
+Branch on line: 670, YES
+Branch on line: 672, YES
+Branch on line: 678, NO
+Branch on line: 682, NO
+Branch on line: 688, YES
+Branch on line: 745, YES
+Branch on line: 746, YES
+Branch on line: 748, YES
+Branch on line: 751, YES
+Branch on line: 755, NO
+Branch on line: 756, NO
+Branch on line: 761, NO
+Branch on line: 795, YES
+Branch on line: 799, YES
+Branch on line: 802, YES
+Branch on line: 806, YES
+Branch on line: 834, YES
+Branch on line: 836, YES
+Branch on line: 839, YES
+Branch on line: 843, YES
+Branch on line: 845, YES
+Branch on line: 849, YES
+Branch on line: 864, NO
+Branch on line: 867, YES
+Branch on line: 873, YES
+Branch on line: 880, YES
+Branch on line: 885, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Branch on line: 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest0
+
+==========================================================================
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 47.69230769230769
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 75.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 82.35294117647058
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 55.26315789473685
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 79.66101694915254
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 66.97674418604652
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the instructions along with a YES or NO after each branch which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+Branch on line: -1, YES
+Branch on line: 937, YES
+Branch on line: 941, YES
+Branch on line: 943, YES
+Branch on line: 945, YES
+Branch on line: 951, YES
+Branch on line: 958, NO
+Branch on line: 960, NO
+Branch on line: 962, NO
+Branch on line: 964, NO
+Branch on line: 965, NO
+Branch on line: 967, NO
+Branch on line: 969, YES
+Branch on line: 979, NO
+Branch on line: 983, NO
+Branch on line: 985, NO
+Branch on line: 988, NO
+Branch on line: 992, YES
+Branch on line: 996, NO
+Branch on line: 999, YES
+Branch on line: 1007, YES
+Branch on line: 1017, NO
+Branch on line: 1019, NO
+Branch on line: 1026, NO
+Branch on line: 1034, NO
+Branch on line: 1039, NO
+Branch on line: 1046, NO
+Branch on line: 1050, NO
+Branch on line: 1063, NO
+Branch on line: 1066, NO
+Branch on line: 1085, NO
+Branch on line: 1089, NO
+Branch on line: 1092, NO
+Branch on line: 1093, NO
+Branch on line: 1097, NO
+Branch on line: 1101, NO
+Branch on line: 1116, YES
+Branch on line: 1118, YES
+Branch on line: 1148, NO
+Branch on line: 1163, NO
+Branch on line: 1168, NO
+Branch on line: 1184, YES
+Branch on line: 1200, YES
+Branch on line: 1219, YES
+Branch on line: 1237, YES
+Branch on line: 1254, YES
+Branch on line: 1257, YES
+Branch on line: 1264, YES
+Branch on line: 1267, YES
+Branch on line: 1268, NO
+Branch on line: 1270, YES
+Branch on line: 1273, YES
+Branch on line: 1278, YES
+Branch on line: 1279, NO
+Branch on line: 1296, YES
+Branch on line: 1299, YES
+Branch on line: 1337, YES
+Branch on line: 1340, YES
+Branch on line: 1344, NO
+Branch on line: 1346, YES
+Branch on line: 1351, NO
+Branch on line: 1352, YES
+Branch on line: 1356, YES
+Branch on line: 1359, YES
+Branch on line: 1363, NO
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+Branch on line: -1, YES
+Branch on line: 1441, NO
+Branch on line: 1460, NO
+Branch on line: 1479, YES
+Branch on line: 1498, YES
+Branch on line: 1517, YES
+Branch on line: 1536, YES
+Branch on line: 1555, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Branch on line: -1, YES
+Branch on line: 1729, NO
+Branch on line: 1732, YES
+Branch on line: 1759, YES
+Branch on line: 1760, YES
+Branch on line: 1761, YES
+Branch on line: 1762, YES
+Branch on line: 1813, NO
+Branch on line: 1815, YES
+Branch on line: 1816, YES
+Branch on line: 1818, YES
+Branch on line: 1819, YES
+Branch on line: 1821, YES
+Branch on line: 1827, YES
+Branch on line: 1862, YES
+Branch on line: 1864, YES
+Branch on line: 1870, YES
+Branch on line: 1878, YES
+Branch on line: 1887, YES
+Branch on line: 1894, YES
+Branch on line: 1907, NO
+Branch on line: 1912, NO
+Branch on line: 1923, YES
+Branch on line: 1924, YES
+Branch on line: 1925, YES
+Branch on line: 1926, YES
+Branch on line: 1927, YES
+Branch on line: 1928, YES
+Branch on line: 1929, YES
+Branch on line: 1930, YES
+Branch on line: 1931, YES
+Branch on line: 1932, YES
+Branch on line: 1933, NO
+Branch on line: 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Branch on line: -1, YES
+Branch on line: 54, YES
+Branch on line: 57, YES
+Branch on line: 84, YES
+Branch on line: 103, YES
+Branch on line: 117, YES
+Branch on line: 121, NO
+Branch on line: 128, NO
+Branch on line: 134, NO
+Branch on line: 148, YES
+Branch on line: 149, YES
+Branch on line: 150, NO
+Branch on line: 152, YES
+Branch on line: 158, NO
+Branch on line: 161, NO
+Branch on line: 163, YES
+Branch on line: 166, YES
+Branch on line: 176, YES
+Branch on line: 182, NO
+Branch on line: 185, YES
+Branch on line: 190, YES
+Branch on line: 195, NO
+Branch on line: 198, YES
+Branch on line: 200, YES
+Branch on line: 213, YES
+Branch on line: 216, NO
+Branch on line: 218, YES
+Branch on line: 222, YES
+Branch on line: 232, YES
+Branch on line: 249, YES
+Branch on line: 269, NO
+Branch on line: 275, NO
+Branch on line: 279, NO
+Branch on line: 281, NO
+Branch on line: 285, NO
+Branch on line: 287, NO
+Branch on line: 289, NO
+Branch on line: 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Branch on line: -1, YES
+Branch on line: 1609, YES
+Branch on line: 1619, YES
+Branch on line: 1662, YES
+Branch on line: 1664, YES
+Branch on line: 1667, YES
+Branch on line: 1668, YES
+Branch on line: 1673, YES
+Branch on line: 1674, YES
+Branch on line: 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+Branch on line: -1, YES
+Branch on line: 323, YES
+Branch on line: 349, YES
+Branch on line: 354, NO
+Branch on line: 377, YES
+Branch on line: 415, YES
+Branch on line: 416, NO
+Branch on line: 421, YES
+Branch on line: 451, YES
+Branch on line: 455, YES
+Branch on line: 461, YES
+Branch on line: 494, YES
+Branch on line: 497, NO
+Branch on line: 499, YES
+Branch on line: 502, YES
+Branch on line: 509, YES
+Branch on line: 512, YES
+Branch on line: 556, YES
+Branch on line: 559, YES
+Branch on line: 568, YES
+Branch on line: 574, NO
+Branch on line: 575, YES
+Branch on line: 580, YES
+Branch on line: 612, YES
+Branch on line: 614, YES
+Branch on line: 618, YES
+Branch on line: 620, YES
+Branch on line: 626, NO
+Branch on line: 630, NO
+Branch on line: 636, YES
+Branch on line: 664, YES
+Branch on line: 666, YES
+Branch on line: 670, YES
+Branch on line: 672, YES
+Branch on line: 678, NO
+Branch on line: 682, NO
+Branch on line: 688, YES
+Branch on line: 745, YES
+Branch on line: 746, YES
+Branch on line: 748, YES
+Branch on line: 751, YES
+Branch on line: 755, NO
+Branch on line: 756, NO
+Branch on line: 761, NO
+Branch on line: 795, YES
+Branch on line: 799, YES
+Branch on line: 802, YES
+Branch on line: 806, YES
+Branch on line: 834, YES
+Branch on line: 836, YES
+Branch on line: 839, YES
+Branch on line: 843, YES
+Branch on line: 845, YES
+Branch on line: 849, YES
+Branch on line: 864, NO
+Branch on line: 867, YES
+Branch on line: 873, YES
+Branch on line: 880, YES
+Branch on line: 885, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Branch on line: 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest1
+
+==========================================================================
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 47.69230769230769
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 75.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 82.35294117647058
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 55.26315789473685
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 79.66101694915254
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 66.97674418604652
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the instructions along with a YES or NO after each branch which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+Branch on line: -1, YES
+Branch on line: 937, YES
+Branch on line: 941, YES
+Branch on line: 943, YES
+Branch on line: 945, YES
+Branch on line: 951, YES
+Branch on line: 958, NO
+Branch on line: 960, NO
+Branch on line: 962, NO
+Branch on line: 964, NO
+Branch on line: 965, NO
+Branch on line: 967, NO
+Branch on line: 969, YES
+Branch on line: 979, NO
+Branch on line: 983, NO
+Branch on line: 985, NO
+Branch on line: 988, NO
+Branch on line: 992, YES
+Branch on line: 996, NO
+Branch on line: 999, YES
+Branch on line: 1007, YES
+Branch on line: 1017, NO
+Branch on line: 1019, NO
+Branch on line: 1026, NO
+Branch on line: 1034, NO
+Branch on line: 1039, NO
+Branch on line: 1046, NO
+Branch on line: 1050, NO
+Branch on line: 1063, NO
+Branch on line: 1066, NO
+Branch on line: 1085, NO
+Branch on line: 1089, NO
+Branch on line: 1092, NO
+Branch on line: 1093, NO
+Branch on line: 1097, NO
+Branch on line: 1101, NO
+Branch on line: 1116, YES
+Branch on line: 1118, YES
+Branch on line: 1148, NO
+Branch on line: 1163, NO
+Branch on line: 1168, NO
+Branch on line: 1184, YES
+Branch on line: 1200, YES
+Branch on line: 1219, YES
+Branch on line: 1237, YES
+Branch on line: 1254, YES
+Branch on line: 1257, YES
+Branch on line: 1264, YES
+Branch on line: 1267, YES
+Branch on line: 1268, NO
+Branch on line: 1270, YES
+Branch on line: 1273, YES
+Branch on line: 1278, YES
+Branch on line: 1279, NO
+Branch on line: 1296, YES
+Branch on line: 1299, YES
+Branch on line: 1337, YES
+Branch on line: 1340, YES
+Branch on line: 1344, NO
+Branch on line: 1346, YES
+Branch on line: 1351, NO
+Branch on line: 1352, YES
+Branch on line: 1356, YES
+Branch on line: 1359, YES
+Branch on line: 1363, NO
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+Branch on line: -1, YES
+Branch on line: 1441, NO
+Branch on line: 1460, NO
+Branch on line: 1479, YES
+Branch on line: 1498, YES
+Branch on line: 1517, YES
+Branch on line: 1536, YES
+Branch on line: 1555, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Branch on line: -1, YES
+Branch on line: 1729, NO
+Branch on line: 1732, YES
+Branch on line: 1759, YES
+Branch on line: 1760, YES
+Branch on line: 1761, YES
+Branch on line: 1762, YES
+Branch on line: 1813, NO
+Branch on line: 1815, YES
+Branch on line: 1816, YES
+Branch on line: 1818, YES
+Branch on line: 1819, YES
+Branch on line: 1821, YES
+Branch on line: 1827, YES
+Branch on line: 1862, YES
+Branch on line: 1864, YES
+Branch on line: 1870, YES
+Branch on line: 1878, YES
+Branch on line: 1887, YES
+Branch on line: 1894, YES
+Branch on line: 1907, NO
+Branch on line: 1912, NO
+Branch on line: 1923, YES
+Branch on line: 1924, YES
+Branch on line: 1925, YES
+Branch on line: 1926, YES
+Branch on line: 1927, YES
+Branch on line: 1928, YES
+Branch on line: 1929, YES
+Branch on line: 1930, YES
+Branch on line: 1931, YES
+Branch on line: 1932, YES
+Branch on line: 1933, NO
+Branch on line: 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Branch on line: -1, YES
+Branch on line: 54, YES
+Branch on line: 57, YES
+Branch on line: 84, YES
+Branch on line: 103, YES
+Branch on line: 117, YES
+Branch on line: 121, NO
+Branch on line: 128, NO
+Branch on line: 134, NO
+Branch on line: 148, YES
+Branch on line: 149, YES
+Branch on line: 150, NO
+Branch on line: 152, YES
+Branch on line: 158, NO
+Branch on line: 161, NO
+Branch on line: 163, YES
+Branch on line: 166, YES
+Branch on line: 176, YES
+Branch on line: 182, NO
+Branch on line: 185, YES
+Branch on line: 190, YES
+Branch on line: 195, NO
+Branch on line: 198, YES
+Branch on line: 200, YES
+Branch on line: 213, YES
+Branch on line: 216, NO
+Branch on line: 218, YES
+Branch on line: 222, YES
+Branch on line: 232, YES
+Branch on line: 249, YES
+Branch on line: 269, NO
+Branch on line: 275, NO
+Branch on line: 279, NO
+Branch on line: 281, NO
+Branch on line: 285, NO
+Branch on line: 287, NO
+Branch on line: 289, NO
+Branch on line: 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Branch on line: -1, YES
+Branch on line: 1609, YES
+Branch on line: 1619, YES
+Branch on line: 1662, YES
+Branch on line: 1664, YES
+Branch on line: 1667, YES
+Branch on line: 1668, YES
+Branch on line: 1673, YES
+Branch on line: 1674, YES
+Branch on line: 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+Branch on line: -1, YES
+Branch on line: 323, YES
+Branch on line: 349, YES
+Branch on line: 354, NO
+Branch on line: 377, YES
+Branch on line: 415, YES
+Branch on line: 416, NO
+Branch on line: 421, YES
+Branch on line: 451, YES
+Branch on line: 455, YES
+Branch on line: 461, YES
+Branch on line: 494, YES
+Branch on line: 497, NO
+Branch on line: 499, YES
+Branch on line: 502, YES
+Branch on line: 509, YES
+Branch on line: 512, YES
+Branch on line: 556, YES
+Branch on line: 559, YES
+Branch on line: 568, YES
+Branch on line: 574, NO
+Branch on line: 575, YES
+Branch on line: 580, YES
+Branch on line: 612, YES
+Branch on line: 614, YES
+Branch on line: 618, YES
+Branch on line: 620, YES
+Branch on line: 626, NO
+Branch on line: 630, NO
+Branch on line: 636, YES
+Branch on line: 664, YES
+Branch on line: 666, YES
+Branch on line: 670, YES
+Branch on line: 672, YES
+Branch on line: 678, NO
+Branch on line: 682, NO
+Branch on line: 688, YES
+Branch on line: 745, YES
+Branch on line: 746, YES
+Branch on line: 748, YES
+Branch on line: 751, YES
+Branch on line: 755, NO
+Branch on line: 756, NO
+Branch on line: 761, NO
+Branch on line: 795, YES
+Branch on line: 799, YES
+Branch on line: 802, YES
+Branch on line: 806, YES
+Branch on line: 834, YES
+Branch on line: 836, YES
+Branch on line: 839, YES
+Branch on line: 843, YES
+Branch on line: 845, YES
+Branch on line: 849, YES
+Branch on line: 864, NO
+Branch on line: 867, YES
+Branch on line: 873, YES
+Branch on line: 880, YES
+Branch on line: 885, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Branch on line: 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest2
+
+==========================================================================
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 47.69230769230769
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 75.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 82.35294117647058
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 55.26315789473685
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 79.66101694915254
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 66.97674418604652
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the instructions along with a YES or NO after each branch which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+Branch on line: -1, YES
+Branch on line: 937, YES
+Branch on line: 941, YES
+Branch on line: 943, YES
+Branch on line: 945, YES
+Branch on line: 951, YES
+Branch on line: 958, NO
+Branch on line: 960, NO
+Branch on line: 962, NO
+Branch on line: 964, NO
+Branch on line: 965, NO
+Branch on line: 967, NO
+Branch on line: 969, YES
+Branch on line: 979, NO
+Branch on line: 983, NO
+Branch on line: 985, NO
+Branch on line: 988, NO
+Branch on line: 992, YES
+Branch on line: 996, NO
+Branch on line: 999, YES
+Branch on line: 1007, YES
+Branch on line: 1017, NO
+Branch on line: 1019, NO
+Branch on line: 1026, NO
+Branch on line: 1034, NO
+Branch on line: 1039, NO
+Branch on line: 1046, NO
+Branch on line: 1050, NO
+Branch on line: 1063, NO
+Branch on line: 1066, NO
+Branch on line: 1085, NO
+Branch on line: 1089, NO
+Branch on line: 1092, NO
+Branch on line: 1093, NO
+Branch on line: 1097, NO
+Branch on line: 1101, NO
+Branch on line: 1116, YES
+Branch on line: 1118, YES
+Branch on line: 1148, NO
+Branch on line: 1163, NO
+Branch on line: 1168, NO
+Branch on line: 1184, YES
+Branch on line: 1200, YES
+Branch on line: 1219, YES
+Branch on line: 1237, YES
+Branch on line: 1254, YES
+Branch on line: 1257, YES
+Branch on line: 1264, YES
+Branch on line: 1267, YES
+Branch on line: 1268, NO
+Branch on line: 1270, YES
+Branch on line: 1273, YES
+Branch on line: 1278, YES
+Branch on line: 1279, NO
+Branch on line: 1296, YES
+Branch on line: 1299, YES
+Branch on line: 1337, YES
+Branch on line: 1340, YES
+Branch on line: 1344, NO
+Branch on line: 1346, YES
+Branch on line: 1351, NO
+Branch on line: 1352, YES
+Branch on line: 1356, YES
+Branch on line: 1359, YES
+Branch on line: 1363, NO
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+Branch on line: -1, YES
+Branch on line: 1441, NO
+Branch on line: 1460, NO
+Branch on line: 1479, YES
+Branch on line: 1498, YES
+Branch on line: 1517, YES
+Branch on line: 1536, YES
+Branch on line: 1555, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Branch on line: -1, YES
+Branch on line: 1729, NO
+Branch on line: 1732, YES
+Branch on line: 1759, YES
+Branch on line: 1760, YES
+Branch on line: 1761, YES
+Branch on line: 1762, YES
+Branch on line: 1813, NO
+Branch on line: 1815, YES
+Branch on line: 1816, YES
+Branch on line: 1818, YES
+Branch on line: 1819, YES
+Branch on line: 1821, YES
+Branch on line: 1827, YES
+Branch on line: 1862, YES
+Branch on line: 1864, YES
+Branch on line: 1870, YES
+Branch on line: 1878, YES
+Branch on line: 1887, YES
+Branch on line: 1894, YES
+Branch on line: 1907, NO
+Branch on line: 1912, NO
+Branch on line: 1923, YES
+Branch on line: 1924, YES
+Branch on line: 1925, YES
+Branch on line: 1926, YES
+Branch on line: 1927, YES
+Branch on line: 1928, YES
+Branch on line: 1929, YES
+Branch on line: 1930, YES
+Branch on line: 1931, YES
+Branch on line: 1932, YES
+Branch on line: 1933, NO
+Branch on line: 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Branch on line: -1, YES
+Branch on line: 54, YES
+Branch on line: 57, YES
+Branch on line: 84, YES
+Branch on line: 103, YES
+Branch on line: 117, YES
+Branch on line: 121, NO
+Branch on line: 128, NO
+Branch on line: 134, NO
+Branch on line: 148, YES
+Branch on line: 149, YES
+Branch on line: 150, NO
+Branch on line: 152, YES
+Branch on line: 158, NO
+Branch on line: 161, NO
+Branch on line: 163, YES
+Branch on line: 166, YES
+Branch on line: 176, YES
+Branch on line: 182, NO
+Branch on line: 185, YES
+Branch on line: 190, YES
+Branch on line: 195, NO
+Branch on line: 198, YES
+Branch on line: 200, YES
+Branch on line: 213, YES
+Branch on line: 216, NO
+Branch on line: 218, YES
+Branch on line: 222, YES
+Branch on line: 232, YES
+Branch on line: 249, YES
+Branch on line: 269, NO
+Branch on line: 275, NO
+Branch on line: 279, NO
+Branch on line: 281, NO
+Branch on line: 285, NO
+Branch on line: 287, NO
+Branch on line: 289, NO
+Branch on line: 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Branch on line: -1, YES
+Branch on line: 1609, YES
+Branch on line: 1619, YES
+Branch on line: 1662, YES
+Branch on line: 1664, YES
+Branch on line: 1667, YES
+Branch on line: 1668, YES
+Branch on line: 1673, YES
+Branch on line: 1674, YES
+Branch on line: 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+Branch on line: -1, YES
+Branch on line: 323, YES
+Branch on line: 349, YES
+Branch on line: 354, NO
+Branch on line: 377, YES
+Branch on line: 415, YES
+Branch on line: 416, NO
+Branch on line: 421, YES
+Branch on line: 451, YES
+Branch on line: 455, YES
+Branch on line: 461, YES
+Branch on line: 494, YES
+Branch on line: 497, NO
+Branch on line: 499, YES
+Branch on line: 502, YES
+Branch on line: 509, YES
+Branch on line: 512, YES
+Branch on line: 556, YES
+Branch on line: 559, YES
+Branch on line: 568, YES
+Branch on line: 574, NO
+Branch on line: 575, YES
+Branch on line: 580, YES
+Branch on line: 612, YES
+Branch on line: 614, YES
+Branch on line: 618, YES
+Branch on line: 620, YES
+Branch on line: 626, NO
+Branch on line: 630, NO
+Branch on line: 636, YES
+Branch on line: 664, YES
+Branch on line: 666, YES
+Branch on line: 670, YES
+Branch on line: 672, YES
+Branch on line: 678, NO
+Branch on line: 682, NO
+Branch on line: 688, YES
+Branch on line: 745, YES
+Branch on line: 746, YES
+Branch on line: 748, YES
+Branch on line: 751, YES
+Branch on line: 755, NO
+Branch on line: 756, NO
+Branch on line: 761, NO
+Branch on line: 795, YES
+Branch on line: 799, YES
+Branch on line: 802, YES
+Branch on line: 806, YES
+Branch on line: 834, YES
+Branch on line: 836, YES
+Branch on line: 839, YES
+Branch on line: 843, YES
+Branch on line: 845, YES
+Branch on line: 849, YES
+Branch on line: 864, NO
+Branch on line: 867, YES
+Branch on line: 873, YES
+Branch on line: 880, YES
+Branch on line: 885, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Branch on line: 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest3
+
+==========================================================================
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 47.69230769230769
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 75.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 82.35294117647058
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 55.26315789473685
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 79.66101694915254
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 66.97674418604652
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the instructions along with a YES or NO after each branch which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+Branch on line: -1, YES
+Branch on line: 937, YES
+Branch on line: 941, YES
+Branch on line: 943, YES
+Branch on line: 945, YES
+Branch on line: 951, YES
+Branch on line: 958, NO
+Branch on line: 960, NO
+Branch on line: 962, NO
+Branch on line: 964, NO
+Branch on line: 965, NO
+Branch on line: 967, NO
+Branch on line: 969, YES
+Branch on line: 979, NO
+Branch on line: 983, NO
+Branch on line: 985, NO
+Branch on line: 988, NO
+Branch on line: 992, YES
+Branch on line: 996, NO
+Branch on line: 999, YES
+Branch on line: 1007, YES
+Branch on line: 1017, NO
+Branch on line: 1019, NO
+Branch on line: 1026, NO
+Branch on line: 1034, NO
+Branch on line: 1039, NO
+Branch on line: 1046, NO
+Branch on line: 1050, NO
+Branch on line: 1063, NO
+Branch on line: 1066, NO
+Branch on line: 1085, NO
+Branch on line: 1089, NO
+Branch on line: 1092, NO
+Branch on line: 1093, NO
+Branch on line: 1097, NO
+Branch on line: 1101, NO
+Branch on line: 1116, YES
+Branch on line: 1118, YES
+Branch on line: 1148, NO
+Branch on line: 1163, NO
+Branch on line: 1168, NO
+Branch on line: 1184, YES
+Branch on line: 1200, YES
+Branch on line: 1219, YES
+Branch on line: 1237, YES
+Branch on line: 1254, YES
+Branch on line: 1257, YES
+Branch on line: 1264, YES
+Branch on line: 1267, YES
+Branch on line: 1268, NO
+Branch on line: 1270, YES
+Branch on line: 1273, YES
+Branch on line: 1278, YES
+Branch on line: 1279, NO
+Branch on line: 1296, YES
+Branch on line: 1299, YES
+Branch on line: 1337, YES
+Branch on line: 1340, YES
+Branch on line: 1344, NO
+Branch on line: 1346, YES
+Branch on line: 1351, NO
+Branch on line: 1352, YES
+Branch on line: 1356, YES
+Branch on line: 1359, YES
+Branch on line: 1363, NO
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+Branch on line: -1, YES
+Branch on line: 1441, NO
+Branch on line: 1460, NO
+Branch on line: 1479, YES
+Branch on line: 1498, YES
+Branch on line: 1517, YES
+Branch on line: 1536, YES
+Branch on line: 1555, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Branch on line: -1, YES
+Branch on line: 1729, NO
+Branch on line: 1732, YES
+Branch on line: 1759, YES
+Branch on line: 1760, YES
+Branch on line: 1761, YES
+Branch on line: 1762, YES
+Branch on line: 1813, NO
+Branch on line: 1815, YES
+Branch on line: 1816, YES
+Branch on line: 1818, YES
+Branch on line: 1819, YES
+Branch on line: 1821, YES
+Branch on line: 1827, YES
+Branch on line: 1862, YES
+Branch on line: 1864, YES
+Branch on line: 1870, YES
+Branch on line: 1878, YES
+Branch on line: 1887, YES
+Branch on line: 1894, YES
+Branch on line: 1907, NO
+Branch on line: 1912, NO
+Branch on line: 1923, YES
+Branch on line: 1924, YES
+Branch on line: 1925, YES
+Branch on line: 1926, YES
+Branch on line: 1927, YES
+Branch on line: 1928, YES
+Branch on line: 1929, YES
+Branch on line: 1930, YES
+Branch on line: 1931, YES
+Branch on line: 1932, YES
+Branch on line: 1933, NO
+Branch on line: 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Branch on line: -1, YES
+Branch on line: 54, YES
+Branch on line: 57, YES
+Branch on line: 84, YES
+Branch on line: 103, YES
+Branch on line: 117, YES
+Branch on line: 121, NO
+Branch on line: 128, NO
+Branch on line: 134, NO
+Branch on line: 148, YES
+Branch on line: 149, YES
+Branch on line: 150, NO
+Branch on line: 152, YES
+Branch on line: 158, NO
+Branch on line: 161, NO
+Branch on line: 163, YES
+Branch on line: 166, YES
+Branch on line: 176, YES
+Branch on line: 182, NO
+Branch on line: 185, YES
+Branch on line: 190, YES
+Branch on line: 195, NO
+Branch on line: 198, YES
+Branch on line: 200, YES
+Branch on line: 213, YES
+Branch on line: 216, NO
+Branch on line: 218, YES
+Branch on line: 222, YES
+Branch on line: 232, YES
+Branch on line: 249, YES
+Branch on line: 269, NO
+Branch on line: 275, NO
+Branch on line: 279, NO
+Branch on line: 281, NO
+Branch on line: 285, NO
+Branch on line: 287, NO
+Branch on line: 289, NO
+Branch on line: 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Branch on line: -1, YES
+Branch on line: 1609, YES
+Branch on line: 1619, YES
+Branch on line: 1662, YES
+Branch on line: 1664, YES
+Branch on line: 1667, YES
+Branch on line: 1668, YES
+Branch on line: 1673, YES
+Branch on line: 1674, YES
+Branch on line: 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+Branch on line: -1, YES
+Branch on line: 323, YES
+Branch on line: 349, YES
+Branch on line: 354, NO
+Branch on line: 377, YES
+Branch on line: 415, YES
+Branch on line: 416, NO
+Branch on line: 421, YES
+Branch on line: 451, YES
+Branch on line: 455, YES
+Branch on line: 461, YES
+Branch on line: 494, YES
+Branch on line: 497, NO
+Branch on line: 499, YES
+Branch on line: 502, YES
+Branch on line: 509, YES
+Branch on line: 512, YES
+Branch on line: 556, YES
+Branch on line: 559, YES
+Branch on line: 568, YES
+Branch on line: 574, NO
+Branch on line: 575, YES
+Branch on line: 580, YES
+Branch on line: 612, YES
+Branch on line: 614, YES
+Branch on line: 618, YES
+Branch on line: 620, YES
+Branch on line: 626, NO
+Branch on line: 630, NO
+Branch on line: 636, YES
+Branch on line: 664, YES
+Branch on line: 666, YES
+Branch on line: 670, YES
+Branch on line: 672, YES
+Branch on line: 678, NO
+Branch on line: 682, NO
+Branch on line: 688, YES
+Branch on line: 745, YES
+Branch on line: 746, YES
+Branch on line: 748, YES
+Branch on line: 751, YES
+Branch on line: 755, NO
+Branch on line: 756, NO
+Branch on line: 761, NO
+Branch on line: 795, YES
+Branch on line: 799, YES
+Branch on line: 802, YES
+Branch on line: 806, YES
+Branch on line: 834, YES
+Branch on line: 836, YES
+Branch on line: 839, YES
+Branch on line: 843, YES
+Branch on line: 845, YES
+Branch on line: 849, YES
+Branch on line: 864, NO
+Branch on line: 867, YES
+Branch on line: 873, YES
+Branch on line: 880, YES
+Branch on line: 885, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Branch on line: 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest4
+
+==========================================================================
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 47.69230769230769
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 75.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 82.35294117647058
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 55.26315789473685
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 79.66101694915254
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 66.97674418604652
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the instructions along with a YES or NO after each branch which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+Branch on line: -1, YES
+Branch on line: 937, YES
+Branch on line: 941, YES
+Branch on line: 943, YES
+Branch on line: 945, YES
+Branch on line: 951, YES
+Branch on line: 958, NO
+Branch on line: 960, NO
+Branch on line: 962, NO
+Branch on line: 964, NO
+Branch on line: 965, NO
+Branch on line: 967, NO
+Branch on line: 969, YES
+Branch on line: 979, NO
+Branch on line: 983, NO
+Branch on line: 985, NO
+Branch on line: 988, NO
+Branch on line: 992, YES
+Branch on line: 996, NO
+Branch on line: 999, YES
+Branch on line: 1007, YES
+Branch on line: 1017, NO
+Branch on line: 1019, NO
+Branch on line: 1026, NO
+Branch on line: 1034, NO
+Branch on line: 1039, NO
+Branch on line: 1046, NO
+Branch on line: 1050, NO
+Branch on line: 1063, NO
+Branch on line: 1066, NO
+Branch on line: 1085, NO
+Branch on line: 1089, NO
+Branch on line: 1092, NO
+Branch on line: 1093, NO
+Branch on line: 1097, NO
+Branch on line: 1101, NO
+Branch on line: 1116, YES
+Branch on line: 1118, YES
+Branch on line: 1148, NO
+Branch on line: 1163, NO
+Branch on line: 1168, NO
+Branch on line: 1184, YES
+Branch on line: 1200, YES
+Branch on line: 1219, YES
+Branch on line: 1237, YES
+Branch on line: 1254, YES
+Branch on line: 1257, YES
+Branch on line: 1264, YES
+Branch on line: 1267, YES
+Branch on line: 1268, NO
+Branch on line: 1270, YES
+Branch on line: 1273, YES
+Branch on line: 1278, YES
+Branch on line: 1279, NO
+Branch on line: 1296, YES
+Branch on line: 1299, YES
+Branch on line: 1337, YES
+Branch on line: 1340, YES
+Branch on line: 1344, NO
+Branch on line: 1346, YES
+Branch on line: 1351, NO
+Branch on line: 1352, YES
+Branch on line: 1356, YES
+Branch on line: 1359, YES
+Branch on line: 1363, NO
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+Branch on line: -1, YES
+Branch on line: 1441, NO
+Branch on line: 1460, NO
+Branch on line: 1479, YES
+Branch on line: 1498, YES
+Branch on line: 1517, YES
+Branch on line: 1536, YES
+Branch on line: 1555, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Branch on line: -1, YES
+Branch on line: 1729, NO
+Branch on line: 1732, YES
+Branch on line: 1759, YES
+Branch on line: 1760, YES
+Branch on line: 1761, YES
+Branch on line: 1762, YES
+Branch on line: 1813, NO
+Branch on line: 1815, YES
+Branch on line: 1816, YES
+Branch on line: 1818, YES
+Branch on line: 1819, YES
+Branch on line: 1821, YES
+Branch on line: 1827, YES
+Branch on line: 1862, YES
+Branch on line: 1864, YES
+Branch on line: 1870, YES
+Branch on line: 1878, YES
+Branch on line: 1887, YES
+Branch on line: 1894, YES
+Branch on line: 1907, NO
+Branch on line: 1912, NO
+Branch on line: 1923, YES
+Branch on line: 1924, YES
+Branch on line: 1925, YES
+Branch on line: 1926, YES
+Branch on line: 1927, YES
+Branch on line: 1928, YES
+Branch on line: 1929, YES
+Branch on line: 1930, YES
+Branch on line: 1931, YES
+Branch on line: 1932, YES
+Branch on line: 1933, NO
+Branch on line: 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Branch on line: -1, YES
+Branch on line: 54, YES
+Branch on line: 57, YES
+Branch on line: 84, YES
+Branch on line: 103, YES
+Branch on line: 117, YES
+Branch on line: 121, NO
+Branch on line: 128, NO
+Branch on line: 134, NO
+Branch on line: 148, YES
+Branch on line: 149, YES
+Branch on line: 150, NO
+Branch on line: 152, YES
+Branch on line: 158, NO
+Branch on line: 161, NO
+Branch on line: 163, YES
+Branch on line: 166, YES
+Branch on line: 176, YES
+Branch on line: 182, NO
+Branch on line: 185, YES
+Branch on line: 190, YES
+Branch on line: 195, NO
+Branch on line: 198, YES
+Branch on line: 200, YES
+Branch on line: 213, YES
+Branch on line: 216, NO
+Branch on line: 218, YES
+Branch on line: 222, YES
+Branch on line: 232, YES
+Branch on line: 249, YES
+Branch on line: 269, NO
+Branch on line: 275, NO
+Branch on line: 279, NO
+Branch on line: 281, NO
+Branch on line: 285, NO
+Branch on line: 287, NO
+Branch on line: 289, NO
+Branch on line: 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Branch on line: -1, YES
+Branch on line: 1609, YES
+Branch on line: 1619, YES
+Branch on line: 1662, YES
+Branch on line: 1664, YES
+Branch on line: 1667, YES
+Branch on line: 1668, YES
+Branch on line: 1673, YES
+Branch on line: 1674, YES
+Branch on line: 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+Branch on line: -1, YES
+Branch on line: 323, YES
+Branch on line: 349, YES
+Branch on line: 354, NO
+Branch on line: 377, YES
+Branch on line: 415, YES
+Branch on line: 416, NO
+Branch on line: 421, YES
+Branch on line: 451, YES
+Branch on line: 455, YES
+Branch on line: 461, YES
+Branch on line: 494, YES
+Branch on line: 497, NO
+Branch on line: 499, YES
+Branch on line: 502, YES
+Branch on line: 509, YES
+Branch on line: 512, YES
+Branch on line: 556, YES
+Branch on line: 559, YES
+Branch on line: 568, YES
+Branch on line: 574, NO
+Branch on line: 575, YES
+Branch on line: 580, YES
+Branch on line: 612, YES
+Branch on line: 614, YES
+Branch on line: 618, YES
+Branch on line: 620, YES
+Branch on line: 626, NO
+Branch on line: 630, NO
+Branch on line: 636, YES
+Branch on line: 664, YES
+Branch on line: 666, YES
+Branch on line: 670, YES
+Branch on line: 672, YES
+Branch on line: 678, NO
+Branch on line: 682, NO
+Branch on line: 688, YES
+Branch on line: 745, YES
+Branch on line: 746, YES
+Branch on line: 748, YES
+Branch on line: 751, YES
+Branch on line: 755, NO
+Branch on line: 756, NO
+Branch on line: 761, NO
+Branch on line: 795, YES
+Branch on line: 799, YES
+Branch on line: 802, YES
+Branch on line: 806, YES
+Branch on line: 834, YES
+Branch on line: 836, YES
+Branch on line: 839, YES
+Branch on line: 843, YES
+Branch on line: 845, YES
+Branch on line: 849, YES
+Branch on line: 864, NO
+Branch on line: 867, YES
+Branch on line: 873, YES
+Branch on line: 880, YES
+Branch on line: 885, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Branch on line: 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest5
+
+==========================================================================
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 47.69230769230769
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 75.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 82.35294117647058
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 55.26315789473685
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 79.66101694915254
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 66.97674418604652
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the instructions along with a YES or NO after each branch which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+Branch on line: -1, YES
+Branch on line: 937, YES
+Branch on line: 941, YES
+Branch on line: 943, YES
+Branch on line: 945, YES
+Branch on line: 951, YES
+Branch on line: 958, NO
+Branch on line: 960, NO
+Branch on line: 962, NO
+Branch on line: 964, NO
+Branch on line: 965, NO
+Branch on line: 967, NO
+Branch on line: 969, YES
+Branch on line: 979, NO
+Branch on line: 983, NO
+Branch on line: 985, NO
+Branch on line: 988, NO
+Branch on line: 992, YES
+Branch on line: 996, NO
+Branch on line: 999, YES
+Branch on line: 1007, YES
+Branch on line: 1017, NO
+Branch on line: 1019, NO
+Branch on line: 1026, NO
+Branch on line: 1034, NO
+Branch on line: 1039, NO
+Branch on line: 1046, NO
+Branch on line: 1050, NO
+Branch on line: 1063, NO
+Branch on line: 1066, NO
+Branch on line: 1085, NO
+Branch on line: 1089, NO
+Branch on line: 1092, NO
+Branch on line: 1093, NO
+Branch on line: 1097, NO
+Branch on line: 1101, NO
+Branch on line: 1116, YES
+Branch on line: 1118, YES
+Branch on line: 1148, NO
+Branch on line: 1163, NO
+Branch on line: 1168, NO
+Branch on line: 1184, YES
+Branch on line: 1200, YES
+Branch on line: 1219, YES
+Branch on line: 1237, YES
+Branch on line: 1254, YES
+Branch on line: 1257, YES
+Branch on line: 1264, YES
+Branch on line: 1267, YES
+Branch on line: 1268, NO
+Branch on line: 1270, YES
+Branch on line: 1273, YES
+Branch on line: 1278, YES
+Branch on line: 1279, NO
+Branch on line: 1296, YES
+Branch on line: 1299, YES
+Branch on line: 1337, YES
+Branch on line: 1340, YES
+Branch on line: 1344, NO
+Branch on line: 1346, YES
+Branch on line: 1351, NO
+Branch on line: 1352, YES
+Branch on line: 1356, YES
+Branch on line: 1359, YES
+Branch on line: 1363, NO
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+Branch on line: -1, YES
+Branch on line: 1441, NO
+Branch on line: 1460, NO
+Branch on line: 1479, YES
+Branch on line: 1498, YES
+Branch on line: 1517, YES
+Branch on line: 1536, YES
+Branch on line: 1555, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Branch on line: -1, YES
+Branch on line: 1729, NO
+Branch on line: 1732, YES
+Branch on line: 1759, YES
+Branch on line: 1760, YES
+Branch on line: 1761, YES
+Branch on line: 1762, YES
+Branch on line: 1813, NO
+Branch on line: 1815, YES
+Branch on line: 1816, YES
+Branch on line: 1818, YES
+Branch on line: 1819, YES
+Branch on line: 1821, YES
+Branch on line: 1827, YES
+Branch on line: 1862, YES
+Branch on line: 1864, YES
+Branch on line: 1870, YES
+Branch on line: 1878, YES
+Branch on line: 1887, YES
+Branch on line: 1894, YES
+Branch on line: 1907, NO
+Branch on line: 1912, NO
+Branch on line: 1923, YES
+Branch on line: 1924, YES
+Branch on line: 1925, YES
+Branch on line: 1926, YES
+Branch on line: 1927, YES
+Branch on line: 1928, YES
+Branch on line: 1929, YES
+Branch on line: 1930, YES
+Branch on line: 1931, YES
+Branch on line: 1932, YES
+Branch on line: 1933, NO
+Branch on line: 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Branch on line: -1, YES
+Branch on line: 54, YES
+Branch on line: 57, YES
+Branch on line: 84, YES
+Branch on line: 103, YES
+Branch on line: 117, YES
+Branch on line: 121, NO
+Branch on line: 128, NO
+Branch on line: 134, NO
+Branch on line: 148, YES
+Branch on line: 149, YES
+Branch on line: 150, NO
+Branch on line: 152, YES
+Branch on line: 158, NO
+Branch on line: 161, NO
+Branch on line: 163, YES
+Branch on line: 166, YES
+Branch on line: 176, YES
+Branch on line: 182, NO
+Branch on line: 185, YES
+Branch on line: 190, YES
+Branch on line: 195, NO
+Branch on line: 198, YES
+Branch on line: 200, YES
+Branch on line: 213, YES
+Branch on line: 216, NO
+Branch on line: 218, YES
+Branch on line: 222, YES
+Branch on line: 232, YES
+Branch on line: 249, YES
+Branch on line: 269, NO
+Branch on line: 275, NO
+Branch on line: 279, NO
+Branch on line: 281, NO
+Branch on line: 285, NO
+Branch on line: 287, NO
+Branch on line: 289, NO
+Branch on line: 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Branch on line: -1, YES
+Branch on line: 1609, YES
+Branch on line: 1619, YES
+Branch on line: 1662, YES
+Branch on line: 1664, YES
+Branch on line: 1667, YES
+Branch on line: 1668, YES
+Branch on line: 1673, YES
+Branch on line: 1674, YES
+Branch on line: 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+Branch on line: -1, YES
+Branch on line: 323, YES
+Branch on line: 349, YES
+Branch on line: 354, NO
+Branch on line: 377, YES
+Branch on line: 415, YES
+Branch on line: 416, NO
+Branch on line: 421, YES
+Branch on line: 451, YES
+Branch on line: 455, YES
+Branch on line: 461, YES
+Branch on line: 494, YES
+Branch on line: 497, NO
+Branch on line: 499, YES
+Branch on line: 502, YES
+Branch on line: 509, YES
+Branch on line: 512, YES
+Branch on line: 556, YES
+Branch on line: 559, YES
+Branch on line: 568, YES
+Branch on line: 574, NO
+Branch on line: 575, YES
+Branch on line: 580, YES
+Branch on line: 612, YES
+Branch on line: 614, YES
+Branch on line: 618, YES
+Branch on line: 620, YES
+Branch on line: 626, NO
+Branch on line: 630, NO
+Branch on line: 636, YES
+Branch on line: 664, YES
+Branch on line: 666, YES
+Branch on line: 670, YES
+Branch on line: 672, YES
+Branch on line: 678, NO
+Branch on line: 682, NO
+Branch on line: 688, YES
+Branch on line: 745, YES
+Branch on line: 746, YES
+Branch on line: 748, YES
+Branch on line: 751, YES
+Branch on line: 755, NO
+Branch on line: 756, NO
+Branch on line: 761, NO
+Branch on line: 795, YES
+Branch on line: 799, YES
+Branch on line: 802, YES
+Branch on line: 806, YES
+Branch on line: 834, YES
+Branch on line: 836, YES
+Branch on line: 839, YES
+Branch on line: 843, YES
+Branch on line: 845, YES
+Branch on line: 849, YES
+Branch on line: 864, NO
+Branch on line: 867, YES
+Branch on line: 873, YES
+Branch on line: 880, YES
+Branch on line: 885, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Branch on line: 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest6
+
+==========================================================================
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 47.69230769230769
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 75.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 82.35294117647058
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 55.26315789473685
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 79.66101694915254
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 66.97674418604652
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the instructions along with a YES or NO after each branch which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+Branch on line: -1, YES
+Branch on line: 937, YES
+Branch on line: 941, YES
+Branch on line: 943, YES
+Branch on line: 945, YES
+Branch on line: 951, YES
+Branch on line: 958, NO
+Branch on line: 960, NO
+Branch on line: 962, NO
+Branch on line: 964, NO
+Branch on line: 965, NO
+Branch on line: 967, NO
+Branch on line: 969, YES
+Branch on line: 979, NO
+Branch on line: 983, NO
+Branch on line: 985, NO
+Branch on line: 988, NO
+Branch on line: 992, YES
+Branch on line: 996, NO
+Branch on line: 999, YES
+Branch on line: 1007, YES
+Branch on line: 1017, NO
+Branch on line: 1019, NO
+Branch on line: 1026, NO
+Branch on line: 1034, NO
+Branch on line: 1039, NO
+Branch on line: 1046, NO
+Branch on line: 1050, NO
+Branch on line: 1063, NO
+Branch on line: 1066, NO
+Branch on line: 1085, NO
+Branch on line: 1089, NO
+Branch on line: 1092, NO
+Branch on line: 1093, NO
+Branch on line: 1097, NO
+Branch on line: 1101, NO
+Branch on line: 1116, YES
+Branch on line: 1118, YES
+Branch on line: 1148, NO
+Branch on line: 1163, NO
+Branch on line: 1168, NO
+Branch on line: 1184, YES
+Branch on line: 1200, YES
+Branch on line: 1219, YES
+Branch on line: 1237, YES
+Branch on line: 1254, YES
+Branch on line: 1257, YES
+Branch on line: 1264, YES
+Branch on line: 1267, YES
+Branch on line: 1268, NO
+Branch on line: 1270, YES
+Branch on line: 1273, YES
+Branch on line: 1278, YES
+Branch on line: 1279, NO
+Branch on line: 1296, YES
+Branch on line: 1299, YES
+Branch on line: 1337, YES
+Branch on line: 1340, YES
+Branch on line: 1344, NO
+Branch on line: 1346, YES
+Branch on line: 1351, NO
+Branch on line: 1352, YES
+Branch on line: 1356, YES
+Branch on line: 1359, YES
+Branch on line: 1363, NO
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+Branch on line: -1, YES
+Branch on line: 1441, NO
+Branch on line: 1460, NO
+Branch on line: 1479, YES
+Branch on line: 1498, YES
+Branch on line: 1517, YES
+Branch on line: 1536, YES
+Branch on line: 1555, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Branch on line: -1, YES
+Branch on line: 1729, NO
+Branch on line: 1732, YES
+Branch on line: 1759, YES
+Branch on line: 1760, YES
+Branch on line: 1761, YES
+Branch on line: 1762, YES
+Branch on line: 1813, NO
+Branch on line: 1815, YES
+Branch on line: 1816, YES
+Branch on line: 1818, YES
+Branch on line: 1819, YES
+Branch on line: 1821, YES
+Branch on line: 1827, YES
+Branch on line: 1862, YES
+Branch on line: 1864, YES
+Branch on line: 1870, YES
+Branch on line: 1878, YES
+Branch on line: 1887, YES
+Branch on line: 1894, YES
+Branch on line: 1907, NO
+Branch on line: 1912, NO
+Branch on line: 1923, YES
+Branch on line: 1924, YES
+Branch on line: 1925, YES
+Branch on line: 1926, YES
+Branch on line: 1927, YES
+Branch on line: 1928, YES
+Branch on line: 1929, YES
+Branch on line: 1930, YES
+Branch on line: 1931, YES
+Branch on line: 1932, YES
+Branch on line: 1933, NO
+Branch on line: 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Branch on line: -1, YES
+Branch on line: 54, YES
+Branch on line: 57, YES
+Branch on line: 84, YES
+Branch on line: 103, YES
+Branch on line: 117, YES
+Branch on line: 121, NO
+Branch on line: 128, NO
+Branch on line: 134, NO
+Branch on line: 148, YES
+Branch on line: 149, YES
+Branch on line: 150, NO
+Branch on line: 152, YES
+Branch on line: 158, NO
+Branch on line: 161, NO
+Branch on line: 163, YES
+Branch on line: 166, YES
+Branch on line: 176, YES
+Branch on line: 182, NO
+Branch on line: 185, YES
+Branch on line: 190, YES
+Branch on line: 195, NO
+Branch on line: 198, YES
+Branch on line: 200, YES
+Branch on line: 213, YES
+Branch on line: 216, NO
+Branch on line: 218, YES
+Branch on line: 222, YES
+Branch on line: 232, YES
+Branch on line: 249, YES
+Branch on line: 269, NO
+Branch on line: 275, NO
+Branch on line: 279, NO
+Branch on line: 281, NO
+Branch on line: 285, NO
+Branch on line: 287, NO
+Branch on line: 289, NO
+Branch on line: 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Branch on line: -1, YES
+Branch on line: 1609, YES
+Branch on line: 1619, YES
+Branch on line: 1662, YES
+Branch on line: 1664, YES
+Branch on line: 1667, YES
+Branch on line: 1668, YES
+Branch on line: 1673, YES
+Branch on line: 1674, YES
+Branch on line: 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+Branch on line: -1, YES
+Branch on line: 323, YES
+Branch on line: 349, YES
+Branch on line: 354, NO
+Branch on line: 377, YES
+Branch on line: 415, YES
+Branch on line: 416, NO
+Branch on line: 421, YES
+Branch on line: 451, YES
+Branch on line: 455, YES
+Branch on line: 461, YES
+Branch on line: 494, YES
+Branch on line: 497, NO
+Branch on line: 499, YES
+Branch on line: 502, YES
+Branch on line: 509, YES
+Branch on line: 512, YES
+Branch on line: 556, YES
+Branch on line: 559, YES
+Branch on line: 568, YES
+Branch on line: 574, NO
+Branch on line: 575, YES
+Branch on line: 580, YES
+Branch on line: 612, YES
+Branch on line: 614, YES
+Branch on line: 618, YES
+Branch on line: 620, YES
+Branch on line: 626, NO
+Branch on line: 630, NO
+Branch on line: 636, YES
+Branch on line: 664, YES
+Branch on line: 666, YES
+Branch on line: 670, YES
+Branch on line: 672, YES
+Branch on line: 678, NO
+Branch on line: 682, NO
+Branch on line: 688, YES
+Branch on line: 745, YES
+Branch on line: 746, YES
+Branch on line: 748, YES
+Branch on line: 751, YES
+Branch on line: 755, NO
+Branch on line: 756, NO
+Branch on line: 761, NO
+Branch on line: 795, YES
+Branch on line: 799, YES
+Branch on line: 802, YES
+Branch on line: 806, YES
+Branch on line: 834, YES
+Branch on line: 836, YES
+Branch on line: 839, YES
+Branch on line: 843, YES
+Branch on line: 845, YES
+Branch on line: 849, YES
+Branch on line: 864, NO
+Branch on line: 867, YES
+Branch on line: 873, YES
+Branch on line: 880, YES
+Branch on line: 885, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Branch on line: 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest7
+
+==========================================================================
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 47.69230769230769
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 75.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 82.35294117647058
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 55.26315789473685
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 79.66101694915254
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 66.97674418604652
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the instructions along with a YES or NO after each branch which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+Branch on line: -1, YES
+Branch on line: 937, YES
+Branch on line: 941, YES
+Branch on line: 943, YES
+Branch on line: 945, YES
+Branch on line: 951, YES
+Branch on line: 958, NO
+Branch on line: 960, NO
+Branch on line: 962, NO
+Branch on line: 964, NO
+Branch on line: 965, NO
+Branch on line: 967, NO
+Branch on line: 969, YES
+Branch on line: 979, NO
+Branch on line: 983, NO
+Branch on line: 985, NO
+Branch on line: 988, NO
+Branch on line: 992, YES
+Branch on line: 996, NO
+Branch on line: 999, YES
+Branch on line: 1007, YES
+Branch on line: 1017, NO
+Branch on line: 1019, NO
+Branch on line: 1026, NO
+Branch on line: 1034, NO
+Branch on line: 1039, NO
+Branch on line: 1046, NO
+Branch on line: 1050, NO
+Branch on line: 1063, NO
+Branch on line: 1066, NO
+Branch on line: 1085, NO
+Branch on line: 1089, NO
+Branch on line: 1092, NO
+Branch on line: 1093, NO
+Branch on line: 1097, NO
+Branch on line: 1101, NO
+Branch on line: 1116, YES
+Branch on line: 1118, YES
+Branch on line: 1148, NO
+Branch on line: 1163, NO
+Branch on line: 1168, NO
+Branch on line: 1184, YES
+Branch on line: 1200, YES
+Branch on line: 1219, YES
+Branch on line: 1237, YES
+Branch on line: 1254, YES
+Branch on line: 1257, YES
+Branch on line: 1264, YES
+Branch on line: 1267, YES
+Branch on line: 1268, NO
+Branch on line: 1270, YES
+Branch on line: 1273, YES
+Branch on line: 1278, YES
+Branch on line: 1279, NO
+Branch on line: 1296, YES
+Branch on line: 1299, YES
+Branch on line: 1337, YES
+Branch on line: 1340, YES
+Branch on line: 1344, NO
+Branch on line: 1346, YES
+Branch on line: 1351, NO
+Branch on line: 1352, YES
+Branch on line: 1356, YES
+Branch on line: 1359, YES
+Branch on line: 1363, NO
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+Branch on line: -1, YES
+Branch on line: 1441, NO
+Branch on line: 1460, NO
+Branch on line: 1479, YES
+Branch on line: 1498, YES
+Branch on line: 1517, YES
+Branch on line: 1536, YES
+Branch on line: 1555, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Branch on line: -1, YES
+Branch on line: 1729, NO
+Branch on line: 1732, YES
+Branch on line: 1759, YES
+Branch on line: 1760, YES
+Branch on line: 1761, YES
+Branch on line: 1762, YES
+Branch on line: 1813, NO
+Branch on line: 1815, YES
+Branch on line: 1816, YES
+Branch on line: 1818, YES
+Branch on line: 1819, YES
+Branch on line: 1821, YES
+Branch on line: 1827, YES
+Branch on line: 1862, YES
+Branch on line: 1864, YES
+Branch on line: 1870, YES
+Branch on line: 1878, YES
+Branch on line: 1887, YES
+Branch on line: 1894, YES
+Branch on line: 1907, NO
+Branch on line: 1912, NO
+Branch on line: 1923, YES
+Branch on line: 1924, YES
+Branch on line: 1925, YES
+Branch on line: 1926, YES
+Branch on line: 1927, YES
+Branch on line: 1928, YES
+Branch on line: 1929, YES
+Branch on line: 1930, YES
+Branch on line: 1931, YES
+Branch on line: 1932, YES
+Branch on line: 1933, NO
+Branch on line: 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Branch on line: -1, YES
+Branch on line: 54, YES
+Branch on line: 57, YES
+Branch on line: 84, YES
+Branch on line: 103, YES
+Branch on line: 117, YES
+Branch on line: 121, NO
+Branch on line: 128, NO
+Branch on line: 134, NO
+Branch on line: 148, YES
+Branch on line: 149, YES
+Branch on line: 150, NO
+Branch on line: 152, YES
+Branch on line: 158, NO
+Branch on line: 161, NO
+Branch on line: 163, YES
+Branch on line: 166, YES
+Branch on line: 176, YES
+Branch on line: 182, NO
+Branch on line: 185, YES
+Branch on line: 190, YES
+Branch on line: 195, NO
+Branch on line: 198, YES
+Branch on line: 200, YES
+Branch on line: 213, YES
+Branch on line: 216, NO
+Branch on line: 218, YES
+Branch on line: 222, YES
+Branch on line: 232, YES
+Branch on line: 249, YES
+Branch on line: 269, NO
+Branch on line: 275, NO
+Branch on line: 279, NO
+Branch on line: 281, NO
+Branch on line: 285, NO
+Branch on line: 287, NO
+Branch on line: 289, NO
+Branch on line: 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Branch on line: -1, YES
+Branch on line: 1609, YES
+Branch on line: 1619, YES
+Branch on line: 1662, YES
+Branch on line: 1664, YES
+Branch on line: 1667, YES
+Branch on line: 1668, YES
+Branch on line: 1673, YES
+Branch on line: 1674, YES
+Branch on line: 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+Branch on line: -1, YES
+Branch on line: 323, YES
+Branch on line: 349, YES
+Branch on line: 354, NO
+Branch on line: 377, YES
+Branch on line: 415, YES
+Branch on line: 416, NO
+Branch on line: 421, YES
+Branch on line: 451, YES
+Branch on line: 455, YES
+Branch on line: 461, YES
+Branch on line: 494, YES
+Branch on line: 497, NO
+Branch on line: 499, YES
+Branch on line: 502, YES
+Branch on line: 509, YES
+Branch on line: 512, YES
+Branch on line: 556, YES
+Branch on line: 559, YES
+Branch on line: 568, YES
+Branch on line: 574, NO
+Branch on line: 575, YES
+Branch on line: 580, YES
+Branch on line: 612, YES
+Branch on line: 614, YES
+Branch on line: 618, YES
+Branch on line: 620, YES
+Branch on line: 626, NO
+Branch on line: 630, NO
+Branch on line: 636, YES
+Branch on line: 664, YES
+Branch on line: 666, YES
+Branch on line: 670, YES
+Branch on line: 672, YES
+Branch on line: 678, NO
+Branch on line: 682, NO
+Branch on line: 688, YES
+Branch on line: 745, YES
+Branch on line: 746, YES
+Branch on line: 748, YES
+Branch on line: 751, YES
+Branch on line: 755, NO
+Branch on line: 756, NO
+Branch on line: 761, NO
+Branch on line: 795, YES
+Branch on line: 799, YES
+Branch on line: 802, YES
+Branch on line: 806, YES
+Branch on line: 834, YES
+Branch on line: 836, YES
+Branch on line: 839, YES
+Branch on line: 843, YES
+Branch on line: 845, YES
+Branch on line: 849, YES
+Branch on line: 864, NO
+Branch on line: 867, YES
+Branch on line: 873, YES
+Branch on line: 880, YES
+Branch on line: 885, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Branch on line: 1396, YES
+
+
+
+==========================================================================
+Coverage of JUNIT test comp5111.assignment.cut.RegressionTest8
+
+==========================================================================
+comp5111.assignment.cut.Subject$NumberTasks
+Percentage: 47.69230769230769
+
+comp5111.assignment.cut.Subject$CharTasks
+Percentage: 75.0
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Percentage: 82.35294117647058
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Percentage: 55.26315789473685
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Percentage: 100.0
+
+comp5111.assignment.cut.Subject$StringTasks
+Percentage: 79.66101694915254
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Percentage: 100.0
+
+----------------------------------------------------
+Overall Coverage percentage: 66.97674418604652
+----------------------------------------------------
+
+==========================================================================
+
+The following shows the instructions along with a YES or NO after each branch which indicates wether it has been covered or not
+----------------------------------------------------
+
+comp5111.assignment.cut.Subject
+
+
+
+comp5111.assignment.cut.Subject$NumberTasks
+Branch on line: -1, YES
+Branch on line: 937, YES
+Branch on line: 941, YES
+Branch on line: 943, YES
+Branch on line: 945, YES
+Branch on line: 951, YES
+Branch on line: 958, NO
+Branch on line: 960, NO
+Branch on line: 962, NO
+Branch on line: 964, NO
+Branch on line: 965, NO
+Branch on line: 967, NO
+Branch on line: 969, YES
+Branch on line: 979, NO
+Branch on line: 983, NO
+Branch on line: 985, NO
+Branch on line: 988, NO
+Branch on line: 992, YES
+Branch on line: 996, NO
+Branch on line: 999, YES
+Branch on line: 1007, YES
+Branch on line: 1017, NO
+Branch on line: 1019, NO
+Branch on line: 1026, NO
+Branch on line: 1034, NO
+Branch on line: 1039, NO
+Branch on line: 1046, NO
+Branch on line: 1050, NO
+Branch on line: 1063, NO
+Branch on line: 1066, NO
+Branch on line: 1085, NO
+Branch on line: 1089, NO
+Branch on line: 1092, NO
+Branch on line: 1093, NO
+Branch on line: 1097, NO
+Branch on line: 1101, NO
+Branch on line: 1116, YES
+Branch on line: 1118, YES
+Branch on line: 1148, NO
+Branch on line: 1163, NO
+Branch on line: 1168, NO
+Branch on line: 1184, YES
+Branch on line: 1200, YES
+Branch on line: 1219, YES
+Branch on line: 1237, YES
+Branch on line: 1254, YES
+Branch on line: 1257, YES
+Branch on line: 1264, YES
+Branch on line: 1267, YES
+Branch on line: 1268, NO
+Branch on line: 1270, YES
+Branch on line: 1273, YES
+Branch on line: 1278, YES
+Branch on line: 1279, NO
+Branch on line: 1296, YES
+Branch on line: 1299, YES
+Branch on line: 1337, YES
+Branch on line: 1340, YES
+Branch on line: 1344, NO
+Branch on line: 1346, YES
+Branch on line: 1351, NO
+Branch on line: 1352, YES
+Branch on line: 1356, YES
+Branch on line: 1359, YES
+Branch on line: 1363, NO
+
+
+
+comp5111.assignment.cut.Subject$CharTasks
+Branch on line: -1, YES
+Branch on line: 1441, NO
+Branch on line: 1460, NO
+Branch on line: 1479, YES
+Branch on line: 1498, YES
+Branch on line: 1517, YES
+Branch on line: 1536, YES
+Branch on line: 1555, YES
+
+
+
+comp5111.assignment.cut.Subject$GregorianTasks
+Branch on line: -1, YES
+Branch on line: 1729, NO
+Branch on line: 1732, YES
+Branch on line: 1759, YES
+Branch on line: 1760, YES
+Branch on line: 1761, YES
+Branch on line: 1762, YES
+Branch on line: 1813, NO
+Branch on line: 1815, YES
+Branch on line: 1816, YES
+Branch on line: 1818, YES
+Branch on line: 1819, YES
+Branch on line: 1821, YES
+Branch on line: 1827, YES
+Branch on line: 1862, YES
+Branch on line: 1864, YES
+Branch on line: 1870, YES
+Branch on line: 1878, YES
+Branch on line: 1887, YES
+Branch on line: 1894, YES
+Branch on line: 1907, NO
+Branch on line: 1912, NO
+Branch on line: 1923, YES
+Branch on line: 1924, YES
+Branch on line: 1925, YES
+Branch on line: 1926, YES
+Branch on line: 1927, YES
+Branch on line: 1928, YES
+Branch on line: 1929, YES
+Branch on line: 1930, YES
+Branch on line: 1931, YES
+Branch on line: 1932, YES
+Branch on line: 1933, NO
+Branch on line: 1935, NO
+
+
+
+comp5111.assignment.cut.Subject$FilenameTasks
+Branch on line: -1, YES
+Branch on line: 54, YES
+Branch on line: 57, YES
+Branch on line: 84, YES
+Branch on line: 103, YES
+Branch on line: 117, YES
+Branch on line: 121, NO
+Branch on line: 128, NO
+Branch on line: 134, NO
+Branch on line: 148, YES
+Branch on line: 149, YES
+Branch on line: 150, NO
+Branch on line: 152, YES
+Branch on line: 158, NO
+Branch on line: 161, NO
+Branch on line: 163, YES
+Branch on line: 166, YES
+Branch on line: 176, YES
+Branch on line: 182, NO
+Branch on line: 185, YES
+Branch on line: 190, YES
+Branch on line: 195, NO
+Branch on line: 198, YES
+Branch on line: 200, YES
+Branch on line: 213, YES
+Branch on line: 216, NO
+Branch on line: 218, YES
+Branch on line: 222, YES
+Branch on line: 232, YES
+Branch on line: 249, YES
+Branch on line: 269, NO
+Branch on line: 275, NO
+Branch on line: 279, NO
+Branch on line: 281, NO
+Branch on line: 285, NO
+Branch on line: 287, NO
+Branch on line: 289, NO
+Branch on line: 293, NO
+
+
+
+comp5111.assignment.cut.Subject$ArrayTasks
+Branch on line: -1, YES
+Branch on line: 1609, YES
+Branch on line: 1619, YES
+Branch on line: 1662, YES
+Branch on line: 1664, YES
+Branch on line: 1667, YES
+Branch on line: 1668, YES
+Branch on line: 1673, YES
+Branch on line: 1674, YES
+Branch on line: 1680, YES
+
+
+
+comp5111.assignment.cut.Subject$StringTasks
+Branch on line: -1, YES
+Branch on line: 323, YES
+Branch on line: 349, YES
+Branch on line: 354, NO
+Branch on line: 377, YES
+Branch on line: 415, YES
+Branch on line: 416, NO
+Branch on line: 421, YES
+Branch on line: 451, YES
+Branch on line: 455, YES
+Branch on line: 461, YES
+Branch on line: 494, YES
+Branch on line: 497, NO
+Branch on line: 499, YES
+Branch on line: 502, YES
+Branch on line: 509, YES
+Branch on line: 512, YES
+Branch on line: 556, YES
+Branch on line: 559, YES
+Branch on line: 568, YES
+Branch on line: 574, NO
+Branch on line: 575, YES
+Branch on line: 580, YES
+Branch on line: 612, YES
+Branch on line: 614, YES
+Branch on line: 618, YES
+Branch on line: 620, YES
+Branch on line: 626, NO
+Branch on line: 630, NO
+Branch on line: 636, YES
+Branch on line: 664, YES
+Branch on line: 666, YES
+Branch on line: 670, YES
+Branch on line: 672, YES
+Branch on line: 678, NO
+Branch on line: 682, NO
+Branch on line: 688, YES
+Branch on line: 745, YES
+Branch on line: 746, YES
+Branch on line: 748, YES
+Branch on line: 751, YES
+Branch on line: 755, NO
+Branch on line: 756, NO
+Branch on line: 761, NO
+Branch on line: 795, YES
+Branch on line: 799, YES
+Branch on line: 802, YES
+Branch on line: 806, YES
+Branch on line: 834, YES
+Branch on line: 836, YES
+Branch on line: 839, YES
+Branch on line: 843, YES
+Branch on line: 845, YES
+Branch on line: 849, YES
+Branch on line: 864, NO
+Branch on line: 867, YES
+Branch on line: 873, YES
+Branch on line: 880, YES
+Branch on line: 885, YES
+
+
+
+comp5111.assignment.cut.Subject$BooleanTasks
+Branch on line: 1396, YES
+
+
+

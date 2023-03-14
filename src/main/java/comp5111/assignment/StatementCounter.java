@@ -1,17 +1,16 @@
 package comp5111.assignment;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.*;
 
-import soot.*;
-
+// I had intended on only using this for statements but it translates well to all other coverages too, so its used in branch and line coverage too
 public class StatementCounter {
 	public Map<PositionClass, AttributeClass> stmtmap = new TreeMap<PositionClass, AttributeClass>();
 	public String classname = null;
 	public int statements = 0;
 	public int visited = 0;
-
+	
 	public void addStatement(int linenr, int columnnr, String instrname) {
 		
 		//do i need this?
@@ -19,7 +18,7 @@ public class StatementCounter {
 		if (stmtmap.containsKey(pos)) {
 			//System.out.println("Map already contains this key");
 			return;
-		}
+		} 
 		 
 		
 		statements++;
@@ -45,3 +44,4 @@ public class StatementCounter {
 		return;
 	}
 }
+
